@@ -7,6 +7,7 @@ linked from that recipe in the Markdown.
 import argparse
 import pathlib
 import re
+import statistics
 import sys
 import unicodedata
 
@@ -58,19 +59,43 @@ def row_bands(page):
 
 
 def _bands(page, axis):
-    found = []
+    """The bands of one page: the x ranges (or y ranges) of its thumbnails.
+
+    One-column thumbnails give the columns directly.  Some issues print their
+    contents photos two or three columns wide, though, which would leave a
+    column out, so the wider photos are cut into columns of the same size;
+    those are only estimates, so the measured bands win.
+    """
+    found, wide = [], []
     for xref, *_ in page.get_images(full=True):
         for rect in page.get_image_rects(xref):
-            if 90 <= rect.width <= 150 and rect.height >= 60:
-                found.append((rect.y0, rect.y1) if axis
-                             else (rect.x0, rect.x1))
+            if rect.height < 60:
+                continue
+            if 90 <= rect.width <= 150:
+                found.append((rect.y0, rect.y1) if axis else (rect.x0, rect.x1))
+            elif rect.width > 150 and rect.height <= 120:
+                wide.append(rect)
+
+    def far_from(bands, span):
+        return not any(abs(span[0] - other[0]) <= 4 and abs(span[1] - other[1]) <= 8
+                       for other in bands)
+
     bands = []
-    for start, end in sorted(found):
-        if any(abs(start - other[0]) <= 4 and abs(end - other[1]) <= 8
-               for other in bands):
-            continue                      # the same column, seen before
-        bands.append((start, end))
-    return bands
+    for span in sorted(found):
+        if far_from(bands, span):
+            bands.append(span)
+    if bands and wide:
+        step = statistics.median(end - start for start, end in bands)
+        for rect in wide:
+            start = rect.y0 if axis else rect.x0
+            end = rect.y1 if axis else rect.x1
+            parts = max(1, round((end - start) / step))
+            for index in range(parts):
+                span = (start + (end - start) * index / parts,
+                        start + (end - start) * (index + 1) / parts)
+                if far_from(bands, span):
+                    bands.append(span)
+    return sorted(bands)
 
 
 def caption_columns(words, region, bands):
@@ -223,6 +248,8 @@ def main():
 
     def lookup(caption, loose=False):
         """Captions are sometimes only the first line of a longer title."""
+        # the text layer doubles a word now and then ("met spruitjes spruitjes en")
+        caption = re.sub(r"\b(\S+)(?: \1\b)+", r"\1", caption)
         name = names.get(key(caption)) or names.get(key(caption.split(" ")[0]))
         if name:
             return name
@@ -253,6 +280,15 @@ def main():
                     if other_key.startswith(partial)]
             if len(hits) == 1:
                 return hits[0]
+        # a word can also lose one letter to the PDF's font ("gepof e" for
+        # "gepofte"), so accept a recipe name that is exactly one letter longer
+        if len(wanted) >= 12:
+            hits = [other for other_key, other in names.items()
+                    if len(other_key) == len(wanted) + 1
+                    and any(other_key[:index] + other_key[index + 1:] == wanted
+                            for index in range(len(other_key)))]
+            if len(hits) == 1:
+                return hits[0]
         return None
 
     columns, rows = {}, {}
@@ -276,9 +312,12 @@ def main():
     for pno, caption, region in thumbnails(doc):
         name = lookup(caption)
         # an explicit split for this issue wins over the caption heuristics
-        targets = (list(split_map.get(caption, []))
-                   or ([name] if name else []))
-        if not targets and region.width > 150:
+        split = list(split_map.get(caption, []))
+        targets = split or ([name] if name else [])
+        # a caption that had to be guessed may be a jumble of several recipes,
+        # so cut that photo into the columns its captions are written in
+        exact = bool(name) and key(caption) == key(name)
+        if region.width > 150 and not split and not exact:
             # such a photo holds the photos of several recipes, so cut it along
             # the columns the captions are written in; a collage can even hide
             # the captions inside its own area
