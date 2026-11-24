@@ -42,6 +42,87 @@ def caption_for(words, bb):
     return text.strip()
 
 
+def single_bands(page):
+    """The x ranges of a page's one-column thumbnails.
+
+    Those are the columns the contents pages use for both the photos and their
+    captions, so they also tell us how to cut a photo that spans several
+    columns into the pieces the recipes actually are.
+    """
+    return _bands(page, 0)
+
+
+def row_bands(page):
+    """The y ranges of a page's one-column thumbnails (the photo rows)."""
+    return _bands(page, 1)
+
+
+def _bands(page, axis):
+    found = []
+    for xref, *_ in page.get_images(full=True):
+        for rect in page.get_image_rects(xref):
+            if 90 <= rect.width <= 150 and rect.height >= 60:
+                found.append((rect.y0, rect.y1) if axis
+                             else (rect.x0, rect.x1))
+    bands = []
+    for start, end in sorted(found):
+        if any(abs(start - other[0]) <= 4 and abs(end - other[1]) <= 8
+               for other in bands):
+            continue                      # the same column, seen before
+        bands.append((start, end))
+    return bands
+
+
+def caption_columns(words, region, bands):
+    """-> [(caption text, x0, x1)] one caption per column under a wide photo.
+
+    A photo that spans several columns simply has its caption written over
+    those columns, with the page number at its right-hand edge; a group of
+    words without a number of its own therefore continues in the next column.
+    """
+    inside = [w for w in words
+              if region.x0 - 4 <= (w[0] + w[2]) / 2 <= region.x1 + 4
+              and region.y1 - 3 <= w[1] <= region.y1 + 46]
+    groups = []
+    for x0, x1 in bands:
+        if x1 <= region.x0 + 4 or x0 >= region.x1 - 4:
+            continue                      # that column is not under this photo
+        picked = [w for w in inside
+                  if x0 - 4 <= (w[0] + w[2]) / 2 <= x1 + 4]
+        if not picked:
+            continue
+        picked.sort(key=lambda w: (round(w[1] / 6), w[0]))
+        text = ""
+        for word in picked:
+            if text and not text.endswith("-"):
+                text += " "
+            text += word[4]
+        if groups and not re.search(r"(?:^|\s)\d+(?:$|\s)", groups[-1][0]):
+            previous = groups.pop()
+            groups.append((previous[0] + " " + text, previous[1], x1))
+            continue
+        groups.append((text, x0, x1))
+    return groups
+
+
+def caption_cells(words, region, col_bands, rows):
+    """-> [(caption text, crop)] for captions printed *inside* a photo.
+
+    Some contents pages print one big collage instead of loose thumbnails; its
+    captions then sit inside the collage area, each under the row of photos it
+    belongs to.
+    """
+    cells = []
+    for y0, y1 in rows:
+        if y0 < region.y0 - 4 or y1 > region.y1 + 4:
+            continue                      # that row is not inside this photo
+        row = fitz.Rect(region.x0, y0, region.x1, y1)
+        for text, x0, x1 in caption_columns(words, row, col_bands):
+            cells.append((text, fitz.Rect(max(x0, region.x0), y0,
+                                          min(x1, region.x1), y1)))
+    return cells
+
+
 def clean_caption(text):
     """Drop the page number and the running foot from a caption."""
     text = text.replace("koken & genieten", " ")
@@ -140,7 +221,7 @@ def main():
     saved, unmatched = {}, []
     split_map = getattr(config, "CAPTION_SPLIT", {})
 
-    def lookup(caption):
+    def lookup(caption, loose=False):
         """Captions are sometimes only the first line of a longer title."""
         name = names.get(key(caption)) or names.get(key(caption.split(" ")[0]))
         if name:
@@ -155,11 +236,67 @@ def main():
         # shorter half of the caption instead of the longer one
         hits = [other for other_key, other in names.items()
                 if wanted.startswith(other_key)]
-        return hits[0] if len(hits) == 1 else None
+        if len(hits) == 1:
+            return hits[0]
+        if not loose:
+            return None
+        # a caption can also lose a letter to the PDF's font ("wentelteef es"
+        # for "wentelteefjes"), so drop one or two words from its end
+        words = caption.split()
+        for cut in range(len(words) - 1, max(len(words) - 3, 0), -1):
+            partial = key(" ".join(words[:cut]))
+            if not partial:
+                continue
+            hits = [other for other_key, other in names.items()
+                    if other_key.startswith(partial)]
+            if len(hits) == 1:
+                return hits[0]
+        return None
+
+    columns, rows = {}, {}
+
+    def caption_bands(page_no):
+        if page_no not in columns:
+            columns[page_no] = single_bands(doc[page_no])
+        return columns[page_no]
+
+    def photo_rows(page_no):
+        if page_no not in rows:
+            rows[page_no] = row_bands(doc[page_no])
+        return rows[page_no]
+
+    def write(target, piece):
+        filename = extract.image_filename(target)
+        pix = doc[pno].get_pixmap(clip=piece, dpi=DPI)
+        pix.save(str(pathlib.Path(folder) / filename), jpg_quality=92)
+        saved[target] = filename
 
     for pno, caption, region in thumbnails(doc):
         name = lookup(caption)
         targets = [name] if name else list(split_map.get(caption, []))
+        if not targets and region.width > 150:
+            # a photo that spans several columns holds the photos of several
+            # recipes, so cut it along the columns the captions are written in;
+            # a collage can even hide the captions inside its own area
+            pieces = []
+            for text, x0, x1 in caption_columns(doc[pno].get_text("words"),
+                                                region, caption_bands(pno)):
+                target = lookup(clean_caption(text), loose=True)
+                if target:
+                    pieces.append((target,
+                                   fitz.Rect(max(x0, region.x0), region.y0,
+                                             min(x1, region.x1), region.y1)))
+            if not pieces:
+                pieces = [(target, cell)
+                          for text, cell in caption_cells(
+                              doc[pno].get_text("words"), region,
+                              caption_bands(pno), photo_rows(pno))
+                          if (target := lookup(clean_caption(text), loose=True))]
+            for target, piece in pieces:
+                write(target, piece)
+            if pieces:
+                continue
+
         if not targets:
             unmatched.append(caption)
             continue

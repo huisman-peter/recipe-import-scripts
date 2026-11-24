@@ -186,7 +186,7 @@ BARE_QUANTITY = re.compile(rf"^(?:ca\.\s*)?(?:{AMOUNT})(?:\s+{UNIT})?\.?$")
 STEP_WITH_UNIT = re.compile(rf"^(?:{AMOUNT})\s+{UNIT}\s")   # "5 el crème ..."
 STEP_START = re.compile(r"^(\d+)\s+(\S+)(.*)$")
 NUTRITION = re.compile(r"^(\d+)\s*g\s*eiwit\s*\|\s*(\d+)\s*g\s*vet\s*\|\s*(\d+)\s*g\s*koolhydraten")
-CALORIES = re.compile(r"ca\.\s*(\d+)\s*kcal")
+CALORIES = re.compile(r"(?:ca\.\s*)?(\d+)\s*kcal")
 YIELD = re.compile(r"^Ingrediënten\s*(?:voor)?\s*:?\s*(?:voor\s*)?(.+)$")
 TIME_RE = re.compile(r"(\d+)\s*uur|(\d+)\s*min")
 
@@ -320,6 +320,13 @@ def apply_overrides(data):
     if "instructions" in changes:
         data["recipeInstructions"] = [{"@type": "HowToStep", "text": text}
                                       for text in changes["instructions"]]
+    if "nutrition" in changes:
+        # the nutrition line of a recipe sometimes sits in the next recipe's
+        # block, so an override can correct it (a dict) or drop it (None)
+        if changes["nutrition"] is None:
+            data.pop("nutrition", None)
+        else:
+            data["nutrition"] = changes["nutrition"]
     return data
 
 

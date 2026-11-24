@@ -124,6 +124,7 @@ Loop de uitvoer na en repareer wat opvalt:
 | recept ontbreekt of pakt de verkeerde tekst | kop in het blad wijkt af (lange titel of typefout in het blad) | `HEADING_AS = {"Naam in tabel": "letterlijke kop in de markdown"}` |
 | een sectiekop of advertentietekst wordt ingrediënt | kolomlabel nog niet bekend | zet het label in `EXTRA_NOISE` |
 | `totalTime` te hoog/laag | wachttijd wel/niet meegeteld | `totalTime`-override in de tabel (bv. `"PT4H20M"`) |
+| voedingsregel niet te lezen | typefout in het blad ("41 g koolhdyraten") of de regel staat in het blok van het volgende recept | `OVERRIDES` met `"nutrition"`: een dict met de waarden, of `None` om de voedingswaarden weg te laten |
 
 ### Stap 5 — foto's van de inhoudspagina's
 ```bash
@@ -177,6 +178,10 @@ ingrediënten/stappen letterlijk uit de Markdown komen.
   weer aan elkaar gezet.
 * De bestandsnaam van een foto laat haakjes weg, zodat een recept als
   "Sugo (tomatensaus)" een leesbare Markdown-link houdt.
+* Een inhoudsfoto die over meerdere kolommen loopt, wordt langs dezelfde kolommen
+  gesneden als waarin de onderschriften staan; een onderschrift dat door de letter van
+  het blad een teken kwijtraakte ("wentelteef es") wordt nog herkend. `CAPTION_SPLIT`
+  is daardoor alleen nog nodig als de opmaak echt afwijkt.
 * Tijdregels inclusief een wachttijd die op de volgende regel staat.
 * Als pdftotext de spaties in een regel kwijtraakt (één "woord" van 25+ tekens), wordt de
   PyMuPDF-tekst gebruikt.
