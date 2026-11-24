@@ -148,6 +148,13 @@ def main():
         wanted = key(caption)
         hits = [other for other_key, other in names.items()
                 if other_key.startswith(wanted)]
+        if len(hits) == 1:
+            return hits[0]
+        # the caption sometimes runs on into the next column's label
+        # ("Courgetti met kruidenpesto Zoet &"), so the recipe name may be the
+        # shorter half of the caption instead of the longer one
+        hits = [other for other_key, other in names.items()
+                if wanted.startswith(other_key)]
         return hits[0] if len(hits) == 1 else None
 
     for pno, caption, region in thumbnails(doc):

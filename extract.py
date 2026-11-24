@@ -55,8 +55,14 @@ KG = "Koken & genieten"
 
 
 def image_filename(name):
-    """The photo's file name: lowercase, whitespace -> '-' (as asked)."""
-    return re.sub(r"\s+", "-", name.lower()) + ".jpg"
+    """The photo's file name: lowercase, whitespace -> '-' (as asked).
+
+    Brackets are dropped as well: a name like "Sugo (tomatensaus)" would
+    otherwise produce a Markdown link whose target the readers of the file
+    (and the tests) cannot parse unambiguously.
+    """
+    slug = re.sub(r"\s+", "-", name.lower())
+    return re.sub(r"[()\[\]]+", "", slug) + ".jpg"
 
 
 def load_issue(name):
@@ -481,6 +487,13 @@ def parse_block(lines):
 
     for kind, text in content[:start]:
         if kind == "<label>":
+            continue
+        # an ingredient whose name wrapped onto the next line leaves its amount
+        # alone ("15 g" | "basilicum (+ extra, om te" | "garneren)"); put the
+        # amount back together with the name
+        if (ingredients and BARE_QUANTITY.match(ingredients[-1])
+                and not BARE_QUANTITY.match(text)):
+            ingredients[-1] += " " + text
             continue
         if is_continuation(ingredients[-1] if ingredients else "", text):
             if ingredients:

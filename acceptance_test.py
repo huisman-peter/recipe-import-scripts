@@ -92,11 +92,18 @@ check("every linked photo exists",
       all(pathlib.Path(target).exists() for _, target in links))
 check("no soft hyphens", "\u00ad" not in md)
 check("no double spaces", "  " not in md)
-check("no ligature artefacts", not re.search(r"\S*(?:ffi|ffl|fi|fl|ff) [a-z]\S*", md))
+# a word broken by the ligature handling reads "<fragment>ffi <rest>"
+# ("koffi e"); the joined form has to occur in the PDF text as well, otherwise
+# it is ordinary prose such as "… campari Amalfi met de grapefruitpartjes"
+pages = C.raw_pages()
+pdf_words = {E.key(word) for word in WORD.findall("\n".join(pages))}
+artefacts = [match.group(0)
+             for match in re.finditer(r"\S*(?:ffi|ffl|fi|fl|ff) [a-z]\S*", md)
+             if E.key(match.group(0).replace(" ", "")) in pdf_words]
+check("no ligature artefacts", not artefacts, artefacts[:3])
 
 print("B. text intact")
 doc = fitz.open(C.SRC)
-pages = C.raw_pages()
 body = "\n".join(line for line in md.split("\n")
                  if not line.startswith("!["))
 reference = "\n".join(line for number, text in enumerate(pages)

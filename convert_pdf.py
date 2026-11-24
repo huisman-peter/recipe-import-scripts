@@ -54,6 +54,13 @@ FOOTER_RE = re.compile(r"^koken\s*&\s*genieten\s+\d+$", re.I)
 LIGATURES = {"ﬀ": "ff", "ﬁ": "fi", "ﬂ": "fl", "ﬃ": "ffi", "ﬄ": "ffl",
              "ﬅ": "ft", "ﬆ": "st"}
 
+# KG2508 prints the "snel klaar" / "zonder vlees of vis" marks in the ingredient
+# lists and the bullets of the index with a font whose ToUnicode map is broken,
+# so they arrive as C0 control codes (\x07 inside the ingredients, \x08 in the
+# index).  They carry no text and must not reach the Markdown or the JSON.
+CONTROL = {code: None for code in range(0x20) if chr(code) not in "\t\n"}
+CONTROL[0x7f] = None
+
 
 def is_bold(font):
     return any(k in font for k in BOLD_FONTS)
@@ -67,7 +74,7 @@ def key(text):
 def normalise(text):
     for bad, good in LIGATURES.items():
         text = text.replace(bad, good)
-    return unicodedata.normalize("NFC", text)
+    return unicodedata.normalize("NFC", text.translate(CONTROL))
 
 
 def heading_keys(doc):
@@ -96,7 +103,10 @@ def raw_pages():
     """pdftotext -raw, one string per PDF page."""
     proc = subprocess.run(["pdftotext", "-raw", "-enc", "UTF-8", str(SRC), "-"],
                           capture_output=True, check=True)
-    pages = normalise(proc.stdout.decode("utf-8")).split("\f")
+    # normalise() drops the C0 control codes, so the form feed that separates
+    # the pages has to be consumed first
+    pages = [normalise(page) for page in
+             proc.stdout.decode("utf-8").split("\f")]
     if pages and not pages[-1].strip():
         pages.pop()          # the form feed that closes the last page
     return pages
@@ -225,6 +235,8 @@ def build_markdown(report=False):
             lines.append(decorate(text))
     md = re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip() + "\n"
     md = md.replace("\u00ad", "")
+    # dropping the icon/bullet glyphs above can leave a gap behind ("verdure  46")
+    md = re.sub(r"  +", " ", md)
     # a soft hyphen inside a real compound keeps its hyphen
     md = md.replace("vanilleextract", "vanille-extract")
     return md

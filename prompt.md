@@ -21,7 +21,7 @@ met dezelfde aanpak als de nummers 2510, 2511 en 2512 in dit project.
 | `layout.py` | bouwt de leesorde van een pagina op uit woord-boxen |
 | `add_images.py` | haalt de receptfoto's van de inhoudspagina's, schrijft `images-<editie>/` + links in de Markdown |
 | `extract.py` | Markdown → JSON-LD (bevat de nummergegevens van 2510; laadt `issue_<editie>.py` voor andere nummers) |
-| `issue_2511.py`, `issue_2512.py` | alle nummergegevens van die edities |
+| `issue_2508.py`, `issue_2511.py`, `issue_2512.py` | alle nummergegevens van die edities |
 | `validate_recipes.py` | veldniveau-controle per recept (`python validate_recipes.py [--issue=2512] bestand.json`) |
 | `acceptance_test.py` | eindtest over de hele keten (`python acceptance_test.py [--issue=2512] bestand.json`) |
 
@@ -169,6 +169,14 @@ ingrediënten/stappen letterlijk uit de Markdown komen.
 * Koppen (`## `) uit de lettergroottes, vetgedrukte labels en hoeveelheden,
   `**Ingrediënten voor:**`/`**Bereidingstijd:**` eruit halen, keukengerei weglaten.
 * Afbreekstreepjes aan het regeleinde en soft hyphens lijmen; ligaturen normaliseren.
+* Tekens met een kapotte letterafbeelding (KG2508: de symbolen "snel klaar" en
+  "zonder vlees of vis" in de ingrediëntenlijsten, en de bullets van de index)
+  verdwijnen uit de tekst; ze hebben geen leesbare letter.
+* Een ingrediënt waarvan de naam doorloopt op de volgende regel — het bedrag staat dan
+  alleen op zijn regel ("15 g" / "basilicum (+ extra, om te" / "garneren)") — wordt
+  weer aan elkaar gezet.
+* De bestandsnaam van een foto laat haakjes weg, zodat een recept als
+  "Sugo (tomatensaus)" een leesbare Markdown-link houdt.
 * Tijdregels inclusief een wachttijd die op de volgende regel staat.
 * Als pdftotext de spaties in een regel kwijtraakt (één "woord" van 25+ tekens), wordt de
   PyMuPDF-tekst gebruikt.
