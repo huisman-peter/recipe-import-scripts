@@ -185,6 +185,16 @@ UNIT = (r"(?:el|tl|g|kg|ml|cl|dl|l|liter|stuks?|takjes?|takje|blaadjes?|tenen?|t
 BARE_QUANTITY = re.compile(rf"^(?:ca\.\s*)?(?:{AMOUNT})(?:\s+{UNIT})?\.?$")
 STEP_WITH_UNIT = re.compile(rf"^(?:{AMOUNT})\s+{UNIT}\s")   # "5 el crème ..."
 STEP_START = re.compile(r"^(\d+)\s+(\S+)(.*)$")
+# a step number can lose its space to the text layer ("1VOOR DE BODEM"); only an
+# uppercase letter counts, so "3-4 minuten" and "4 cm" stay prose
+STEP_GLUED = re.compile(r"^(\d+)([A-ZÀ-Þ]\S*)(.*)$")
+
+
+def step_start(text):
+    """Match a numbered step, with or without the space after the number."""
+    return STEP_START.match(text) or STEP_GLUED.match(text)
+
+
 NUTRITION = re.compile(r"^(\d+)\s*g\s*eiwit\s*\|\s*(\d+)\s*g\s*vet\s*\|\s*(\d+)\s*g\s*koolhydraten")
 CALORIES = re.compile(r"(?:ca\.\s*)?(\d+)\s*kcal")
 YIELD = re.compile(r"^Ingrediënten\s*(?:voor)?\s*:?\s*(?:voor\s*)?(.+)$")
@@ -216,7 +226,7 @@ def iso_time(text):
 
 def is_step(line, previous=None):
     """Does this line open a new instruction step?"""
-    match = STEP_START.match(line)
+    match = step_start(line)
     if not match:
         return False
     number, first, rest = match.group(1), match.group(2), match.group(3)
@@ -460,7 +470,15 @@ def parse_block(lines):
         if match:
             macros = tuple(int(g) for g in match.groups())
             break                       # nutrition is the last line of a recipe
-        if plain.startswith(("VOOR DE", "VOOR HET")) or "kokengenieten" in plain:
+        if plain.startswith(("VOOR DE", "VOOR HET")):
+            # a label can share its line with the step text ("VOOR DE VULLING
+            # Schil de appels …"), so only the label itself is dropped; a label
+            # followed by a sub-heading ("VOOR DE -BASILICUMMAYONAISE") goes
+            remainder = re.sub(r"^VOOR (?:DE|HET)(?:\s+[A-ZÀ-Þ]{2,})*\s*", "", plain)
+            if not remainder or not remainder[:1].isalpha() or remainder.isupper():
+                continue
+            plain = remainder
+        if "kokengenieten" in plain:
             continue
         content.append(("line", plain))
 
@@ -471,14 +489,15 @@ def parse_block(lines):
     for position, (kind, text) in enumerate(content):
         if kind != "line" or STEP_WITH_UNIT.match(text):
             continue
-        if not re.match(r"^1\s", text) or not STEP_START.match(text):
-            continue
+        opening = step_start(text)
+        if not opening or opening.group(1) != "1":
+            continue                      # a step number can miss its space ("1VOOR DE BODEM")
         expected = 1
         for following in range(position, len(content)):
             kind2, text2 = content[following]
             if kind2 != "line":
                 continue
-            match = STEP_START.match(text2)
+            match = step_start(text2)
             if match and match.group(1) == str(expected):
                 expected += 1
         # a real step is long prose; an ingredient line is short and quantity-led
@@ -519,14 +538,14 @@ def parse_block(lines):
     for kind, text in body:
         if kind == "<label>":
             continue
-        match = STEP_START.match(text)
+        match = step_start(text)
         if match and match.group(1) == str(expected) and not STEP_WITH_UNIT.match(text):
             steps.append(text)
             expected += 1
         elif steps:
             steps[-1] += " " + text
 
-    steps = [re.sub(r"^\d+\s+", "", s.strip()) for s in steps if s.strip()]
+    steps = [re.sub(r"^\d+\s*", "", s.strip()) for s in steps if s.strip()]
     return yield_, time_text, ingredients, steps, (kcal, macros)
 
 

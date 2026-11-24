@@ -50,6 +50,9 @@ LABELS = ("Ingrediënten voor:", "Bereidingstijd:", "Per portie:", "Per stuk:",
 INGREDIENT_RE = re.compile(rf"^({AMOUNT})(?:\s+({UNIT}))?\s+(\S.*)$")
 FOOTER_RE = re.compile(r"^koken\s*&\s*genieten\s+\d+$", re.I)
 
+# a ligature that the text layer kept as its own word ("fi jn" for "fijn")
+LIGATURE_SPLIT = re.compile(r"([0-9A-Za-zÀ-ÿ]*(?:ffi|ffl|fi|fl|ff)) ([a-z][A-Za-zÀ-ÿ]*)")
+
 # pdftotext -enc UTF-8 keeps the typographic ligatures; expand them
 LIGATURES = {"ﬀ": "ff", "ﬁ": "fi", "ﬂ": "fl", "ﬃ": "ffi", "ﬄ": "ffl",
              "ﬅ": "ft", "ﬆ": "st"}
@@ -237,6 +240,12 @@ def build_markdown(report=False):
     md = md.replace("\u00ad", "")
     # dropping the icon/bullet glyphs above can leave a gap behind ("verdure  46")
     md = re.sub(r"  +", " ", md)
+    # the text layer sometimes keeps a ligature as its own word ("fi jn" for
+    # "fijn"); join it again, but only when the word exists elsewhere in the issue
+    words = {word.lower() for word in re.findall(r"[0-9A-Za-zÀ-ÿ]+", md)}
+    md = LIGATURE_SPLIT.sub(
+        lambda match: match.group(1) + match.group(2)
+        if (match.group(1) + match.group(2)).lower() in words else match.group(0), md)
     # a soft hyphen inside a real compound keeps its hyphen
     md = md.replace("vanilleextract", "vanille-extract")
     return md
