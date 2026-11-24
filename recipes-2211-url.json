@@ -1,0 +1,2658 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Reerug met spinazie",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/reerug-met-spinazie.jpg"
+    ],
+    "totalTime": "PT50M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "4 takjes tijm",
+      "15 jeneverbessen",
+      "4 tl honing",
+      "geraspte schil en sap van 1 bio-limoen",
+      "800 g reerug (zonder bot)",
+      "zout en peper",
+      "4 el olie",
+      "2 uien",
+      "1 el tomatenpuree",
+      "150 ml rode wijn",
+      "150 ml wildfond (pot)",
+      "600 g bladspinazie",
+      "100 g + 1 el koude boter",
+      "200 ml slagroom",
+      "nootmuskaat",
+      "100 ml cranberrysap",
+      "200 g cranberry’s (diepvries)",
+      "4 tl crème fraîche"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE REERUG Verwarm de oven voor (elektrisch: 100°C / hetelucht: 80°C). Was de tijm. Druk 5 jeneverbessen plat. Vermaal de overige jeneverbessen fijn en roer ze met de honing, de limoenschil en het limoensap door elkaar."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bestrooi de reerug met zout en peper. Verhit 2 el olie in een pan en braad hierin de reerug op hoog vuur rondom aan. Neem uit de pan. Houd de pan met het bakvet apart. Wrijf de reerug in met het honingmengsel. Leg op een bakplaat en bak ca. 20 minuten in de oven."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pel en snipper 1 ui. Pel de overige ui en snijd hem in ringen. VOOR DE SAUS Bak de gesnipperde ui in het bakvet van de reerug. Voeg de tijm en de geplette jeneverbessen toe en bak kort. Voeg de tomatenpuree toe en bak nog 1 minuut. Schenk de wijn en de fond erbij, breng aan de kook en kook ca. 5 minuten op laag vuur in."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE BIJGERECHTEN Was de spinazie, laat hem uitlekken en snijd hem in reepjes. Verhit 1 el boter in een grote pan. Voeg de spinazie toe en laat hem slinken. Schenk de slagroom erbij en kook ca. 3 minuten op laag vuur. Breng op smaak met zout, peper en nootmuskaat. Breng het cranberrysap met de cranberry’s in een andere pan aan de kook en kook ca. 5 minuten op laag vuur. Verhit 2 el olie in een koekenpan en bak er de uienringen krokant in."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zeef de saus en breng hem opnieuw aan de kook. Neem van het vuur. Klop 100 g koude boter in stukken erdoorheen. Breng op smaak met zout, peper en nootmuskaat. Snijd de reerug in plakken. Serveer alles samen met de crème fraîche."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "850 kcal",
+      "proteinContent": "48 g",
+      "fatContent": "60 g",
+      "carbohydrateContent": "22 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Konijnrollade met whiskey-roomsaus",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/konijnrollade-met-whiskey-roomsaus.jpg"
+    ],
+    "totalTime": "PT1H",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "1 kleine bio-sinaasappel",
+      "1 teentje knoflook",
+      "4 takjes rozemarijn",
+      "50 g + 1 el zachte boter (+ invetten)",
+      "4 konijnenbouten (à ca. 350 g, uitgebeend)",
+      "zout en peper",
+      "16 plakken ontbijtspek",
+      "2 sjalotjes",
+      "suiker",
+      "100 ml whiskey",
+      "100 g crème fraîche",
+      "2 tl grove mosterd"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE KRUIDENBOTER Was de sinaasappel met heet water en rasp de schil er fijn af. Pers de sinaasappel uit. Pel de knoflook en hak hem fijn. Was de rozemarijn en hak de naaldjes fijn. Roer 50 g zachte boter, de knoflook, de rozemarijn, de sinaasappelschil en 2 tl sinaasappelsap door elkaar."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE ROLLADES Verwarm de oven voor (elektrisch: 200°C / hetelucht: 180°C). Leg het vlees met de huidzijde naar beneden op je werkblad. Bestrooi het vlees met zout en peper. Bestrijk het vlees met de kruidenboter en rol het langs de korte zijde stevig op. Leg 4 plakken spek overlappend in een rechthoek. Leg de rollade erop en wikkel het spek eromheen. Maak op dezelfde manier nog 3 rollades. Leg de rollades in een ingevette ovenschaal en bak ca. 30 minuten in de oven."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE SAUS Pel en snipper de sjalotjes. Verhit 1 el boter in een pan en bak er de sjalotjes goudbruin in. Voeg 1 tl suiker toe en karamelliseer. Schenk de whiskey erbij en kook ca. 2 minuten in. Roer de crème fraîche, de mosterd en het overige sinaasappelsap erdoorheen en verwarm. Breng op smaak met zout en peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Snijd de rollades in plakken. Serveer met de saus. Lekker met gebakken aardappels en salade."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "800 kcal",
+      "proteinContent": "65 g",
+      "fatContent": "55 g",
+      "carbohydrateContent": "7 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Broodje pulled hert met appel en coleslaw",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "6 stuks",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/broodje-pulled-hert-met-appel-en-coleslaw.jpg"
+    ],
+    "totalTime": "PT19H",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "1 kg hertenbout (zonder bot)",
+      "1 tl gerookte-paprikapoeder",
+      "½ tl cayennepeper",
+      "koek -en speculaaskruiden",
+      "zout en peper",
+      "3 el olie",
+      "450 g witte kool",
+      "1 wortel",
+      "1 ui (bijv. rode)",
+      "100 g rozijnen",
+      "100 g crème fraîche",
+      "100 ml yoghurtmayonaise",
+      "2-3 el appelazijn",
+      "suiker",
+      "60 g veldsla",
+      "1 appel",
+      "150 ml barbecuesaus",
+      "6 hamburgerbroodjes"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "EEN DAG VAN TEVOREN Neem het vlees uit de koelkast. Meng het paprikapoeder met de cayennepeper, 1 mespuntje koek- en speculaaskruiden, ½ tl zout en ½ tl peper. Wrijf het vlees er rondom mee in en leg het in een braadslee. Druppel 2 el olie eroverheen en zet 1 nacht in de koelkast."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "DE VOLGENDE DAG Verwarm de oven voor (elektrisch: 120°C / hetelucht: 100°C). Schenk 150 ml water in de braadslee en braad het vlees 3 uur en 30 minuten - 4 uur in de oven. Druppel tijdens het braden het braadvocht over het vlees."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE SALADE Maak de kool schoon, snijd hem in 8 parten en schaaf hem in reepjes van de stronk. Kneed ½ tl zout erdoorheen. Schrap de wortel en rasp hem grof. Pel de ui en rasp hem grof. Meng de kool met de wortel, de ui, de rozijnen, de crème fraîche, de yoghurtmayonaise, de azijn, zout, peper en ½ tl suiker. Zet afgedekt in de koelkast en laat minimaal 2 uur trekken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Was de sla. Was de appel, boor het klokhuis eruit en snijd de appel in ringen. Verhit 1 el olie in een pan en fruit er de appel in. Trek het vlees met 2 vorken uit elkaar. Verwarm de barbecuesaus en meng het vlees erdoorheen. Rooster de broodjes en vul ze met het vlees, de appel, de coleslaw en de veldsla."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "640 kcal",
+      "proteinContent": "41 g",
+      "fatContent": "23 g",
+      "carbohydrateContent": "60 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Pasta carbonara met bospaddenstoelen",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/pasta-carbonara-met-bospaddenstoelen.jpg"
+    ],
+    "totalTime": "PT30M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "400 g pappardelle",
+      "zout en peper",
+      "400 g bospaddenstoelenmelange",
+      "2 el + 1 tl olie",
+      "75 g spekreepjes",
+      "2 takjes peterselie",
+      "3 eieren",
+      "75 ml slagroom"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Kook de pasta volgens de aanwijzingen op de verpakking in water met een snufje zout. Maak de paddenstoelen schoon en snijd ze in plakken. Verhit 1 tl olie in een pan. Bak er de spekreepjes knapperig in en neem ze uit de pan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit 2 el olie in dezelfde pan. Bak er de paddenstoelen op hoog vuur goudbruin in. Breng op smaak met zout en peper. Was de peterselie en hak de blaadjes grof. Kluts de eieren met de slagroom in een grote kom. Bestrooi met zout en peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Giet de pasta af en vang hierbij 4-5 el kookvocht op. Meng de pasta, het kookvocht, de peterselie, de paddenstoelen en het spek door het eimengsel zodat er een romig geheel ontstaat. Serveer direct."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "660 kcal",
+      "proteinContent": "25 g",
+      "fatContent": "26 g",
+      "carbohydrateContent": "76 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Cantharellen-pompoenlasagne",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4-6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/cantharellen-pompoenlasagne.jpg"
+    ],
+    "totalTime": "PT1H15M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "ca. 1,2 kg hokkaidopompoen",
+      "300 g cantharellen",
+      "2 uien",
+      "1 teentje knoflook",
+      "2 el olie",
+      "400 g half-om-halfgehakt",
+      "4 takjes tijm",
+      "zout en peper",
+      "2 el boter",
+      "2 el bloem",
+      "500 ml melk",
+      "300 g roomkaas",
+      "geraspte schil van 1 bio-citroen",
+      "nootmuskaat",
+      "100 g geraspte edammer",
+      "evt. kervel om te garneren"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Was de pompoen, halveer hem, verwijder de zaadlijsten en snijd de pompoen in dunne parten. Maak de cantharellen schoon. Pel en snipper de uien en de knoflook. Verhit de olie in een pan en fruit er de ui en de knoflook ca. 2 minuten in. Voeg het gehakt toe en bak in 7-10 minuten rul. Voeg de cantharellen toe en bak ca. 4 minuten verder. Was de tijm en neem de blaadjes van de takjes. Voeg de tijm toe. Breng op smaak met zout en peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE SAUS Verhit 2 el boter. Bestuif met de bloem en bak kort. Schenk de melk er al roerend bij, breng aan de kook en kook ca. 5 minuten op laag vuur. Roer de roomkaas en de citroenschil erdoorheen. Breng op smaak met zout, peper en nootmuskaat."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor (elektrisch: 200°C / hetelucht: 180°C). Verdeel de pompoen, het gehaktmengsel en de saus in laagjes in een ovenschaal (28x20 cm). Bestrooi met de kaas. Bak ca. 30 minuten in de oven. Garneer eventueel met kervel."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "570 kcal",
+      "proteinContent": "29 g",
+      "fatContent": "41 g",
+      "carbohydrateContent": "17 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Spinazieknoedels met paddenstoelenragout",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/spinazieknoedels-met-paddenstoelenragout.jpg"
+    ],
+    "totalTime": "PT1H",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "5 sneetjes oud brood (ca. 250 g)",
+      "200 ml melk",
+      "zout en peper",
+      "200 g cantharellen",
+      "200 g kastanjechampignons",
+      "1 ui",
+      "ca. 250 g bladspinazie",
+      "1 el olie",
+      "nootmuskaat",
+      "2 eieren",
+      "3 el boter",
+      "1 tl bloem",
+      "200 ml slagroom",
+      "200 ml groentebouillon",
+      "2 takjes peterselie"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Snijd het brood in blokjes. Breng de melk aan de kook en schenk hem over het brood. Bestrooi met zout en peper en laat ca. 45 minuten wellen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Maak de cantharellen schoon. Maak de champignons schoon en halveer ze. Pel en snipper de ui. Was de spinazie."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit de olie in een pan. Fruit er de helft van de ui 2-3 minuten in. Voeg de spinazie toe en laat slinken. Gaar 2-3 minuten en bestrooi met zout, 120 g peper en nootmuskaat. Zeef de spinazie, laat goed uitlekken, knijp uit en hak hem fijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Kneed de eieren en de spinazie door het brood. Maak er met de handen ca. 8 ballen van. Breng ruim water met een snufje zout in een pan aan de kook. Kook er de ballen op laag vuur in ca. 15 minuten gaar in."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit 1 el boter in een pan. Bak er de cantharellen ca. 8 minuten in. Voeg de overige ui toe en bak ca. 3 minuten verder. Breng op smaak met zout en peper en neem uit de pan. Verhit 2 el boter in dezelfde pan. Bak er de champignons ca. 5 minuten in. Bestuif met de bloem en bak kort. Roer de slagroom en de bouillon er beetje bij beetje doorheen. Breng aan de kook en kook ca. 5 minuten op laag vuur. Voeg de cantharellen toe, breng aan de kook en breng op smaak met zout en peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Neem de knoedels uit het water en laat uitlekken. Was de peterselie en hak de blaadjes fijn. Roer de peterselie door de ragout. Serveer alles samen."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "530 kcal",
+      "proteinContent": "17 g",
+      "fatContent": "31 g",
+      "carbohydrateContent": "42 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Mini-flammkuchen met rode ui, paddenstoelen en gremolata",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/mini-flammkuchen-met-rode-ui%2C-paddenstoelen-en-gremolata.jpg"
+    ],
+    "totalTime": "PT30M",
+    "recipeCategory": [
+      "Bijgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "200 g bloem (+ bestuiven)",
+      "5 el olijfolie",
+      "zout en peper",
+      "6 takjes peterselie",
+      "4 takjes oregano",
+      "1 teentje knoflook",
+      "geraspte schil en sap van ½ biocitroen",
+      "150 g champignons",
+      "150 g kleine oesterzwammen",
+      "3 uien (bijv. rode)",
+      "zachte roodschimmelkaas (bijv. Saint Albray)",
+      "4 el crème fraîche",
+      "1 el harissa (Arabische kruidenpasta)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "VOOR HET DEEG Kneed de bloem, 2 el olie, ½ tl zout en 100 ml water glad. Wikkel het deeg in vershoudfolie en leg het ca. 3 uur in de koelkast."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE GREMOLATA Was de peterselie en de oregano en hak de blaadjes fijn. Pel de knoflook en hak hem fijn. Meng de kruiden met de knoflook, de citroenschil en het citroensap. Breng op smaak metzoutenpeper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR HET BELEG Maak de paddenstoelen schoon en snijd ze in plakjes. Pel de uien en snijd ze in ringen. Verhit 1 el olie in een pan en fruit er de ui ca. 2 minuten in. Neem de ui uit de pan. Verhit 2 el olie in het bakvet. Bak er de paddenstoelen goudbruin in. Snijd de kaas in plakken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE HARISSAROOM Roer de crème fraîche en de harissa door elkaar. Breng op smaak met zout en peper"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor (elektrisch: 200°C / hetelucht: 180°C). Verdeel het deeg in 4 gelijke stukken. Rol elk stuk op een met bloem bestoven werkblad ovaal (ca. 15 cm lang) uit en leg ze op 2 met bakpapier beklede bakplaten. Bestrijk de plakken deeg met de harissaroom en beleg ze met de ui, de paddenstoelen en de kaas. Bak ca. 15 minuten goudbruin in de oven. Verdeel de gremolata erover."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "460 kcal",
+      "proteinContent": "14 g",
+      "fatContent": "26 g",
+      "carbohydrateContent": "40 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Broccoli-pompoenroerbak met biefstukreepjes",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/broccoli-pompoenroerbak-met-biefstukreepjes.jpg"
+    ],
+    "totalTime": "PT40M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "500 g broccoli",
+      "1 ui",
+      "300 g hokkaidopompoen",
+      "ca. 20 g gember (stuk)",
+      "2 teentjes knoflook",
+      "150 g taugé",
+      "5 el sojasaus",
+      "sap van 1 limoen",
+      "1 el pindakaas",
+      "4 biefstukken (à ca. 150 g)",
+      "zout en peper",
+      "3 el olie",
+      "150 g edamame (jonge sojabonen, diepvries)",
+      "chilivlokken",
+      "5 takjes koriander"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Was de broccoli en rasp hem grof. Pel de ui en rasp hem grof. Maak de pompoen schoon, verwijder de zaadlijsten en rasp hem grof. Schil de gember en hak hem fijn. Pel de knoflook en hak hem fijn. Was de taugé. Roer de sojasaus, het limoensap en de pindakaas glad."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bestrooi de biefstukken met zout en peper. Verhit 1 el olie in een pan op hoog vuur. Bak er de biefstukken 2-3 minuten per zijde in. Neem ze uit de pan en wikkel ze in aluminiumfolie. Blus het bakvet af met het sojasausmengsel, breng kort aan de kook en houd apart."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit 2 el olie in een wok. Roerbak er de gember, de knoflook en de geraspte groenten in porties ca. 3 minuten in. Doe alle gebakken groenten terug in de wok. Voeg de bevroren edamame en de taugé toe en roerbak ca. 3 minuten verder. Breng op smaak met zout, peper en chilivlokken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Was de koriander en neem de blaadjes van de takjes. Spatel de koriander door de groenten. Snijd de biefstukken in reepjes. Serveer alles samen."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "460 kcal",
+      "proteinContent": "46 g",
+      "fatContent": "20 g",
+      "carbohydrateContent": "21 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Groenten-linzencurry",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/groenten-linzencurry.jpg"
+    ],
+    "totalTime": "PT30M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "1 bloemkool",
+      "1 rode paprika",
+      "2 uien",
+      "2 el kokosolie",
+      "1-2 tl rode currypasta",
+      "200 g rode linzen",
+      "400 ml kokosmelk (blik)",
+      "400 ml groentebouillon",
+      "½ bosje peterselie",
+      "zout en peper"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Maak de bloemkool schoon en snijd hem in roosjes van de stronk. Snijd de roosjes eventueel naar grootte kleiner. Snijd de paprika in vieren, verwijder de zaadlijsten, was de paprika en snijd hem in blokjes. Pel de uien en hak ze grof."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit de olie in een grote pan. Fruit er de ui en de currypasta ca. 3 minuten in. Voeg de bloemkool, de paprika en de linzen toe. Bak al roerend 2-3 minuten. Blus af met de kokosmelk en de bouillon en breng aan de kook. Kook afgedekt ca. 12 minuten op laag vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Was de peterselie en hak de blaadjes fijn. Breng de curry op smaak met zout en peper. Bestrooi met de peterselie. Lekker met naan of stokbrood."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "470 kcal",
+      "proteinContent": "18 g",
+      "fatContent": "27 g",
+      "carbohydrateContent": "35 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Zuurkool met worst",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/zuurkool-met-worst.jpg"
+    ],
+    "totalTime": "PT1H",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "3 uien",
+      "1 kg aardappels",
+      "zout en peper",
+      "4 el olie",
+      "800 g zuurkool",
+      "375 ml bouillon",
+      "5-6 jeneverbessen",
+      "1 laurierblaadje",
+      "½ bosje bieslook",
+      "200 ml melk",
+      "4 el boter",
+      "nootmuskaat",
+      "12 kleine braadworstjes",
+      "1 el bloem"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Pel de uien. Snipper 1 ui en snijd de overige uien in ringen. VOOR DE PUREE Schil de aardappels, was ze en kook ze in water met een snufje zout in ca. 20 minuten gaar."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE ZUURKOOL Verhit 2 el olie in een pan. Fruit er de gesnipperde ui glazig in. Voeg de zuurkool toe en bak op hoog vuur. Schenk de bouillon erbij. Breng op smaak met zout en peper. Voeg de jeneverbessen en het laurierblaadje toe. Breng aan de kook en kook afgedekt ca. 20 minuten op laag vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Was de bieslook en hak hem fijn. Giet de aardappels af. Verhit de melk en de boter, schenk het bij de aardappels en stamp fijn. Breng de puree op smaak met zout en nootmuskaat. Houd warm."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE WORSTJES Verhit 2 el olie in een pan. Bak er de worstjes rondom goudbruin en gaar in en neem ze uit de pan. Wentel de uienringen in de bloem en klop het teveel aan bloem eraf. Verhit 2 el boter in het bakvet. Bak er de uienringen goudbruin in. Serveer alles samen en bestrooi met de bieslook."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "600 kcal",
+      "proteinContent": "18 g",
+      "fatContent": "39 g",
+      "carbohydrateContent": "39 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Pasta met spruitjes en kip",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/pasta-met-spruitjes-en-kip.jpg"
+    ],
+    "totalTime": "PT1H",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "500 g spruitjes",
+      "3 el olie",
+      "sap van 2 limoenen",
+      "3 el vloeibare honing",
+      "zout en peper",
+      "1 tl paprikapoeder",
+      "400 g pasta (bijv. spirelli)",
+      "400 g kipfilet",
+      "3 uien (bijv. rode)",
+      "2 el olie",
+      "2 el hazelnootschaafsel",
+      "evt. peterselie om te garneren"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE SPRUITJES Verwarm de oven voor (elektrisch: 180°C / hetelucht: 160°C). Was de spruitjes en verdeel ze over een bakplaat. Roer de olie, het limoensap en de honing door elkaar. Breng op smaak met zout, peper en paprikapoeder. Meng de marinade met de spruitjes. Rooster 30-40 minuten in de oven."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Kook de pasta volgens de aanwijzingen op de verpakking in water met een snufje zout gaar."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE KIPFILET Pel de uien en snijd ze in partjes. Snijd de kipfilet in blokjes. Verhit 2 el olie in een pan. Bak er de kipfilet rondom ca. 6 minuten in. Bak de ui ca. 2 minuten mee. Breng op smaak met zout en peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Giet de pasta af. Voeg de pasta en de spruitjes toe aan de kipfilet en meng door elkaar. Bestrooi met het hazelnootschaafsel. Garneer eventueel met peterselie."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "700 kcal",
+      "proteinContent": "41 g",
+      "fatContent": "19 g",
+      "carbohydrateContent": "86 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Alcoholvrije hot toddy",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "2 glazen (à ca. 250 ml)",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/alcoholvrije-hot-toddy.jpg"
+    ],
+    "totalTime": "PT10M",
+    "recipeCategory": [
+      "Drank",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "2 el honing",
+      "2 tl citroensap",
+      "2 kleine kaneelstokjes",
+      "2 snufjes gemalen kruidnagel",
+      "2 snufjes gemalen nootmuskaat",
+      "400 ml hete, zwarte thee",
+      "partje citroen"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Doe in elk glas 1 el honing, 1 tl citroensap, 1 klein kaneelstokje, 1 snufje gemalen kruidnagel en 1 snufje gemalen nootmuskaat. Schenk in elk glas 200 ml hete, zwarte thee en roer door. Serveer naar smaak met een partje citroen."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Zelfgemaakte lekkerbek met groenten",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/zelfgemaakte-lekkerbek-met-groenten.jpg"
+    ],
+    "totalTime": "PT45M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "1 kg aardappels",
+      "zout en peper",
+      "500 g wortel",
+      "300 g doperwten (diepvries)",
+      "2 eieren",
+      "4 kabeljauwfilets (ca. 750 g)",
+      "4 el bloem",
+      "100 g paneermeel",
+      "60 g + 4 el boter",
+      "200 ml melk",
+      "evt. dille om te garneren"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Schil de aardappels, was ze en snijd ze in stukken. Kook de aardappels in water met een snuf zout in ca. 20 minuten gaar. Schrap de wortels, was ze, snijd ze in plakjes. Kook ze ca. 8 minuten in water met een snufje zout gaar. Voeg de bevroren doperwten na ca. 3 minuten kooktijd toe aan de wortel. Giet de groenten af en spoel kort."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE LEKKERBEKJES Kluts de eieren in een diep bord. Bestrooi de visfilets met zout en peper. Wentel de vis eerst door de bloem, dan door het ei en tot slot door het paneermeel. Verhit 60 g boter in een koekenpan met antiaanbaklaag. Bak er de vis, in porties, in 3-4 minuten per zijde goudbruin en gaar in. Houd warm."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE PUREE Verwarm de melk. Giet de aardappels af en stamp ze met de warme melk en 2 el boter fijn. Houd warm."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit 2 el boter in een pan. Wentel er de wortel en de doperwten in. Breng op smaak met zout en peper. Serveer alles samen. Garneer eventueel met dille."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "610 kcal",
+      "proteinContent": "50 g",
+      "fatContent": "14 g",
+      "carbohydrateContent": "68 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Rijstdessert met perzik uit de oven",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/rijstdessert-met-perzik-uit-de-oven.jpg"
+    ],
+    "totalTime": "PT1H15M",
+    "recipeCategory": [
+      "Zoet & desserts",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "600 ml melk",
+      "zout",
+      "150 g dessertrijst",
+      "800 g perziken (blik)",
+      "2 eieren",
+      "100 g suiker",
+      "50 g zachte boter (+ invetten)",
+      "poedersuiker om te bestuiven"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Breng de melk met een snufje zout in een pan aan de kook. Roer de rijst erdoorheen, breng kort aan de kook en kook afgedekt ca. 25 minuten op laag vuur. Neem van het vuur en laat ca. 15 minuten wellen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Giet de perziken af en snijd ze in partjes. Splits de eieren. Klop de eiwitten met een snufje zout stijf. Klop beetje bij beetje 50 g suiker erdoorheen. Klop de boter, de eidooiers en 50 g suiker romig. Roer het eidooiermengsel door de rijst. Spatel het eiwitschuim erdoorheen. Spatel ca. ⅔ van de perziken erdoorheen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor (elektrisch: 180°C / hetelucht: 160°C). Verdeel de rijst in een ingevette ovenschaal (ca. 20 cm Ø) en strijk glad. Beleg met de overige perziken. Bak 20-30 minuten in de oven. Bestuif met poedersuiker."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "560 kcal",
+      "proteinContent": "12 g",
+      "fatContent": "19 g",
+      "carbohydrateContent": "81 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Gebakken kweepeer met marsepein-walnotenvulling",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/gebakken-kweepeer-met-marsepein-walnotenvulling.jpg"
+    ],
+    "totalTime": "PT45M",
+    "recipeCategory": [
+      "Zoet & desserts",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "3 kweeperen",
+      "1 bio-citroen",
+      "250 ml appelsap",
+      "3 el suiker",
+      "200 g marsepein",
+      "1 ei",
+      "25 g poedersuiker",
+      "2 el bloem",
+      "75 g walnoten",
+      "50 g amarettini",
+      "1 tl slagroom"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Was de kweeperen met heet water en wrijf ze droog. Halveer ze en verwijder het klokhuis. Was de citroen met heet water en rasp de schil er dun af. Pers de citroen uit. Breng het appelsap, de suiker, het citroensap en de citroenschil in een ruime pan aan de kook. Stoof er de kweepeer ca. 8 minuten in. Roer regelmatigom."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Rasp de marsepein grof. Splits het ei. Klop het eiwit, de marsepein, de poedersuiker en de bloem door elkaar. Hak de noten grof. Hak de amarettini grof. Spatel de amarettini met 50 g noten door de marsepein."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor (elektrisch: 200°C / hetelucht: 180°C). Leg de kweepeer in een ovenschaal en verdeel de marsepein eroverheen. Bestrooi met de overige noten en druk een beetje aan. Kluts de eidooier met de slagroom en bestrijk de vulling ermee. Schenk het kookvocht in de ovenschaal. Bak ca. 20minutenindeoven."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "420 kcal",
+      "proteinContent": "8 g",
+      "fatContent": "20 g",
+      "carbohydrateContent": "49 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Schwarzwälder-tiramisu-trifle",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "6-8 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/schwarzw%C3%A4lder-tiramisu-trifle.jpg"
+    ],
+    "totalTime": "PT1H30M",
+    "recipeCategory": [
+      "Zoet & desserts",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "680 ml kersen (pot)",
+      "2 el maizena",
+      "1 el kersenlikeur",
+      "500 ml vanilleyoghurt",
+      "500 g magere kwark",
+      "16 g vanillesuiker",
+      "300 ml slagroom",
+      "250 g koekjes in chocolade (bijv. Lotus melkchocolade)",
+      "2 el koude koffie",
+      "cacaopoeder om te bestuiven"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Laat de kersen uitlekken en vang hierbij het sap op. Roer 3 el sap met de maizena glad. Breng het overige sap aan de kook. Roer het maizenamengsel erdoorheen, breng aan de kook en kook ca. 1 minuut. Roer de likeur erdoorheen. Roer de kersen erdoorheen. Laat de compote afkoelen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Roer de yoghurt, de kwark en de vanillesuiker glad. Klop de slagroom stijf en spatel hem erdoorheen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breek de koekjes in stukken. Verdeel de helft van de koekjes in een grote glazen schaal. Druppel de koffie eroverheen. Verdeel de helft van de room en de helft van de compote eroverheen. Verdeel de overige room en de overige compote eroverheen. Verdeel de overige koekjes eromheen. Zet tot het serveren in de koelkast. Bestuif met het cacaopoeder."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "380 kcal",
+      "proteinContent": "14 g",
+      "fatContent": "17 g",
+      "carbohydrateContent": "41 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chocolade mug cake",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "2 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/chocolade-mug-cake.jpg"
+    ],
+    "totalTime": "PT35M",
+    "recipeCategory": [
+      "Zoet & desserts",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "1 ei",
+      "3 el suiker",
+      "zout",
+      "3 el bloem (+bestuiven)",
+      "1 tl bakpoeder",
+      "1 el cacaopoeder",
+      "kaneelpoeder",
+      "vanillemerg (evt. extract)",
+      "kardemompoeder",
+      "1 el olie (+ invetten)",
+      "2 el melk",
+      "100 ml slagroom"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor (elektrisch: 180°C / hetelucht: 160°C). Klop het ei, de suiker en 1 snufje zout romig. Meng de bloem met het bakpoeder, het cacaopoeder, 1 snufje kaneelpoeder, 1 mespuntje vanille en 1 snufje kardemompoeder. Klop eerst het bloemmengsel en daarna de olie en de melk door het eimengsel."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verdeel het beslag over 2 ingevette en met bloem bestoven ovenvaste kopjes (à ca. 150 ml) en zet ze ca. 25 minuten in de oven. Laat afkoelen. Klop de slagroom stijf. Serveer de mug cakes met de slagroom."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "390 kcal",
+      "proteinContent": "7 g",
+      "fatContent": "26 g",
+      "carbohydrateContent": "29 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Appel-selderijsoep met spek",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/appel-selderijsoep-met-spek.jpg"
+    ],
+    "totalTime": "PT40M",
+    "recipeCategory": [
+      "Soep",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "1 ui",
+      "600 g knolselderij",
+      "2 aardappels",
+      "2 rode appels",
+      "75 g gerookt spek (stuk)",
+      "2 el olie",
+      "1,2 l groentebouillon",
+      "150 ml + 6 tl slagroom",
+      "2 el mierikswortelpasta (pot)",
+      "zout en peper",
+      "suiker"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Pel en snipper de ui. Schil de knolselderij en halveer hem. Schaaf ca. 75 g knolselderij in dunne plakjes af. Snijd de overige knolselderij in blokjes. Schil de aardappels, was ze en snijd ze in blokjes. Schil de appels, verwijder het klokhuis en snijd de appels in blokjes."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Snijd het spek in kleine blokjes en rooster ze in een droge pan knapperig. Neem het spek uit de pan. Verhit de olie in het bakvet. Bak er de knolselderijplakjes knapperig in en neem ze uit de pan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Houd 2 el appelblokjes apart. Bak de knolselderijblokjes, de overige appelblokjes en de aardappel in het hete bakvet op hoog vuur. Schenk de bouillon erbij en breng aan de kook. Kook afgedekt ca. 20 minuten op laag vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pureer de soep. Roer 150 ml slagroom en de mierikswortel erdoorheen. Gaar de overige appelblokjes ca. 3 minuten mee. Breng op smaak met zout, peper en suiker. Serveer de soep met de overige slagroom, de knolselderijchips en de spekblokjes. Lekker met desembrood."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "210 kcal",
+      "proteinContent": "5 g",
+      "fatContent": "15 g",
+      "carbohydrateContent": "15 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Braadstuk met spätzle en veldsla",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/braadstuk-met-sp%C3%A4tzle-en-veldsla.jpg"
+    ],
+    "totalTime": "PT3H45M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "2 uien",
+      "1 grote prei",
+      "2 wortels",
+      "¼ knolselderij",
+      "1 tl peperkorrels",
+      "5 jeneverbessen",
+      "400 ml droge rode wijn",
+      "250 ml + 2 el wittewijnazijn",
+      "2 kruidnagels",
+      "2 laurierblaadjes",
+      "4 pimentkorrels",
+      "1,5 kg runderbraadstuk",
+      "zout en peper",
+      "7 el olie",
+      "2 el tomatenpuree",
+      "750 ml groentebouillon",
+      "300 g bloem",
+      "4 eieren",
+      "nootmuskaat",
+      "6 el bruisend mineraalwater",
+      "1 bosje peterselie",
+      "4 plakken Schwarzwälder ham",
+      "2 sneetjes witbrood",
+      "50 g rozijnen",
+      "2-3 tl maizena",
+      "1 el boter",
+      "80 g veldsla"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "2-3 DAGEN VAN TEVOREN VOOR HET BRAAD- STUK Pel de uien en hak ze grof. Maak de prei schoon en snijd hem in stukken. Schrap de wortels, was ze en snijd ze in stukken. Schil de knolselderij, was hem en snijd hem in stukken. Vermaal de peperkorrels en de jeneverbessen grof. Breng de wijn en 250 ml azijn aan de kook. Roer de kruidnagels, de laurierblaadjes, de pimentkorrels, de peperkorrels en de jeneverbessen erdoorheen en kook ca. 2 minuten op laag vuur. Voeg de ui, de prei, de wortel en de knolselderij toe. Laat afkoelen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe het vlees samen met de marinade en de groenten in een grote diepvrieszak en sluit hem af. Leg de zak 2-3 dagen in de koelkast. Draai af en toe om."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "NA 2-3 DAGEN Verwarm de oven voor (elektrisch: 160°C / hetelucht: 140°C). Dep het vlees droog en bestrooi het rondom met zout. Zeef de marinade en vang het vocht op. Verhit 2 el olie in een ovenbestendige braadpan met deksel. Braad hierin het vlees rondom aan en neem het uit de pan. Bak de groenten met de specerijen in het hete bakvet op hoog vuur. Roer de tomatenpuree erdoorheen en bak nog 1 minuut. Blus af met 500 ml van het opgevangen vocht. Schenk de bouillon erbij, breng aan de kook en voeg het vlees weer toe. Zet afgedekt ca. 3 uur in de oven."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE SPÄTZLE Roer de bloem met de eieren, 1 snuf zout, 1 snuf nootmuskaat en het mineraalwater door elkaar tot er belletjes in het deeg ontstaan. Laat het deeg ca. 1 uur rusten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng een pan met ruim gezouten water aan de kook. Rasp met behulp van een grove rasp kleine stukjes deeg in het kokende water en kook tot de spätzle komen bovendrijven. Haal de spätzle met een schuimspaan uit het water, spoel met koud water en laat uitlekken. Herhaal portiegewijs tot het deeg op is."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Was de peterselie en hak de blaadjes fijn. Snijd de ham in blokjes. Snijd het witbrood in blokjes. Verhit 1 el olie in een pan. Bak er de ham en het brood knapperig in. Neem uit de pan. Roer 2 el azijn, zout, peper en 4 el olie door elkaar."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Laat het braadstuk rusten. Zeef de fond. Breng 500 ml fond en de rozijnen aan de kook. Roer de maizena met 2 el koud water glad. Roer dit door de fond en kook 1 minuut. Breng op smaak met zout en peper. Verhit de boter. Wentel de spätzle en de peterselie erin. Was de sla. Meng met de vinaigrette. Bestrooi met het hammengsel. Serveer alles samen."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "760 kcal",
+      "proteinContent": "68 g",
+      "fatContent": "29 g",
+      "carbohydrateContent": "52 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Sinaasappelcustardtaartjes",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "12 stuks",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/sinaasappelcustardtaartjes.jpg"
+    ],
+    "totalTime": "PT1H45M",
+    "recipeCategory": [
+      "Zoet & desserts",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "300 g bloem (+ bestuiven)",
+      "4 el suiker",
+      "zout",
+      "5 eidooiers",
+      "150 g boter (+ invetten)",
+      "200 ml melk",
+      "4-5 el sinaasappelmarmelade (pot)",
+      "muffinbakblik met 12 holtes"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "VOOR HET DEEG Meng de bloem met 2 el suiker en 1 snufje zout. Voeg 1 eidooier, 75 ml koud water en de boter in stukken toe. Kneed glad. Wikkel het deeg in vershoudfolie en leg ca. 1 uur in de koelkast."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor (elektrisch: 200°C / hetelucht: 180°C). Vet de holtes van het muffinbakblik in met boter en bestuif met bloem. Rol het deeg op een met bloem bestoven werkblad 2-3 mm dik uit. Steek er 12 rondjes (à ca. 12 cm Ø) uit en bekleed de holtes van het muffinbakblik ermee. Bak 8-10 minuten in de oven."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE CUSTARD Breng de melk aan de kook en neem van het vuur. Klop 4 eidooiers en 2 el suiker romig. Schenk de hete melk er beetje bij beetje, in een dunne straal bij en klop hem erdoorheen. Roer de marmelade erdoorheen. Verdeel de custard over de taartbodems en bak ca. 15 minuten verder. Laat afkoelen."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "260 kcal",
+      "proteinContent": "5 g",
+      "fatContent": "14 g",
+      "carbohydrateContent": "27 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Snelle courgettepizza met granaatappelpitjes",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "2 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/snelle-courgettepizza-met-granaatappelpitjes.jpg"
+    ],
+    "totalTime": "PT30M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "1 courgette",
+      "1 rol pizzadeeg (koelvak)",
+      "4-6 el tomatensaus (pot)",
+      "75 g geraspte mozzarella",
+      "½ granaatappel",
+      "30 g parmezaan (stuk)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor (elektrisch: 230°C / hetelucht: 210°C). Was de courgette en snijd hem in dunne plakken. Rol het pizzadeeg samen met het bakpapier uit op een bakplaat. Bestrijk het deeg met de tomatensaus en beleg met de courgette. Bestrooi met de mozzarella. Bak 12-15 minuten in de oven."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Klop de pitjes uit de granaatappel. Schaaf de parmezaan. Bestrooi de pizza met de granaatappelpitjes en de parmezaan."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "600 kcal",
+      "proteinContent": "23 g",
+      "fatContent": "20 g",
+      "carbohydrateContent": "79 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Kip in spek met friet en broccoli",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/kip-in-spek-met-friet-en-broccoli.jpg"
+    ],
+    "totalTime": "PT25M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "500 g broccoli",
+      "zout en peper",
+      "500 g ovenfriet (diepvries)",
+      "4 kipfilets (à ca. 175 g)",
+      "8 plakken spek",
+      "2 el olie",
+      "1 el vloeibare honing",
+      "2 el boter",
+      "Provençaalse kruiden",
+      "chilivlokken"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor (elektrisch: 200°C / hetelucht: 180°C). Was de broccoli en snijd hem in roosjes van de stronk. Kook de broccoli in water met een snufje zout in ca. 5 minuten beetgaar. Giet af. Bak de friet volgens de aanwijzingen op de verpakking in de oven."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bestrooi de kipfilets met zout en peper en wikkel elke kipfilet in 2 plakken spek. Verhit de olie in een pan. Bak er de kipfilets 5-6 minuten per zijde in, neem uit de pan en houd warm. Karamelliseer de honing in het hete bakvet. Voeg de boter toe. Wentel de broccoli erin. Breng op smaak met zout en peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Meng 1 tl zout met 1 tl Provençaalse kruiden en een snufje chilivlokken. Serveer alles samen en bestrooi de friet met het kruidenmengsel."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "550 kcal",
+      "proteinContent": "51 g",
+      "fatContent": "25 g",
+      "carbohydrateContent": "27 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Kikkererwten-pompoensoep",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/kikkererwten-pompoensoep.jpg"
+    ],
+    "totalTime": "PT30M",
+    "recipeCategory": [
+      "Soep",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "400 ml groentebouillon",
+      "400 ml kokosmelk (blik)",
+      "500 g flespompoen",
+      "1-2 teentjes knoflook",
+      "400 g kikkererwten (blik)",
+      "4 lente-uitjes",
+      "1-2 el olie",
+      "4 el suiker",
+      "zout en peper",
+      "paprikapoeder"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Breng de bouillon met ca. ⅔ van de kokosmelk in een grote pan aan de kook. Maak de pompoen schoon, verwijder de zaadlijsten en snijd de pompoen in blokjes. Pel de knoflook. Voeg de pompoen en de knoflook toe aan de pan en kook ca. 20 minuten op laag vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Giet de kikkererwten af, spoel ze kort en laat uitlekken. Was de lente-uitjes en snijd ze schuin in ringen. Verhit de olie in een pan. Bak er de kikkererwten rondom goudbruin in. Bestrooi met de suiker en karamelliseer. Bestrooi met zout en paprikapoeder. Spatel de lente-ui erdoorheen en bak kort. Neem de pan van het vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pureer de soep fijn. Breng op smaak met zout en peper. Neem 4 el soep uit de pan en verhit met de overige kokosmelk kort in een andere pan. Pureer met de staafmixer schuimig. Serveer de soep met het kokosschuim en de kikkererwten. Lekker met stokbrood."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "340 kcal",
+      "proteinContent": "6 g",
+      "fatContent": "18 g",
+      "carbohydrateContent": "37 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Pasta met romige spek-kaassaus",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/pasta-met-romige-spek-kaassaus.jpg"
+    ],
+    "totalTime": "PT20M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "zout en peper",
+      "75 g parmezaan (stuk)",
+      "150 g gerookt spek (stuk)",
+      "300 g tagliatelle",
+      "200 ml slagroom",
+      "nootmuskaat",
+      "300 g doperwten (diepvries)",
+      "kiemen om te garneren"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Breng ruim water met een snufje zout aan de kook. Rasp de helft van de parmezaan fijn. Schaaf de andere helft grof. Snijd het spek in blokjes en bak in een droge pan knapperig. Kook de pasta volgens de aanwijzingen op de verpakking in het gezouten water. Blus het spek af met de slagroom, breng aan de kook en kook 2-3 minuten op laag vuur. Voeg de geraspte parmezaan toe aan de roomsaus en breng nogmaals aan de kook. Breng de saus op smaak met zout, peper en nootmuskaat. Neem de pan van het vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Kook de doperwten de laatste 2 minuten mee met de pasta. Giet af. Meng de pasta en de doperwten met de saus. Maak de kiemen schoon en bestrooi de pasta er samen met de geschaafde parmezaan mee."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "580 kcal",
+      "proteinContent": "27 g",
+      "fatContent": "27 g",
+      "carbohydrateContent": "55 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Aziatisch gehaktpannetje met spiegelei",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/aziatisch-gehaktpannetje-met-spiegelei.jpg"
+    ],
+    "totalTime": "PT25M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "200 g basmatirijst",
+      "zout en peper",
+      "4 lente-uitjes",
+      "2 el olie",
+      "500 g half-om-halfgehakt",
+      "cayennepeper",
+      "ca. 75 ml chilisaus (fles)",
+      "2-3 el sojasaus",
+      "4 eieren"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Kook de rijst volgens de aanwijzingen op de verpakking in water met wat zout. Maak de lente-uitjes schoon. Snijd het groene en het witte deel apart in ringen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit 1 el olie in een pan. Bak er het gehakt rul in. Breng op smaak met zout en cayennepeper. Voeg de witte lente-uiringen toe en bak ca. 3 minuten verder. Voeg de chilisaus, 3 el water en de sojasaus toe en verhit ca. 3 minuten verder op laag vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit 1 el olie in een koekenpan met antiaanbaklaag. Bak er van de eieren 4 spiegeleieren. Bestrooi met zout en peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Giet de rijst af. Serveer alles samen en bestrooi met de overige lente-ui."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "650 kcal",
+      "proteinContent": "44 g",
+      "fatContent": "32 g",
+      "carbohydrateContent": "41 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Zoete-aardappelsalade voor onderweg",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/zoete-aardappelsalade-voor-onderweg.jpg"
+    ],
+    "totalTime": "PT30M",
+    "recipeCategory": [
+      "Salade",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "1 grote zoete aardappel (ca. 300 g)",
+      "zout en peper",
+      "1 rode paprika",
+      "1 kropje mini-romainesla",
+      "400 g kidneybonen (blik)",
+      "180 g mais (blik)",
+      "75 g cheddar (stuk)",
+      "150 ml tomatensap",
+      "1 tl wittewijnazijn",
+      "1 tl vloeibare honing",
+      "2 el olie",
+      "tabasco"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Schil de zoete aardappel, was hem, snijd hem in blokjes en kook hem in water met een snufje zout in ca. 10 minuten gaar. Snijd de paprika in vieren, verwijder de zaadlijsten, was de paprika en snijd hem in blokjes. Was de sla en snijd hem in reepjes. Giet de bonen en de mais af. Snijd de kaas in dunne reepjes of rasp hem grof. Giet de zoete aardappel af en spoel hem kort."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Roer het tomatensap, de azijn, de honing en de olie door elkaar. Breng de dressing op smaak met zout, peper en tabasco. Verdeel de dressing in 4 potten met deksel (à ca. 250 ml). Verdeel de ingrediënten erin en sluit af met de kaas."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "330 kcal",
+      "proteinContent": "14 g",
+      "fatContent": "12 g",
+      "carbohydrateContent": "40 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Wildzwijnmedaillons met koolraapstamppot, gebakken uien en spek",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/wildzwijnmedaillons-met-koolraapstamppot%2C-gebakken-uien-en-spek.jpg"
+    ],
+    "totalTime": "PT1H30M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "1 koolraap",
+      "750 g aardappels (vastkokend)",
+      "500 g wortels",
+      "7 uien",
+      "7-8 el olie",
+      "zout en peper",
+      "800 ml groentebouillon",
+      "2 wildzwijnhazen (ca. 1,1 kg)",
+      "1 tl zwartepeperkorrels",
+      "1 el jeneverbessen",
+      "½ bosje tijm",
+      "1 el bloem",
+      "100 g gerookt spek (stuk)",
+      "1 bosje peterselie",
+      "5 el boter"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Halveer de koolraap en schil hem met een scherp mes van boven naar beneden. Was de koolraap en snijd hem in blokjes. Schil de aardappels, was ze en snijd ze in blokjes. Schrap de wortels, was ze en snijd ze in blokjes. Pel en snipper 1 ui. Verhit 2-3 el olie in een pan. Fruit er de ui glazig in. Voeg de koolraap, de wortel en de aardappel toe en bak ca. 5 minuten mee. Bestrooi met zout en peper. Schenk de bouillon erbij en breng aan de kook. Kook afgedekt ca. 30 minuten op laag vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Snijd het vlees in 12 gelijke medaillons. Leg het vlees op een diep bord. Vermaal de peperkorrels en de jeneverbessen. Was de tijm en hak de blaadjes fijn. Meng de tijm met de gemalen peperkorrels en jeneverbessen. Bestrooi het vlees er rondom mee en wrijf goed in. Zet afgedekt in de koelkast."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pel 6 uien en snijd ze in ringen. Bestuif met de bloem en meng goed. Snijd het spek in kleine blokjes. Was de peterselie, dep hem goed droog en neem de blaadjes van de takjes. Stamp het aardappelmengsel. Breng op smaak met zout en peper. Houd warm."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bak het spek in een droge pan knapperig. Neem het uit de pan. Verhit 2 el boter in het hete bakvet. Bak er het vlees ca. 2 minuten per zijde rosé in. Bestrooi met zout en peper. Leg het vlees op een bord, dek af met een grote deksel en laat rusten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit 3 el boter in het bakvet. Bak er de uienringen rondom goudbruin in. Voeg het spek toe en bak kort."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit ca. 5 el olie in een kleine pan. Frituur er de peterselie, in porties, 15-20 seconden in. Neem de peterselie eruit en laat uitlekken op keukenpapier. Serveer alles samen. Lekker met cranberrysaus."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "580 kcal",
+      "proteinContent": "40 g",
+      "fatContent": "28 g",
+      "carbohydrateContent": "39 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Overnight oats met gekaramelliseerde banaan",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/overnight-oats-met-gekaramelliseerde-banaan.jpg"
+    ],
+    "totalTime": "PT12H25M",
+    "recipeCategory": [
+      "Bijgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "200 g havervlokken",
+      "600 ml melk",
+      "40 g amandelen",
+      "2 appels (bijv. gala)",
+      "150 ml volle yoghurt",
+      "6 el ahornsiroop",
+      "40 g cashewnoten",
+      "30 g amandelschaafsel",
+      "2 bananen",
+      "1 tl boter",
+      "kaneelpoeder om te bestuiven",
+      "evt. citroenmelisse om te versieren"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "EEN DAG VAN TEVOREN Meng de havervlokken met de melk. Zet een nacht afgedekt in de koelkast. DE VOLGENDE DAG Hak de amandelen grof en rooster ze in een droge pan. Was de appels, snijd ze in vieren, verwijder het klokhuis en rasp de appels grof. Roer de appel, de yoghurt, de amandelen en 4 el ahornsiroop door de havervlokken. Dek af en houd apart."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Rooster eerst de cashewnoten en daarna het amandelschaafsel in een droge pan goudbruin. Neem uit de pan en laat afkoelen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pel de bananen. Snijd ze eerst schuin en vervolgens in de lengte door. Verhit de boter in een grote pan met antiaanbaklaag. Bak er de bananen ca. 4 minuten rondom goudbruin in. Druppel 2 el ahornsiroop eroverheen en karamelliseer. Neem van het vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serveer alles samen en bestuif met kaneelpoeder. Versier eventueel met citroenmelisse."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "590 kcal",
+      "proteinContent": "20 g",
+      "fatContent": "25 g",
+      "carbohydrateContent": "67 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Hazelnoten-broccoliovenschaaltjes",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/hazelnoten-broccoliovenschaaltjes.jpg"
+    ],
+    "totalTime": "PT45M",
+    "recipeCategory": [
+      "Bijgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "1 kg broccoli",
+      "zout en peper",
+      "50 g hazelnoten",
+      "3 eieren",
+      "200 ml slagroom",
+      "100 ml melk",
+      "nootmuskaat",
+      "boter of olie om in te vetten"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Maak de broccoli schoon en snijd hem in kleine roosjes van de stronk. Kook de roosjes in 3-4 minuten in water met een snufje zout beetgaar. Giet de broccoli af en spoel kort."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Hak de hazelnoten grof. Rooster ze in een droge pan goudbruin. Neem ze uit de pan en laat afkoe- len. Kluts de eieren met de slagroom en de melk door elkaar. Roer wat zout, peper en nootmuskaat erdoorheen. Meng ca. ⅔ van de hazelnoten erdoorheen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor (elektrisch: 180°C / hetelucht: 160°C). Verdeel de broccoli in 6 kleine ovenschaaltjes (à ca. 8 cm Ø). Schenk de room eroverheen. Bestrooi met de overige noten. Bak 25-30 minuten in de oven. Neem uit de oven en serveer."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "230 kcal",
+      "proteinContent": "8 g",
+      "fatContent": "19 g",
+      "carbohydrateContent": "4 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Kabeljauw met pistachekorst",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/kabeljauw-met-pistachekorst.jpg"
+    ],
+    "totalTime": "PT35M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "4 el olijfolie",
+      "4 kabeljauwfilets (à ca. 150 g)",
+      "zout en peper",
+      "2 sjalotjes",
+      "1 el kappertjes (pot)",
+      "40 g pistachenoten",
+      "ca. 30 g gember (stuk)",
+      "1 el honing",
+      "1 el witte balsamico",
+      "400 g spinazie",
+      "1 teentje knoflook",
+      "50 g rode linzen",
+      "200 ml slagroom",
+      "100 ml groentebouillon",
+      "nootmuskaat",
+      "1 rode peper"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor (elektrisch: 200°C / hetelucht: 180°C). Bestrijk een ovenschaal met 1 el olie. Leg de visfilets in de ovenschaal en bestrooi met zout en peper. Pel en snipper 1 sjalotje. Hak de kappertjes fijn. Hak de pistachenoten fijn. Schil de gember en rasp hem fijn. Roer het sjalotje, de kappertjes, de pistachenoten, de gember, de honing, de balsamico, 2 el olie, zout en peper door elkaar. Verdeel het mengsel over de vis. Bak ca. 20 minuten in de oven."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Was de spinazie. Pel en snipper 1 sjalotje en de knoflook. Verhit 1 el olie in een grote pan. Fruit er het sjalotje en de knoflook in. Voeg de spinazie toe en laat afgedekt slinken. Voeg de linzen, de slagroom en de bouillon toe, breng aan de kook en kook afgedekt ca. 10 minuten op laag vuur. Breng op smaak met zout, peper en nootmuskaat. Zet de oven uit. Laat de vis in de oven ca. 10 minuten nagaren. Halveer de peper in de lengte, verwijder de zaadlijsten, was de peper en hak hem fijn. Voeg hem toe aan de linzen en de spinazie. Serveer alles samen. Lekker met rijst."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "500 kcal",
+      "proteinContent": "36 g",
+      "fatContent": "31 g",
+      "carbohydrateContent": "15 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Aardappelsalade met knapperig gebakken ham",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/aardappelsalade-met-knapperig-gebakken-ham.jpg"
+    ],
+    "totalTime": "PT50M",
+    "recipeCategory": [
+      "Salade",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "1 kg aardappels",
+      "zout en peper",
+      "100 g ham (in plakken)",
+      "2 zure appels (bijv. granny smith)",
+      "4 stengels bleekselderij",
+      "40 g pecannoten",
+      "2 teentjes knoflook",
+      "½ bosje peterselie",
+      "50 ml appelazijn",
+      "80 ml walnootolie",
+      "1 el mosterd",
+      "100 g jonge spinazie",
+      "1 bakje tuinkers"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Schil de aardappels en kook ze in water met een snufje zout in ca. 20 minuten gaar. Snijd de ham in reepjes. Rooster de reepjes in een droge pan krokant en neem uit de pan. Was de appels, snijd ze in vieren, verwijder het klokhuis en snijd de appels in dunne reepjes. Maak de bleekselderij schoon en snijd hem in dunne plakjes. Houd het selderijgroen apart. Hak de noten grof. Giet de aardappels af, spoel kort en laat kort uitdampen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE DRESSING Pel de knoflook. Was de peterselie en neem de blaadjes van de takjes. Pureer de knoflook, de peterselie, de azijn, de olie en de mosterd fijn. Breng op smaak met zout en peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pel de aardappels en halveer ze. Was de spinazie. Meng de aardappel, de spinazie, de bleekselderij, de ham, de appel en de dressing. Breng de salade op smaak met zout en peper. Knip de tuinkers uit het bakje. Bestrooi de salade met de noten, de tuinkers en het bleekselderijgroen."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "490 kcal",
+      "proteinContent": "11 g",
+      "fatContent": "28 g",
+      "carbohydrateContent": "45 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Kaasknoedels met spitskool",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "6-8 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/kaasknoedels-met-spitskool.jpg"
+    ],
+    "totalTime": "PT50M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "1 kg witbrood",
+      "zout en peper",
+      "1 ui",
+      "150 g edammer",
+      "150 g gorgonzola",
+      "1 bosje peterselie",
+      "1 el boter",
+      "250 ml melk",
+      "4 eieren",
+      "3 el bloem",
+      "1 spitskool (ca. 1 kg)",
+      "75 g gerookt spek (stuk)",
+      "2 el olie",
+      "1 bosje bieslook"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Snijd het brood in blokjes van ca. 1 cm en meng met 1 tl zout en 1 tl peper. Pel en snipper de ui. Snijd de kazen in blokjes. Was de peterselie en hak de blaadjes fijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit de boter in een pan. Fruit er de helft van de ui in. Schenk de melk erbij. Schenk de melk over het brood. Voeg de eieren, de kazen, de peterselie en de bloem toe en kneed goed door."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Was de spitskool, snijd hem in vieren en snijd hem in reepjes van de stronk. Snijd het spek in dunne plakjes. Verhit de olie in een grote pan met deksel. Bak er het spek knapperig in en neem het uit de pan. Bak de overige ui in het bakvet. Voeg de kool toe en roerbak ca. 8 minuten. Breng op smaak met zout en peper. Schenk ca. 100 ml water erbij, breng aan de kook en smoor afgedekt ca. 5 minuten op laag vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Maak van het deeg ballen ter grootte van gehaktballen en kook ze in water met een snufje zout in ca. 10 minuten gaar. Was de bieslook en hak fijn. Breng de spitskool op smaak met zout en peper. Meng het spek erdoorheen. Neem de knoedels met een schuimspaan uit het water. Serveer alles samen en bestrooi met de bieslook."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "570 kcal",
+      "proteinContent": "26 g",
+      "fatContent": "21 g",
+      "carbohydrateContent": "66 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Aardappels in spek",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/aardappels-in-spek.jpg"
+    ],
+    "totalTime": "PT45M",
+    "recipeCategory": [
+      "Bijgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "16 kleine aardappels",
+      "zout en peper",
+      "8 plakken ontbijtspek",
+      "4 tl pittige mosterd",
+      "2-3 el vloeibare honing",
+      "4 el olie",
+      "100 g veldsla",
+      "4 el frambozenazijn"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Was de aardappels en kook ze in water met een snufje zout in ca. 20 minuten gaar. Halveer de plakken spek in de lengte, bestrijk ze met mosterd en druppel de honing eroverheen. Giet de aardappels af, spoel ze kort en pel ze. Wikkel elke aardappel in een plakje spek. Verhit 2 el olie in een grote pan. Bak er de aardappels in ca. 10 minuten rondom knapperig in. Bestrooi met peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Was de veldsla en laat hem goed uitlekken. Roer de azijn, zout en peper door elkaar. Klop 2 el olie erdoorheen. Meng de sla met de vinaigrette. Serveer alles samen."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "400 kcal",
+      "proteinContent": "11 g",
+      "fatContent": "12 g",
+      "carbohydrateContent": "59 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Zalmfilet met romige mosterd-dilletopping",
+    "author": {
+      "@type": "Person",
+      "name": "MonChou"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/zalmfilet-met-romige-mosterd-dilletopping.jpg"
+    ],
+    "totalTime": "PT25M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "1 sjalot, fijngesnipperd",
+      "1 bosje dille, fijngehakt",
+      "2tl dijonmosterd",
+      "1 citroen, ½ uitgeperst en ½ in partjes",
+      "50 g broodkruim (+ bestrooien)",
+      "200 g MonChou Zacht & Luchtig (in een kuipje)",
+      "zout en peper",
+      "4 zalmfilets, à 200 g",
+      "olie (om in te vetten)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op de grillstand. Meng de sjalot, ¾ van de dille, de mosterd, het citroensap en het broodkruim door de MonChou. Breng op smaak met zout en peper. Leg de zalmfilets op een ingevet bakblik en bestrijk ze royaal met het MonChou-mengsel. Strooi nog wat extra broodkruim eroverheen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Gril de zalm in ca. 10 minuten in de oven tot de bovenkant mooi gegratineerd is en de zalm gaar is. Zet eventueel de zalm wat lager in de oven als hij nog niet helemaal gaar is en de bovenkant donker begint te kleuren. Bestrooi de zalm met de overige dille en geef er de partjes citroen bij. Lekker met frietjes en salade."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "589 kcal",
+      "proteinContent": "45 g",
+      "fatContent": "41 g",
+      "carbohydrateContent": "9 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Gepofte zoete aardappel met MonChouvulling en spek-boontjesdressing",
+    "author": {
+      "@type": "Person",
+      "name": "MonChou"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "totalTime": "PT1H20M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "4 zoete aardappels (van gelijk formaat)",
+      "3 bosuitjes, 2 fijngehakt en 1 in ringetjes",
+      "4 takjes tijm, de blaadjes gerist en fijngehakt",
+      "100 g MonChou Original",
+      "zout en peper",
+      "50 g sperziebonen",
+      "3 el olijfolie",
+      "1 sjalot, in ringen",
+      "4 plakjes ontbijtspek, in reepjes",
+      "1 tl mosterd",
+      "1 el appelazijn",
+      "zout en peper",
+      "50 g witte bonen uit blik, afgespoeld en uitgelekt",
+      "gehakte amandelen (voor de garnering)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor (elektrisch: 180°C / hetelucht: 160°C). Was de zoete aardappels en halveer ze in de lengte. Meng de fijngehakte bosui en de tijm door de MonChou. Breng op smaak met zout en peper. Verdeel het mengsel over 4 aardappelhelften en druk de andere helften erop. Wikkel iedere gevulde aardappel strak in aluminiumfolie en leg de pakketjes op een bakplaat. Pof de zoete aardappels in ca. 1 uur gaar in de oven."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Blancheer intussen voor de dressing de sperziebonen ca. 3 minuten in kokend water. Giet af, spoel met koud water en laat goed uitlekken. Verhit 1 el olijfolie in een pan en fruit er de sjalot en het spek ca. 5 minuten in. Neem van het vuur en laat ca. 10 minuten afkoelen. Voeg de mosterd en de azijn toe en roer goed door. Klop nu met een vork de overige olijfolie erdoorheen. Breng op smaak met zout en peper. Snijd de sperzieboontjes in kleine stukjes. Meng de sperziebonen en de witte bonen door de dressing."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Neem de zoete aardappels uit de oven en haal ze voorzichtig uit het folie. Leg ze op een schaal en schep er de boontjesdressing overheen. Maak af met wat bosuiringetjes en gehakte amandelen."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "531 kcal",
+      "proteinContent": "10 g",
+      "fatContent": "27 g",
+      "carbohydrateContent": "58 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Lotusparfait",
+    "author": {
+      "@type": "Person",
+      "name": "Soumia Aattaoui"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/lotusparfait.jpg"
+    ],
+    "totalTime": "PT3H40M",
+    "recipeCategory": [
+      "Zoet & desserts",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "440 g opklopbare slagroom (koud)",
+      "100 g mascarpone (kamertemperatuur)",
+      "90 ml gecondenseerde melk",
+      "25 g poedersuiker",
+      "2 zakjes vanillesuiker (16 g)",
+      "5 speculaasjes",
+      "7 el Lotus Biscoff speculaaspasta"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE ROOM Doe 260 gram slagroom, de gecondenseerde melk en 1 zakje vanillesuiker in een ruime kom. Mix met een handmixer tot het mengsel in volume is verdubbeld. Schep het roommengsel in een spuitzak en zet in de koelkast."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE TOPPINGS Doe de mascarpone, 180 gram opklopbare slagroom, de poedersuiker en 1 zakje vanillesuiker in een ruime kom. Mix met een handmixer tot het mengsel in volume is verdubbeld. Schep het mascarponemengsel in een spuitzak en zet in de koelkast."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE SAMENSTELLING Smelt 3 eetlepels Lotus Biscoff speculaaspasta en verdeel over de drie glaasjes. Spuit een laag van het roommengsel in elk glaasje. Zet de glaasjes 3 uur in de diepvriezer."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de glaasjes uit de diepvriezer. Smelt 3 eetlepels Lotus Biscoff speculaaspasta en verdeel over de glaasjes. Spuit een toef van het mascarponemengsel bovenop de speculaaspasta. Werk af met wat extra gesmolten Lotus Biscoff speculaaspasta en verkruimel speculaasjes eroverheen."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Filipijnse Adobo",
+    "author": {
+      "@type": "Person",
+      "name": "Soumia Aattaoui"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/filipijnse-adobo.jpg"
+    ],
+    "totalTime": "PT2H",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "400 g basmatirijst",
+      "350 g kippendijen",
+      "150 ml appelazijn",
+      "30 ml gezouten sojasaus",
+      "20 ml rijstazijn",
+      "4 teentjes knoflook",
+      "1 tl lichtbruine basterdsuiker",
+      "1 tl verse gember",
+      "½ tl zwarte peper",
+      "½ tl chilivlokken",
+      "zonnebloemolie",
+      "2 uien",
+      "3 teentjes knoflook",
+      "2 laurierblaadjes",
+      "1 lente-ui",
+      "1 el zonnebloemolie"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE KIP Hak de knoflook en de gember fijn. Doe de kippendijen in een ruime kom. Voeg de sojasaus, de basterdsuiker, de appel- en rijstazijn, de knoflook, de gember en de zwarte peper/ chilivlokken toe. Meng goed. Bedek de kom met huishoudfolie en laat minimaal 1 uur marineren."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit een scheut zonnebloemolie in een ruime pan op een middelhoog vuur. Bak de kip in ca. 5 minuten aan beide kanten goudbruin. Gooi het overschot van de marinade in de kom niet weg, maar zet even aan de kant. Schep de kip op een bord en zet even aan de kant."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE SAUS Giet een scheut zonnebloemolie in dezelfde pan waarin je de kip hebt gebakken. Voeg de uien en de knoflook toe. Laat het geheel 5 à 6 minuten bakken op een middelhoog vuur tot de ui glazig wordt."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de kip in de pan. Voeg het overschot marinade en de laurierbladen toe. Laat het geheel ca. 25 minuten koken totdat de kip gaar is. Schep de kip op een bord. Laat de saus inkoken gedurende 10 à 12 minuten op een laag tot middelhoog vuur, zodat hij indikt. Voeg de kip weer toe aan de pan en laat 5 minuten mee opwarmen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Kook de rijst volgens de instructies op de verpakking. Snijd de lente-ui fijn en strooi over de kip. Serveer de kip Adobo met de rijst."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Gepofte aardappel met kip-chiliroomsaus",
+    "author": {
+      "@type": "Person",
+      "name": "Soumia Aattaoui"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/gepofte-aardappel-met-kip-chiliroomsaus.jpg"
+    ],
+    "totalTime": "PT1H10M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "4 grote aardappelen",
+      "60 g roomboter (kamertemperatuur)",
+      "4 tl geraspte mozzarella",
+      "1 el zonnebloemolie",
+      "snufje zout",
+      "500 g kipfilet",
+      "400 ml frituur-/zonnebloemolie",
+      "200 ml kookroom",
+      "60 ml water",
+      "50 g geraspte Parmezaanse kaas",
+      "2 eiwitten",
+      "1 ui",
+      "1 wortel",
+      "1 groene paprika",
+      "1 handvol rucola",
+      "3 teentjes knoflook",
+      "2 el maizena",
+      "2 el zoete chilisaus",
+      "1 el sojasaus",
+      "1 el oestersaus",
+      "1 tl chilivlokken",
+      "½ tl zwarte peper",
+      "1 tl zout",
+      "1 tl paprikapoeder"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE GEPOFTE AARDAPPEL Verwarm de oven voor op 175 °C. Was de aardappelen, droog ze af en smeer ze in met wat zonnebloemolie. Schil ze niet! Bekleed een bakplaat met bakpapier. Plaats de aardappelen erop en zet 1 uur in de voorverwarmde oven."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de aardappelen uit de oven en controleer of ze gaar zijn door er even in te prikken. Snijd in de lengte open tot in het midden, zodat je ze nog kan vullen. Duw de zijkanten naar binnen toe. Voeg een snufje zout, de boter en de geraspte mozzarella toe aan elke aardappel. Meng voorzichtig met een vork."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE KIP-CHILIROOMSAUS Snijd de kipfilet en de wortel in blokjes. Snijd de groene paprika in grove stukken. Snipper de ui en hak de look grof. Doe de kipfilet, het zout, de eiwitten en de maizena in een kom en meng onder elkaar."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de frituur-/zonnebloemolie in een ruime, diepe pan en frituur hierin de kippenblokjes gaar. Verhit een scheut zonnebloemolie in een andere pan op een middelhoog vuur. Voeg de knoflook en de ui toe. Bak ca. 2 minuten tot de ui glazig is. Voeg de paprika en de wortel toe en bak in 3 minuten beetgaar."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Giet de zoete chilisaus, de sojasaus, de oestersaus en het water erbij en kook gedurende 3 minuten. Voeg de kookroom, de kippenblokjes, het paprikapoeder en de chilivlokken/zwarte peper toe en meng. Laat de saus 3 à 4 minuten opwarmen op een middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Schep de saus in en over de gepofte aardappelen. Werk af met rucola en geraspte Parmezaanse kaas."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Kip caesar quesadilla",
+    "author": {
+      "@type": "Person",
+      "name": "Soumia Aattaoui"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "3 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/kip-caesar-quesadilla.jpg"
+    ],
+    "totalTime": "PT45M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "6 kleine tortillawraps",
+      "200 g geraspte mozzarella",
+      "100 g ijsberg-/kropsla",
+      "50 g geraspte Parmezaanse kaas",
+      "1 sneetje brood",
+      "450 g kipfilet",
+      "2 teentjes knoflook",
+      "2 el dijonmosterd",
+      "1 el zonnebloemolie",
+      "1 el gedroogde rozemarijn",
+      "sap van ½ citroen",
+      "zout",
+      "peper",
+      "50 g geraspte Parmezaanse kaas",
+      "2 ansjovisfilets",
+      "4 el mayonaise",
+      "2 el olijfolie",
+      "sap van ½ citroen",
+      "1 tl dijonmosterd",
+      "1 tl sojasaus",
+      "1 tl tomatenketchup",
+      "1 el natuurazijn"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE KIP Snijd de kip in fijne blokjes. Hak de knoflook fijn. Doe de kippenblokjes in een ruime kom. Voeg alle ingrediënten voor de kip toe en meng goed. Verhit een scheut olijfolie in een ruime pan met zonnebloemolie op een middelhoog vuur. Bak de kip gaar. Schep op een bord en zet even aan de kant."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE CAESARDRESSING Hak de ansjovis fijn. Doe alle ingrediënten van de dressing in een kom en meng goed."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Toast het sneetje brood en snijd in blokjes. Leg een tortillawrap op je werkblad en verdeel hierover 2 à 3 eetlepels geraspte mozzarella. Voeg een blaadje ijsberg-/kropsla toe en schik daarop enkele kippenblokjes. Schep 1 eetlepel saus over de kip. Voeg de broodblokjes toe en werk af met 1 eetlepel geraspte mozzarella. Dek af met een tortillawrap en duw zacht aan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit een scheutje zonnebloemolie in een ruime pan op een laag vuur. Bak de quesadilla in 2 à 3 minuten aan beide zijden goudbruin. Gebruik je grotere tortillawraps? Draai ze dan het best om met een bord en kiep ze zo weer in de pan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Herhaal voor de overige quesadilla’s. Snijd de quesadilla’s in tweeën en serveer met de saus. Werk af met de geraspte Parmezaanse kaas en geniet!"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Varkenshaasje met parmaham, appel en salie",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "3-4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/varkenshaasje-met-parmaham%2C-appel-en-salie.jpg"
+    ],
+    "totalTime": "PT40M",
+    "recipeCategory": [
+      "Hoofdgerecht",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "2 varkenshaasjes (à ca. 250 g)",
+      "zout en peper",
+      "2 tl fijne mosterd",
+      "4 plakken parmaham",
+      "1 el olie",
+      "2 el boter",
+      "2 stevige appels",
+      "1 ui",
+      "4 takjes salie",
+      "100 ml vleesfond (pot)",
+      "evt. prikkertjes",
+      "evt. kernthermometer"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor (elektrisch: 180°C / hetelucht: 160°C). Bestrooi de varkenshaasjes rondom met zout en peper, wrijf ze in met de mosterd en omwikkel strak met de parmaham. Steek evt. met een prikkertje de ham vast. Verhit een ovenbestendige braadpan op middelhoog vuur. Doe de olie en de boter in de pan en laat de boter bruisen. Braad de varkenshaasjes rondom in ca. 8 minuten goudbruin."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Snijd intussen de appels en de ui in parten en pluk de salieblaadjes van de takjes. Neem het vlees voorzichtig uit de pan. Voeg de salie, de ui en de appel toe aan de pan en bak 2 minuten, schud af en toe goed om. Blus af met de vleesfond en breng aan de kook. Leg het vlees weer in de pan en zet het geheel ca. 12 minuten in de oven tot het vlees veerkrachtig aanvoelt. Controleer evt. met een kernthermometer de temperatuur, deze moet ca. 60°C zijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Neem uit de oven en laat het vlees ca. 5 minuten rusten voor je het in plakken snijdt. Schep er de saus met de appels en ui uit de pan overheen. Lekker met aardappelpuree."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "304 kcal",
+      "proteinContent": "33 g",
+      "fatContent": "14 g",
+      "carbohydrateContent": "11 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chocolade-perentaart",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "ca. 12 stukken",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/chocolade-perentaart.jpg"
+    ],
+    "totalTime": "PT2H30M",
+    "recipeCategory": [
+      "Zoet & desserts",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "4 eieren",
+      "200 g + 1 el bloem (+ bestuiven)",
+      "35 g cacaopoeder",
+      "zout",
+      "75 g + 1 el poedersuiker",
+      "210 g boter (waarvan 60 g op kamertemperatuur, + invetten)",
+      "100 g pure chocolade",
+      "75 g melkchocolade",
+      "100 ml slagroom",
+      "2 el suiker",
+      "1 tl bakpoeder",
+      "4 peren",
+      "80 g walnoten"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "VOOR HET DEEG Splits 2 eieren. Meng 200 g bloem met het cacaopoeder, 1 snufje zout en 75 g poedersuiker in een kom. Voeg 2 eidooiers en 150 g koude boter in stukken toe en kneed glad. Rol het deeg op een met bloem bestoven werkblad rond (ca. 32 cm Ø) uit. Vet een vlaaivorm met uitneembare bodem (ca. 28 cm Ø) in. Bekleed de vorm met het deeg, snijd het overtollige deeg langs de randen af en zet de vorm ca. 30 minuten in de koelkast."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE CHOCOLADEVULLING Hak alle chocolade grof en smelt hem met de slagroom au bain-marie. Laat al roerend kort afkoelen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor (elektrisch: 180°C / hetelucht: 160°C). Klop 60 g zachte boter met 2 el suiker romig. Klop na elkaar 2 eieren en 2 eiwitten erdoorheen. Meng 1 el bloem met het bakpoeder en klop het er kort doorheen. Klop de gesmolten chocolade erdoorheen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Schil de peren en halveer ze in de lengte. Verwijder het klokhuis. Snijd 7 helften in de lengte in dunne plakjes maar laat ze bij de steel aan elkaar vastzitten, zodat er ‘waaiertjes’ ontstaan. Snijd de overige peer in kleine blokjes."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Hak de walnoten grof. Roer de gesneden peer door het chocolademengsel en verdeel dit over de taartbodem. Verdeel de perenhelften erop en druk een beetje aan. Bestrooi met de walnoten. Bak 30-35 minuten in de oven. Neem uit de oven en laat afkoelen. Neem de taart uit de vorm en bestuif met 1 el poedersuiker."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "440 kcal",
+      "proteinContent": "7 g",
+      "fatContent": "29 g",
+      "carbohydrateContent": "35 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chocolade-cupcakes met cappuccinotopping",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "12 stuks",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/chocolade-cupcakes-met-cappuccinotopping.jpg"
+    ],
+    "totalTime": "PT1H30M",
+    "recipeCategory": [
+      "Zoet & desserts",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "150 g pure chocolade",
+      "275 g zachte boter",
+      "3 eieren",
+      "100 g rietsuiker",
+      "8 g vanillesuiker",
+      "50 g cappuccinopoeder",
+      "175 g bloem",
+      "1 tl bakpoeder",
+      "50 g poedersuiker",
+      "1 el melk",
+      "100 g roomkaas",
+      "1 el koffiebonen",
+      "cacaopoeder (om te bestuiven)",
+      "12-24 papieren cupcakevormpjes",
+      "muffinbakblik voor 12 stuks"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Smelt de chocolade met 150 g boter. Klop de eieren met de rietsuiker en de vanillesuiker romig. Klop 30 g cappuccinopoeder erdoorheen. Klop het lauwwarme chocolademengsel er beetje bij beetje doorheen. Meng de bloem met het bakpoeder en klop het er kort doorheen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor (elektrisch: 180°C / hetelucht: 160°C). Leg de cupcakevormpjes in het muffinbakblik. Verheel het beslag erin. Bak ca. 20 minuten in de oven. Neem de muffins uit de oven en laat afkoelen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE TOPPING Klop 125 g zachte boter met de poedersuiker romig. Klop de melk en 20 g cappuccinopoeder erdoorheen. Roer de roomkaas glad en spatel hem tot slot door het botermengsel. Schep de crème op de afgekoelde muffins. Hak de koffiebonen en bestrooi de muffins ermee. Bestuif met cacaopoeder."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "420 kcal",
+      "proteinContent": "5 g",
+      "fatContent": "28 g",
+      "carbohydrateContent": "3 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chocolade-cakerol met roomvulling",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "ca. 12 plakken",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/chocolade-cakerol-met-roomvulling.jpg"
+    ],
+    "totalTime": "PT1H30M",
+    "recipeCategory": [
+      "Zoet & desserts",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "50 g amandelmeel",
+      "275 g pure chocolade",
+      "4 el brandy of cognac",
+      "kaneelpoeder",
+      "6 eieren",
+      "200 g + 1 el suiker",
+      "375 g mascarpone",
+      "8 g vanillesuiker"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "VOOR HET BISCUIT Verwarm de oven voor (elektrisch: 230°C / hetelucht: 210°C). Rooster het amandelmeel in een droge pan goudbruin en neem het uit de pan. Hak 175 g chocolade grof en smelt hem au bain-marie. Roer 2 el brandewijn en 1 snufje kaneelpoeder erdoorheen. Splits de eieren. Klop de eiwitten stijf. Klop de eidooiers met 100 g suiker romig. Klop de gesmolten chocolade erdoorheen. Klop het amandelmeel erdoorheen. Spatel het eiwitschuim er in porties doorheen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Spreid het beslag gelijkmatig uit over een met bakpapier beklede bakplaat en bak ca. 8 minuten in de oven. Bestrooi een schone theedoek met 1 el suiker. Stort het biscuit erop. Trek het bakpapier er voorzichtig af. Dek het biscuit af met een licht vochtige theedoek en laat afkoelen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE KARAMELSAUS Smelt 100 g suiker en karamelliseer. Roer 2 el brandewijn en 2 tl mascarpone erdoorheen. Laat de saus afkoelen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "VOOR DE VULLING Klop de overige mascarpone romig. Klop de vanillesuiker erdoorheen. Houd 4 el room apart en bestrijk het afgekoelde biscuit met de overige room. Rol het biscuit langs de lange zijde met behulp van de theedoek op. Leg de rol met de naad naar beneden op een schaal. Hak 100 g chocolade grof en smelt hem au bain-marie. Laat de chocolade een beetje afkoelen en schenk hem over de cakerol. Versier met de overige room en de karamelsaus. Bestuif met kaneelpoeder."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "400 kcal",
+      "proteinContent": "7 g",
+      "fatContent": "26 g",
+      "carbohydrateContent": "31 g"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Tiramisu-taart",
+    "author": {
+      "@type": "Person",
+      "name": "Koken & genieten"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Koken & genieten 11-2022"
+    },
+    "datePublished": "2022-11",
+    "recipeYield": "ca. 16 stukken",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2211/tiramisu-taart.jpg"
+    ],
+    "totalTime": "PT5H",
+    "recipeCategory": [
+      "Zoet & desserts",
+      "Koken & genieten 11-2022"
+    ],
+    "recipeIngredient": [
+      "100 g witte chocolade",
+      "200 g pure chocolade",
+      "4 eieren",
+      "275 g suiker",
+      "16 g vanillesuiker",
+      "zout",
+      "150 g bloem (+ bestuiven)",
+      "25 g cacaopoeder",
+      "8 g bakpoeder",
+      "2 blaadjes gelatine",
+      "500 g mascarpone",
+      "75 ml melk",
+      "1 el espressopoeder",
+      "450 ml slagroom",
+      "100 g amarettini",
+      "cacaopoeder",
+      "boter of olie (om in te vetten)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Hak de witte chocolade en 100 g pure chocolade apart van elkaar grof en smelt ze in 2 aparte kommen au bain-marie. Strijk de pure chocolade dun uit over de onderkant van een bakplaat en laat afkoelen. Verdeel de witte chocolade eroverheen en strijk glad. Zet kort in de koelkast tot de chocolade een beetje harder wordt. Schraap met een (palet)mes rolletjes van de chocolade."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor (elektrisch: 180°C / hetelucht: 160°C). Hak 100 g pure chocolade grof en smelt hem au bain-marie. Laat ca. 5 minuten afkoelen. Splits de eieren. Klop de eiwitten met 5 el water stijf en klop 125 g suiker, 8 g vanillesuiker en 1 snufje zout erdoorheen. Klop de eidooiers er één voor één doorheen. Klop de gesmolten chocolade er beetje bij beetje doorheen. Meng de bloem met het cacaopoeder en het bakpoeder en spatel het mengsel er voorzichtig doorheen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Schep het beslag in een ingevette en met bloem bestoven springvorm (26 cm Ø) en strijk glad. Bak ca. 20 minuten in de oven. Laat afkoelen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Week de gelatine in koud water. Klop de mascarpone met 150 g suiker. Breng de melk aan de kook en los het espressopoeder erin op. Laat een beetje afkoelen. Knijp de gelatine uit en los hem in 3 el espressomelk op. Klop 250 ml slagroom stijf. Roer 2 el mascarpone door de gelatinemelk. Klop het gelatinemengsel door de overige mascarpone. Spatel de slagroom erdoorheen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet 1 el espressomelk apart. Druppel de overige espressomelk over de amarettini. Verwijder de springvormring en snijd het biscuit horizontaal door. Sluit om de onderste laag de springvorming. Verdeel de helft van de room eroverheen. Verdeel de amarettini eroverheen. Verdeel de overige room eroverheen. Leg de bovenste biscuitlaag erbovenop. Zet ca. 2 uur in de koelkast."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Klop 200 ml slagroom met 8 g vanillesuiker en 1 el espressomelk stijf. Bestrijk de taart er rondom mee. Zet ca. 15 minuten in de koelkast. Bestuif met cacaopoeder en versier met de chocoladerolletjes."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "480 kcal",
+      "proteinContent": "7 g",
+      "fatContent": "31 g",
+      "carbohydrateContent": "43 g"
+    }
+  }
+]
