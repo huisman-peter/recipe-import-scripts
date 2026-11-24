@@ -21,7 +21,7 @@ met dezelfde aanpak als de nummers 2510, 2511 en 2512 in dit project.
 | `layout.py` | bouwt de leesorde van een pagina op uit woord-boxen |
 | `add_images.py` | haalt de receptfoto's van de inhoudspagina's, schrijft `images-<editie>/` + links in de Markdown |
 | `extract.py` | Markdown → JSON-LD (bevat de nummergegevens van 2510; laadt `issue_<editie>.py` voor andere nummers) |
-| `issue_2212.py`, `issue_2312.py`, `issue_2410.py`, `issue_2506.py`, `issue_2507.py`, `issue_2508.py`, `issue_2511.py`, `issue_2512.py` | alle nummergegevens van die edities |
+| `issue_2205.py`, `issue_2212.py`, `issue_2312.py`, `issue_2410.py`, `issue_2506.py`, `issue_2507.py`, `issue_2508.py`, `issue_2511.py`, `issue_2512.py` | alle nummergegevens van die edities |
 | `validate_recipes.py` | veldniveau-controle per recept (`python validate_recipes.py [--issue=2512] bestand.json`) |
 | `acceptance_test.py` | eindtest over de hele keten (`python acceptance_test.py [--issue=2512] bestand.json`) |
 
@@ -194,6 +194,12 @@ ingrediënten/stappen letterlijk uit de Markdown komen.
   bij de yield en niet bij de ingrediënten.
 * Een voedingsregel die het blad omdraait (eerst macro's, dan de calorieën) wordt toch aan
   elkaar gekoppeld.
+* Een opgetelde tijd met te veel minuten wordt normaal weergegeven ("2 uur" uit "1 uur en
+  15 min." + "45 min." wordt `PT2H`, niet `PT1H60M`).
+* Een recept dat met "**Hoeveelheid:** 4 personen" begint (i.p.v. "Ingrediënten voor:")
+  levert ook een yield en houdt zijn ingrediënten.
+* Een `# `-regel midden in een titel ("## Romige stoof met" / "# voorjaarsgroenten") breekt
+  het recept niet meer af; alleen ná de eerste inhoud begint er een nieuw blok.
 * Vindt de extractor geen kop voor een tabelregel, dan blijft de kopzoeker op zijn plaats:
   de volgende recepten vinden zo hun eigen kop (anders schoof hun hele blok op).
 * Een advertentie die het blad midden in een recept drukt (KG2212: de MonChou-pagina) houdt

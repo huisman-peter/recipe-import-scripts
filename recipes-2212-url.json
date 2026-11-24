@@ -799,7 +799,7 @@
     "image": [
       "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-2212/italiaanse-hartige-oliebollen.jpg"
     ],
-    "totalTime": "PT75M",
+    "totalTime": "PT1H15M",
     "recipeCategory": [
       "Bijgerecht",
       "Koken & genieten 12-2022"
@@ -2487,6 +2487,7 @@
       "name": "Koken & genieten 12-2022"
     },
     "datePublished": "2022-12",
+    "recipeYield": "ca. 18 stuks",
     "totalTime": "PT1H40M",
     "recipeCategory": [
       "Bijgerecht",
@@ -2517,7 +2518,13 @@
         "text": "Vul de spuitzak met de MonChouvulling en maak mooie toefjes op de sterren. Garneer met de zalmsnippers en de stukjes ham."
       }
     ],
-    "recipeYield": "ca. 18 stuks"
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "100 kcal",
+      "proteinContent": "3 g",
+      "fatContent": "7 g",
+      "carbohydrateContent": "6 g"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -4008,7 +4015,7 @@
     },
     "datePublished": "2022-12",
     "recipeYield": "ca. 48 stuks",
-    "totalTime": "PT75M",
+    "totalTime": "PT1H15M",
     "recipeCategory": [
       "Zoet & desserts",
       "Koken & genieten 12-2022"
@@ -4063,7 +4070,7 @@
     },
     "datePublished": "2022-12",
     "recipeYield": "ca. 100 stuks",
-    "totalTime": "PT1H75M",
+    "totalTime": "PT2H15M",
     "recipeCategory": [
       "Zoet & desserts",
       "Koken & genieten 12-2022"

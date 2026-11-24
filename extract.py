@@ -200,7 +200,7 @@ def step_start(text):
 
 NUTRITION = re.compile(r"^(\d+)\s*g\s*eiwit\s*\|\s*(\d+)\s*g\s*vet\s*\|\s*(\d+)\s*g\s*koolhydraten")
 CALORIES = re.compile(r"(?:ca\.\s*)?(\d+)\s*kcal")
-YIELD = re.compile(r"^Ingrediënten\s*(?:voor)?\s*:?\s*(?:voor\s*)?(.+)$")
+YIELD = re.compile(r"^(?:Ingrediënten\s*(?:voor)?|Hoeveelheid)\s*:?\s*(?:voor\s*)?(.+)$")
 TIME_RE = re.compile(r"(\d+)\s*uur|(\d+)\s*min")
 
 
@@ -220,6 +220,8 @@ def iso_time(text):
             minutes += int(found.group(2))
         found = TIME_RE.search(text, found.end())
     parts = "PT"
+    hours += minutes // 60          # "1 uur en 15 min." + "45 min." -> PT2H
+    minutes %= 60
     if hours:
         parts += f"{hours}H"
     if minutes:
@@ -453,9 +455,11 @@ def parse_block(lines):
         if not line or line in NOISE or line.startswith(("##", "![")):
             continue
         if line.startswith("# "):
-            break                       # a new section starts
+            if content:
+                break                   # a new section starts
+            continue                    # the second line of a wrapped title
         plain = line.replace("**", "")
-        if plain.startswith("Ingrediënten"):
+        if plain.startswith(("Ingrediënten", "Hoeveelheid")):
             match = YIELD.match(plain)
             if match:
                 yield_ = match.group(1).strip()
