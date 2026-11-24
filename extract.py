@@ -77,7 +77,8 @@ def load_issue(name):
     module = importlib.import_module(f"issue_{name}")
     for field in ("ISSUE", "PUBLISHER", "ISSUE_DATE", "MD", "OUT", "PDF",
                   "IMAGE_FOLDER", "IMAGE_MODE", "BASE_URL", "RECIPE_TABLE",
-                  "OVERRIDES", "ISSUE_AS_LABEL", "HEADING_AS", "CAPTION_SPLIT"):
+                  "OVERRIDES", "ISSUE_AS_LABEL", "HEADING_AS", "CAPTION_SPLIT",
+                  "NO_TIME_OK"):
         if hasattr(module, field):
             value = getattr(module, field)
             if field in ("MD", "OUT", "PDF") and isinstance(value, str):
@@ -97,6 +98,8 @@ def image_value(name):
         encoded = base64.b64encode(target.read_bytes()).decode("ascii")
         return f"data:image/jpeg;base64,{encoded}"
     if IMAGE_MODE == "url" and BASE_URL:
+        if not target.exists():
+            return None                   # no photo for this recipe
         # a file name with an accent ("bonencrème.jpg") has to be percent
         # encoded to be a valid URL; RecipeSage and browsers both decode it
         folder = urllib.parse.quote(IMAGE_FOLDER)
@@ -357,9 +360,12 @@ def build():
                 found = (position, index)
                 break
         if found is None:
-            found = (cursor, row[0] - 1)          # fall back to the table
-        cursor, index = found[0] + 1, found[1]
-        starts.append(index)
+            # no heading matched: take the table's line, but leave the heading
+            # cursor alone so the next recipe can still find its own heading
+            starts.append(row[0] - 1)
+            continue
+        cursor = found[0] + 1
+        starts.append(found[1])
 
     recipes, report = [], []
 
@@ -429,6 +435,12 @@ def is_continuation(previous, line):
                               " voor", " tot", "/"))
 
 
+# a portion count that wrapped to its own line ("Ingrediënten voor: 2 fonduepannen"
+# | "(8-10 personen)" …) belongs to the yield, not to the ingredients
+PORTION_ONLY = re.compile(r"^\((?:ca\.\s*)?[\d,–\- ]*(?:personen|stuks|stukken|glazen|"
+                          r"porties|kommetjes|potten|broodjes|lange vingers)\)$")
+
+
 def parse_block(lines):
     """Split a recipe's Markdown lines into yield, time, ingredients, steps."""
     yield_, time_text, kcal, macros = None, None, None, None
@@ -455,7 +467,7 @@ def parse_block(lines):
                               for number, ln in enumerate(lines[index + 1:], index + 1)
                               if ln.strip()), (None, ""))
             if following[1] and (re.fullmatch(r"[a-zà-ÿ]+", following[1])
-                                 or ("wachttijd" in following[1]
+                                 or ("wachttijd" in following[1].lower()
                                      and len(following[1]) < 40)):
                 time_text += " " + following[1]
                 consumed.add(following[0])   # it belonged to the time, not to the ingredients
@@ -469,6 +481,13 @@ def parse_block(lines):
         match = NUTRITION.match(plain)
         if match:
             macros = tuple(int(g) for g in match.groups())
+            if kcal is None:
+                # a few recipes print the macros before the calories
+                following = next((text for text in lines[index + 1:index + 6]
+                                  if CALORIES.search(text)), "")
+                extra_calories = CALORIES.search(following)
+                if extra_calories:
+                    kcal = int(extra_calories.group(1))
             break                       # nutrition is the last line of a recipe
         if plain.startswith(("VOOR DE", "VOOR HET")):
             # a label can share its line with the step text ("VOOR DE VULLING
@@ -518,6 +537,10 @@ def parse_block(lines):
 
     for kind, text in content[:start]:
         if kind == "<label>":
+            continue
+        # a portion count under the yield label is the yield's second line
+        if (not ingredients and yield_ and PORTION_ONLY.match(text)):
+            yield_ += " " + text
             continue
         # an ingredient whose name wrapped onto the next line leaves its amount
         # alone ("15 g" | "basilicum (+ extra, om te" | "garneren)"); put the

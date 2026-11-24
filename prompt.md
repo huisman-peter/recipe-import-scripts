@@ -21,7 +21,7 @@ met dezelfde aanpak als de nummers 2510, 2511 en 2512 in dit project.
 | `layout.py` | bouwt de leesorde van een pagina op uit woord-boxen |
 | `add_images.py` | haalt de receptfoto's van de inhoudspagina's, schrijft `images-<editie>/` + links in de Markdown |
 | `extract.py` | Markdown → JSON-LD (bevat de nummergegevens van 2510; laadt `issue_<editie>.py` voor andere nummers) |
-| `issue_2312.py`, `issue_2410.py`, `issue_2506.py`, `issue_2507.py`, `issue_2508.py`, `issue_2511.py`, `issue_2512.py` | alle nummergegevens van die edities |
+| `issue_2212.py`, `issue_2312.py`, `issue_2410.py`, `issue_2506.py`, `issue_2507.py`, `issue_2508.py`, `issue_2511.py`, `issue_2512.py` | alle nummergegevens van die edities |
 | `validate_recipes.py` | veldniveau-controle per recept (`python validate_recipes.py [--issue=2512] bestand.json`) |
 | `acceptance_test.py` | eindtest over de hele keten (`python acceptance_test.py [--issue=2512] bestand.json`) |
 
@@ -104,11 +104,14 @@ Bepaal daarna per recept:
 ### Stap 3 — `issue_<editie>.py` maken
 Kopieer `issue_2512.py` als sjabloon en vul in: `ISSUE`, `PUBLISHER`, `ISSUE_DATE`, `PDF`,
 `MD`, `OUT`, `IMAGE_FOLDER`, `EXTRA_NOISE`, `RECIPE_TABLE` (en zo nodig `HEADING_AS`,
-`CAPTION_SPLIT`, `OVERRIDES`). De tabelregel is:
+`CAPTION_SPLIT`, `OVERRIDES`, `NO_TIME_OK`). De tabelregel is:
 
 ```python
 (regelnummer, "Naam", AUTEUR, "Categorie", None)   # laatste veld = totalTime-override
 ```
+
+`NO_TIME_OK = {"Naam"}` is voor de zeldzame recepten waarvoor het blad zélf geen tijd
+drukt (KG2212: de fondueplank); de acceptatietest staat die namen dan toe.
 
 ### Stap 4 — droogloop en anomalieën oplossen
 ```bash
@@ -125,6 +128,9 @@ Loop de uitvoer na en repareer wat opvalt:
 | een sectiekop of advertentietekst wordt ingrediënt | kolomlabel nog niet bekend | zet het label in `EXTRA_NOISE` |
 | `totalTime` te hoog/laag | wachttijd wel/niet meegeteld | `totalTime`-override in de tabel (bv. `"PT4H20M"`) |
 | voedingsregel niet te lezen | typefout in het blad ("41 g koolhdyraten") of de regel staat in het blok van het volgende recept | `OVERRIDES` met `"nutrition"`: een dict met de waarden, of `None` om de voedingswaarden weg te laten |
+| een ingredient dat een maat of aantal is ("(8-10 personen)", "(ca. 5 mm Ø)") | het aantal liep door onder de yieldregel, of de maat hoorde bij weggelaten keukengerei | het aantal gaat automatisch naar de yield; een losse maat als "(ca. 5 mm Ø)" in `EXTRA_NOISE` |
+| advertentietekst midden in de stappen | het blad drukt een advertentie binnen het recept | de regels van die advertentie in `EXTRA_NOISE` |
+| een recept begint op de sectiepagina (lege ingrediënten, stappen van de buur) | de sectiepagina herhaalt de recepttitel, dus de kopzoeker landt daar | `OVERRIDES` met `yield`, `ingredients` en `instructions` |
 
 ### Stap 5 — foto's van de inhoudspagina's
 ```bash
@@ -182,7 +188,17 @@ ingrediënten/stappen letterlijk uit de Markdown komen.
   gesneden als waarin de onderschriften staan; een onderschrift dat door de letter van
   het blad een teken kwijtraakte ("wentelteef es") wordt nog herkend. `CAPTION_SPLIT`
   is daardoor alleen nog nodig als de opmaak echt afwijkt.
-* Tijdregels inclusief een wachttijd die op de volgende regel staat.
+* Tijdregels inclusief een wachttijd die op de volgende regel staat (ook als het blad die
+  regel als losse "Wachttijd: …"-regel drukt; die telt mee in `totalTime`).
+* Een aantal dat onder de yieldregel doorloopt ("2 fonduepannen" | "(8-10 personen)") hoort
+  bij de yield en niet bij de ingrediënten.
+* Een voedingsregel die het blad omdraait (eerst macro's, dan de calorieën) wordt toch aan
+  elkaar gekoppeld.
+* Vindt de extractor geen kop voor een tabelregel, dan blijft de kopzoeker op zijn plaats:
+  de volgende recepten vinden zo hun eigen kop (anders schoof hun hele blok op).
+* Een advertentie die het blad midden in een recept drukt (KG2212: de MonChou-pagina) houdt
+  via `EXTRA_NOISE` op in de stappen te belanden; de acceptatietest laat koppen en die
+  regels ook uit zijn referentietekst weg.
 * Als pdftotext de spaties in een regel kwijtraakt (één "woord" van 25+ tekens), wordt de
   PyMuPDF-tekst gebruikt.
 * Een blanco laatste pagina breekt de conversie niet meer af.

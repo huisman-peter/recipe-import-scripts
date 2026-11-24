@@ -175,8 +175,10 @@ no_photo = [r["name"] for r in recipes if not r.get("image")]
 if no_photo:
     print(f"       (no photo on the contents pages for {len(no_photo)} recipes)")
 no_time = [r["name"] for r in recipes if "totalTime" not in r]
+# an issue names the recipes the magazine itself prints without a time
+allowed = set(getattr(E, "NO_TIME_OK", {"Ingelegde jalapeño’s"}))
 check("totalTime present unless the magazine gives no time",
-      no_time == ["Ingelegde jalapeño’s"] or not no_time, no_time)
+      set(no_time) <= allowed, no_time)
 check(f"publisher carries the issue ({E.PUBLISHER})",
       all(r["publisher"]["name"] == E.PUBLISHER for r in recipes))
 check(f"datePublished carries the issue ({E.ISSUE_DATE})",
@@ -214,10 +216,10 @@ what = {"data": "decodable JPEG data URI",
         "path": "readable JPEG file"}[MODE]
 check(f"every photo is a {what}", not broken, broken[:2])
 
-# column labels that the extractor drops ("Uit Paulines Keuken", "Seizoen", …)
-# interrupt a step in the Markdown, so they are removed here as well
+# column labels that the extractor drops ("Uit Paulines Keuken", "Seizoen", …) and
+# the "## " headings interrupt a step in the Markdown, so they are removed here too
 source_lines = [line for line in md.split("\n")
-                if not line.startswith("![")
+                if not line.startswith(("![", "#"))
                 and line.strip() not in E.NOISE]
 source = E.key(" ".join(source_lines))
 overridden = set(E.OVERRIDES)
