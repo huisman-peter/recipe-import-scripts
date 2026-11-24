@@ -21,7 +21,7 @@ met dezelfde aanpak als de nummers 2510, 2511 en 2512 in dit project.
 | `layout.py` | bouwt de leesorde van een pagina op uit woord-boxen |
 | `add_images.py` | haalt de receptfoto's van de inhoudspagina's, schrijft `images-<editie>/` + links in de Markdown |
 | `extract.py` | Markdown → JSON-LD (bevat de nummergegevens van 2510; laadt `issue_<editie>.py` voor andere nummers) |
-| `issue_2508.py`, `issue_2511.py`, `issue_2512.py` | alle nummergegevens van die edities |
+| `issue_2506.py`, `issue_2507.py`, `issue_2508.py`, `issue_2511.py`, `issue_2512.py` | alle nummergegevens van die edities |
 | `validate_recipes.py` | veldniveau-controle per recept (`python validate_recipes.py [--issue=2512] bestand.json`) |
 | `acceptance_test.py` | eindtest over de hele keten (`python acceptance_test.py [--issue=2512] bestand.json`) |
 

@@ -244,6 +244,8 @@ def main():
         # for "wentelteefjes"), so drop one or two words from its end
         words = caption.split()
         for cut in range(len(words) - 1, max(len(words) - 3, 0), -1):
+            if cut < 2:
+                continue              # a single word is too guessy to match on
             partial = key(" ".join(words[:cut]))
             if not partial:
                 continue
@@ -273,11 +275,13 @@ def main():
 
     for pno, caption, region in thumbnails(doc):
         name = lookup(caption)
-        targets = [name] if name else list(split_map.get(caption, []))
+        # an explicit split for this issue wins over the caption heuristics
+        targets = (list(split_map.get(caption, []))
+                   or ([name] if name else []))
         if not targets and region.width > 150:
-            # a photo that spans several columns holds the photos of several
-            # recipes, so cut it along the columns the captions are written in;
-            # a collage can even hide the captions inside its own area
+            # such a photo holds the photos of several recipes, so cut it along
+            # the columns the captions are written in; a collage can even hide
+            # the captions inside its own area
             pieces = []
             for text, x0, x1 in caption_columns(doc[pno].get_text("words"),
                                                 region, caption_bands(pno)):
@@ -286,17 +290,27 @@ def main():
                     pieces.append((target,
                                    fitz.Rect(max(x0, region.x0), region.y0,
                                              min(x1, region.x1), region.y1)))
+                else:
+                    unmatched.append(text)
             if not pieces:
-                pieces = [(target, cell)
-                          for text, cell in caption_cells(
-                              doc[pno].get_text("words"), region,
-                              caption_bands(pno), photo_rows(pno))
-                          if (target := lookup(clean_caption(text), loose=True))]
+                for text, cell in caption_cells(doc[pno].get_text("words"),
+                                                region, caption_bands(pno),
+                                                photo_rows(pno)):
+                    target = lookup(clean_caption(text), loose=True)
+                    if target:
+                        pieces.append((target, cell))
+                    else:
+                        unmatched.append(text)
             for target, piece in pieces:
                 write(target, piece)
             if pieces:
                 continue
 
+        if not targets:
+            # a caption that lost a letter to the PDF's font only becomes
+            # recognisable once its tail is dropped
+            name = lookup(caption, loose=True)
+            targets = [name] if name else []
         if not targets:
             unmatched.append(caption)
             continue
