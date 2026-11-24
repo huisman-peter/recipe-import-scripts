@@ -24,6 +24,7 @@ import json
 import pathlib
 import re
 import sys
+import urllib.parse
 
 MD = pathlib.Path("KG2510.md")
 OUT = pathlib.Path("recipes.json")
@@ -96,7 +97,11 @@ def image_value(name):
         encoded = base64.b64encode(target.read_bytes()).decode("ascii")
         return f"data:image/jpeg;base64,{encoded}"
     if IMAGE_MODE == "url" and BASE_URL:
-        return f"{BASE_URL.rstrip('/')}/{IMAGE_FOLDER}/{image_filename(name)}"
+        # a file name with an accent ("bonencrème.jpg") has to be percent
+        # encoded to be a valid URL; RecipeSage and browsers both decode it
+        folder = urllib.parse.quote(IMAGE_FOLDER)
+        filename = urllib.parse.quote(image_filename(name))
+        return f"{BASE_URL.rstrip('/')}/{folder}/{filename}"
     return f"{IMAGE_FOLDER}/{image_filename(name)}"
 
 

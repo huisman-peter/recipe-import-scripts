@@ -225,4 +225,24 @@ een base64 data-URI komt er dus niet door. Voor een import met foto's:
 `--base-url` is de map **boven** `images/`; `recipeCategory` wordt in RecipeSage een label,
 `publisher` wordt genegeerd.
 
+Een publieke map die zonder extra diensten werkt is een GitHub-repository:
+
+```bash
+python extract.py --issue 2513 --write --images=url \
+       --base-url=https://raw.githubusercontent.com/<gebruiker>/recipe-import-scripts/main \
+       --out recipes-2513-url.json
+```
+
+* Gebruik de `raw.githubusercontent.com`-vorm (of `fastly.jsdelivr.net/gh/...`), **niet** de
+  `github.com/.../blob/...`-link van de adresbalk: die levert HTML en dan laat RecipeSage de
+  foto stil vallen. De repository moet publiek zijn.
+* Bestandsnamen met accenten of `&` worden percent-gecodeerd (`bonencr%C3%A8me.jpg`,
+  `instant-mascarponemousse-van-citroen-%26-witte-chocolade.jpg`); RecipeSage decodeert dat
+  weer. Zonder codering weigert een aantal HTTP-clients de URL.
+* RecipeSage haalt elke foto tijdens de import op en zet hem in zijn eigen opslag: de URL hoeft
+  daarna niet meer online te staan. Reken op een thumbnail van 200×200 (1024 px met de
+  betaalde `HighResImages`-capability) en op één foto per recept, tenzij het account
+  `MultipleImages` heeft. Mislukte foto's zijn geen fout: het recept wordt zonder foto
+  geïmporteerd.
+
 

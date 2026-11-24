@@ -5,6 +5,7 @@ import json
 import pathlib
 import re
 import sys
+import urllib.parse
 
 from PIL import Image
 
@@ -95,7 +96,7 @@ for r in recipes:
             elif MODE == "url":
                 if not value.startswith(("http://", "https://")):
                     issues.append(f"image is not a URL: {value!r}")
-                elif not value.endswith(E.image_filename(name)):
+                elif not urllib.parse.unquote(value).endswith(E.image_filename(name)):
                     issues.append(f"image URL points at another file: {value!r}")
             else:
                 if value != f"{E.IMAGE_FOLDER}/{E.image_filename(name)}":
