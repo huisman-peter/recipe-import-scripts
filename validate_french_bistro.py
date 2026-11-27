@@ -14,6 +14,7 @@ import json
 import pathlib
 import re
 import sys
+import urllib.parse
 
 from PIL import Image
 
@@ -40,6 +41,17 @@ CATEGORIES = set(E.SECTION_NL.values())
 
 print("recipes:", len(recipes), "| expected:", EXPECTED)
 print("size:", round(json_path.stat().st_size / 1024 / 1024, 2), "MB")
+
+# the image mode is read from the file, so the validator always checks what is
+# actually in it (a data URI, a public URL, or a path on disk)
+sample = next((r["image"][0] for r in recipes if r.get("image")), "")
+if sample.startswith("data:image/"):
+    MODE = "data"
+elif sample.startswith(("http://", "https://")):
+    MODE = "url"
+else:
+    MODE = "path"
+print("image mode:", MODE)
 
 problems = []
 for r in recipes:
@@ -74,7 +86,7 @@ for r in recipes:
         if categories[1] != E.BOOK:
             issues.append(f"book label missing: {categories[1]!r}")
 
-    # the photo: a base64 JPEG data URI that also exists as a file on disk
+    # the photo: a data URI / a public URL / a path, according to the file
     photo_file = pathlib.Path(E.IMAGE_FOLDER) / E.image_filename(name)
     image = r.get("image")
     if image:
@@ -82,18 +94,27 @@ for r in recipes:
             issues.append("image is not a one-item list")
         else:
             value = image[0]
-            if not value.startswith("data:image/jpeg;base64,"):
-                issues.append(f"image is not a jpeg data URI: {value[:40]!r}")
+            if MODE == "data":
+                if not value.startswith("data:image/jpeg;base64,"):
+                    issues.append(f"image is not a jpeg data URI: {value[:40]!r}")
+                else:
+                    try:
+                        raw = base64.b64decode(value.split(",", 1)[1], validate=True)
+                        with Image.open(io.BytesIO(raw)) as im:
+                            im.verify()
+                    except Exception as error:
+                        issues.append(f"image does not decode: {error}")
+            elif MODE == "url":
+                if not value.startswith(("http://", "https://")):
+                    issues.append(f"image is not a URL: {value!r}")
+                elif not urllib.parse.unquote(value).endswith(E.image_filename(name)):
+                    issues.append(f"image URL points at another file: {value!r}")
             else:
-                try:
-                    raw = base64.b64decode(value.split(",", 1)[1], validate=True)
-                    with Image.open(io.BytesIO(raw)) as im:
-                        im.verify()
-                except Exception as error:
-                    issues.append(f"image does not decode: {error}")
-            if not photo_file.exists():
-                issues.append(f"no file {photo_file} for the embedded photo")
-    elif photo_file.exists():
+                if value != f"{E.IMAGE_FOLDER}/{E.image_filename(name)}":
+                    issues.append(f"image path mismatch: {value!r}")
+        if MODE != "url" and not photo_file.exists():
+            issues.append(f"no file {photo_file} for the embedded photo")
+    elif MODE != "url" and photo_file.exists():
         issues.append(f"{photo_file} exists but the recipe has no image")
 
     for ingredient in r.get("recipeIngredient", []):

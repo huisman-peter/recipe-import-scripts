@@ -1,0 +1,3467 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Franse tapenade",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "8 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/franse-tapenade.jpg"
+    ],
+    "totalTime": "PT10M",
+    "recipeCategory": [
+      "Bistrohapjes",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "270 g olijven (nicoise of een andere donkere olijf)",
+      "70 g kappertjes",
+      "30 g ansjovisfilets",
+      "40 g sjalotten, gesnipperd",
+      "1 el verse tijm",
+      "1 tl verse oregano",
+      "1 el citroensap",
+      "1 tl citroenrasp",
+      "1 tl grofgemalen zwarte peper",
+      "60 ml extra vergine olijfolie (naar smaak)",
+      "crackers of geroosterde sneetjes stokbrood, om te serveren"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Spoel de olijven, kappertjes en ansjovisfilets grondig af om overtollig zout te verwijderen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Dep alles voorzichtig droog en doe het in een blender of keukenmachine."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de sjalotten, tijm, oregano, het citroensap, de citroenrasp en de grofgemalen zwarte peper toe."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Maal of hak het mengsel en voeg al draaiend langzaam de olijfolie toe, net tot een smeerbare pasta ontstaat. Gebruik meer of minder olijfolie naar smaak."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Schep het mengsel uit de blender of keukenmachine in een serveerkom."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serveer met crackers of geroosterde sneetjes stokbrood."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Millefeuille de Pelardons (bladerdeeg met geitenkaas, kastanjes en lavendelhoning)",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "8-10 personen",
+    "totalTime": "PT25M",
+    "recipeCategory": [
+      "Bistrohapjes",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "6 vellen filodeeg (uit de koeling)",
+      "8 kastanjes, geroosterd",
+      "150 g zachte geitenkaas",
+      "60 ml crème fraîche",
+      "2 el verse tijm, gehakt",
+      "1 tl zout",
+      "1 tl zwarte peper",
+      "85 g lavendelhoning"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 190°C en bekleed een bakplaat met bakpapier."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de vellen filodeeg op de bakplaat en bak ze in ca. 10 minuten goudbruin. De baktijd kan per merk verschillen; volg ook de aanwijzingen op de verpakking."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de kastanjes intussen in een keukenmachine en pulseer ze tot ze gehakt zijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de geitenkaas en de crème fraîche toe en maal het mengsel glad."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng het mengsel op smaak met de tijm, het zout en de zwarte peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verdeel het filodeeg in drie porties van twee vellen. Leg de eerste twee vellen op elkaar en verdeel de helft van het geitenkaasmengsel in kleine lepeltjes over het deeg. Druk het voorzichtig aan, net genoeg om het mengsel uit te spreiden zonder het deeg te breken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg er weer twee vellen filodeeg op en herhaal."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg ten slotte de laatste twee vellen filodeeg erop en druk ze voorzichtig aan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Snijd het gebak in vierkante stukken en druppel de lavendelhoning erover."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serveer direct."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Fleurs de Courgettes Frites (gefrituurde courgettebloemen)",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/fleurs-de-courgettes-frites-gefrituurde-courgettebloemen.jpg"
+    ],
+    "totalTime": "PT25M",
+    "recipeCategory": [
+      "Bistrohapjes",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "12 courgettebloemen",
+      "120 ml bruisend water",
+      "60 ml droge witte wijn",
+      "2 eieren, gesplitst",
+      "1 tl citroenrasp",
+      "190 g bloem",
+      "1 tl gedroogde dragon",
+      "1 tl zout",
+      "1 tl grofgemalen zwarte peper",
+      "plantaardige olie om in te frituren"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Doe de eidooiers in een kom en klop ze met een garde los."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg het bruisende water, de witte wijn en de citroenrasp toe en klop het geheel los."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Meng in een andere kom de bloem met de dragon, het zout en de zwarte peper. Voeg het bloemmengsel in delen toe aan het eimengsel. Roer het door elkaar en laat het 15-20 minuten staan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Klop intussen de eiwitten stijf en zet ze apart. Verhit de olie in een diepe pan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Spatel de eiwitten door het beslag."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doop de courgettebloemen in het beslag, laat het overtollige beslag eraf druppen en leg ze in de hete olie."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Frituur ze in 3-5 minuten goudbruin en keer ze zo nodig voor een gelijkmatig resultaat."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Neem ze uit de olie, laat ze uitlekken op keukenpapier en serveer."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Moules Marinières (mosselen met witte wijn)",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6 personen (als voorgerecht)",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/moules-marini%C3%A8res-mosselen-met-witte-wijn.jpg"
+    ],
+    "totalTime": "PT25M",
+    "recipeCategory": [
+      "Bistrohapjes",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "900 g mosselen, gewassen en van de baarden ontdaan",
+      "60 g boter",
+      "4 teentjes knoflook, geplet en fijngehakt",
+      "120 ml droge witte wijn",
+      "2 tl sherryazijn",
+      "15 g verse peterselie, gehakt",
+      "1 el verse tijm, gehakt",
+      "1 tl maizena",
+      "½ tl zout",
+      "1 tl grofgemalen zwarte peper"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Smelt de boter in een diepe pan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Fruit zodra de boter gesmolten is de knoflook 2 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de witte wijn, de sherryazijn, de peterselie en de tijm toe en roer alles voorzichtig door elkaar."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de mosselen toe en zet het vuur hoger. Breng het vocht aan de kook en kook de mosselen in ca. 5 minuten tot de schelpen open zijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de geopende mosselen eruit en leg ze op een serveerschaal. Gooi mosselen die niet open zijn gegaan weg."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de maizena in een klein bakje en roer er een beetje van het kookvocht door tot een dun papje ontstaat. Voeg het maizenapapje toe aan het kookvocht en roer het er voorzichtig door."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Laat de saus al roerend heel licht inkoken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng de saus op smaak met zout en zwarte peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Schep de saus over de mosselen en serveer direct."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Gekruide eendenrillettes",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "8-10 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/gekruide-eendenrillettes.jpg"
+    ],
+    "totalTime": "PT2H15M",
+    "recipeCategory": [
+      "Bistrohapjes",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "900 g eendenbouten",
+      "60 g grof zeezout",
+      "1 el verse gember, geraspt",
+      "½ tl gemalen kruidnagel",
+      "1 el sinaasappelrasp",
+      "2 el verse tijm, gehakt",
+      "1,9 l eendenbouillon",
+      "2 takjes rozemarijn",
+      "6 teentjes knoflook",
+      "2 steranijs",
+      "1 el roze peperkorrels",
+      "2 el Grand Marnier of sinaasappellikeur",
+      "160 ml eendenvet, gesmolten",
+      "diverse toastjes en rauwkost, om te serveren",
+      "extra takjes rozemarijn, om te garneren (naar wens)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Meng in een kom het zout, de gember, de kruidnagel, de sinaasappelrasp en de tijm tot een kruidenrub."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Wrijf de eendenbouten royaal in met het kruidenmengsel. Leg ze in een schaal, dek af en laat ze 8-12 uur in de koelkast marineren."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de eendenbouillon, rozemarijn, knoflook, steranijs en roze peperkorrels in een grote pan. Voeg de eendenbouten toe en breng het geheel op middelhoog vuur aan de kook."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur lager, dek af en laat het 2 uur zachtjes sudderen, tot het vlees van het bot valt."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur uit en laat het afkoelen tot kamertemperatuur. Zet de hele pan daarna 12 uur, of een nacht, in de koelkast."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Schep het vet van de bouillon en haal de eendenbouten eruit. Verwijder de velletjes en overtollig vet en pluk al het eendenvlees volledig uit elkaar. Gooi de botten weg en doe het vlees in een kom."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Meng het eendenvlees met de sinaasappellikeur en 1-2 el van de koude eendenbouillon uit de pan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet vier grote ovenschaaltjes klaar en druk het geplukte eendenvlees er stevig in. Druk het goed aan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Smelt het eendenvet op laag vuur. Giet het gesmolten vet in elk schaaltje. Dek goed af en laat het enkele uren koud worden, tot het stevig is."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de schaaltjes uit de koelkast en laat de rillettes met een mes voorzichtig los. Schep de overtollige laag gestold vet eraf als je dat wilt."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Garneer met een takje verse rozemarijn (naar wens). Elk schaaltje is goed voor ongeveer 2 personen als voorgerecht."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Mesclunsalade met peer en Roquefort",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/mesclunsalade-met-peer-en-roquefort.jpg"
+    ],
+    "totalTime": "PT15M",
+    "recipeCategory": [
+      "Bistrohapjes",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "180 g mesclun of een mengsel van rucola, paardenbloemblad en andijvie",
+      "15 g verse kervel, gehakt",
+      "60 ml extra vergine olijfolie",
+      "1 el champagne-azijn",
+      "1 el sjalotten, gesnipperd",
+      "½ tl zout",
+      "½ tl zwarte peper",
+      "150 g peer, in plakjes",
+      "30 g walnoten, gehakt",
+      "60 g Roquefort, verkruimeld"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Doe de mesclun of het groentemengsel met de kervel in een kom en schep het door elkaar."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Meng in een andere kom de champagne-azijn met de sjalotten. Voeg al kloppend langzaam de olijfolie toe tot een gladde dressing ontstaat. Breng op smaak met zout en zwarte peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Druppel de dressing over de sla en voeg de Roquefort toe. Schep alles door elkaar zodat de sla gelijkmatig met de dressing bedekt is."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verdeel het mengsel over de borden en garneer met plakjes peer en wat walnoten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serveer direct."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Potage Printanier (groentesoep van voorjaarsgroenten)",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "4-6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/potage-printanier-groentesoep-van-voorjaarsgroenten.jpg"
+    ],
+    "totalTime": "PT55M",
+    "recipeCategory": [
+      "Soepen en stoofschotels",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "1 el boter",
+      "2 teentjes knoflook, geplet en fijngehakt",
+      "45 g prei, in ringen",
+      "75 g bleekselderij, in blokjes",
+      "1,4 l kippen- of groentebouillon",
+      "150 g koolraap, in blokjes",
+      "150 g witte asperges",
+      "150 g verse doperwten",
+      "15 g verse peterselie",
+      "1 el verse dragon, gehakt",
+      "1 tl zout",
+      "1 tl zwarte peper",
+      "60 ml crème fraîche",
+      "pistachenoten, gehakt, om te garneren"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Smelt de boter in een soeppan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de knoflook, prei en bleekselderij toe. Bak ze al roerend ca. 3 minuten tot de prei zacht begint te worden."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de kippen- of groentebouillon toe, zet het vuur hoger en breng het aan de kook."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de koolraap, witte asperges en doperwten toe."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Dek af, zet het vuur laag en laat het 30-40 minuten zachtjes sudderen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Giet de groenten af en doe ze met 120 ml van de bouillon in een blender of keukenmachine. Maal het mengsel glad."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe alle bouillon en de gepureerde groenten weer samen in de soeppan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng op smaak met de peterselie, dragon, het zout en de zwarte peper. Laat het 5-10 minuten op laag vuur doorkoken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Schep de soep in kommen en roer een lepel crème fraîche door het midden van elke kom."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serveer direct, gegarneerd met gehakte pistachenoten (naar wens)."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Franse uiensoep",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/franse-uiensoep.jpg"
+    ],
+    "totalTime": "PT50M",
+    "recipeCategory": [
+      "Soepen en stoofschotels",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "300 g zoete gele ui, in ringen",
+      "115 g roomboter",
+      "½ tl zout",
+      "1 el bloem",
+      "960 ml runderbouillon",
+      "1 el verse tijm",
+      "1 tl grofgemalen zwarte peper",
+      "4 sneetjes stokbrood, ca. 1,5 cm dik",
+      "100 g Gruyère, geraspt"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Smelt de boter in een soeppan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de uien en het zout toe en bak ze 3 minuten. Voeg de bloem toe en roer het erdoor."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de runderbouillon toe, zet het vuur hoger en breng het aan de kook. Laat het 1 minuut koken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur laag en breng op smaak met de tijm en de zwarte peper. Dek af en laat het 25-30 minuten zachtjes sudderen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Rooster de sneetjes stokbrood intussen mooi goudbruin."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de grill voor."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Schep de soep als hij klaar is in ovenvaste kommen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg op elke kom een sneetje geroosterd stokbrood en wat geraspte Gruyère. Zet de kommen 1-2 minuten onder de grill, tot de kaas gesmolten en licht gekaramelliseerd is."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal ze voorzichtig onder de grill vandaan en serveer direct."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Bretonse visstoofpot",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "8-10 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/bretonse-visstoofpot.jpg"
+    ],
+    "totalTime": "PT1H",
+    "recipeCategory": [
+      "Soepen en stoofschotels",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "60 ml olijfolie",
+      "225 g krabbenvlees",
+      "2 el brandy",
+      "75 g spekblokjes",
+      "3 teentjes knoflook, geplet en fijngehakt",
+      "150 g ui, in blokjes",
+      "150 g wortel, geschild en in blokjes",
+      "150 g bleekselderij, in blokjes",
+      "45 g prei, in ringen",
+      "300 g tomaten, in blokjes",
+      "300 g aardappelen, geschild en in blokjes",
+      "1,9 l visbouillon",
+      "2 laurierblaadjes",
+      "1 el verse tijm",
+      "1 el verse oregano",
+      "1 tl zout",
+      "1 tl zwarte peper",
+      "2 tl paprikapoeder",
+      "225 g kabeljauw, in blokjes",
+      "12 coquilles",
+      "225 g mosselen",
+      "blokjes geroosterd stokbrood, om te garneren"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verhit de olijfolie in een soeppan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg het krabbenvlees toe en bak het 2 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de brandy toe en laat die 2-3 minuten inkoken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal het krabbenvlees eruit en zet het apart."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de spekblokjes toe en bak ze in ca. 3-5 minuten lichtbruin."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de knoflook, ui, wortel, bleekselderij en prei toe en bak ze in ca. 5-7 minuten iets zachter."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de tomaten, aardappelen en visbouillon toe. Breng het 1 minuut aan de kook en zet het vuur dan laag."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng op smaak met de laurierblaadjes, tijm, oregano, het zout, de zwarte peper en het paprikapoeder. Dek af en laat het 20 minuten sudderen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe het krabbenvlees weer terug, samen met de kabeljauw en de coquilles. Laat het nog tien minuten koken, tot de kabeljauw en coquilles gaar zijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de mosselen toe en laat ze sudderen tot de schelpen open zijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Schep het gerecht in kommen en garneer met blokjes geroosterd stokbrood."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "La Potée Lorraine (Lotharingse stoofpot)",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "8-10 personen",
+    "totalTime": "PT1H45M",
+    "recipeCategory": [
+      "Soepen en stoofschotels",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "2 el boter",
+      "2 el sjalotten, gesnipperd",
+      "150 g wortel, in blokjes",
+      "150 g bleekselderij, in blokjes",
+      "225 g spekblokjes",
+      "450 g varkensrollade, in blokjes",
+      "450 g rookworst, in plakjes",
+      "1 hammenbeen",
+      "1,9 l groentebouillon",
+      "2 tl provençaalse kruiden",
+      "2 laurierblaadjes",
+      "300 g koolraap, in blokjes",
+      "270 g kool, in reepjes"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Doe de boter in een soeppan en smelt hem op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de sjalotten toe en bak ze ca. 2 minuten tot ze net zacht zijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de wortel en bleekselderij toe en bak ze al roerend 4-5 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de spekblokjes toe en bak ze in ca. 5 minuten net bruin."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de varkensrollade, rookworst, het hammenbeen en de groentebouillon toe. Zet het vuur hoger en breng het aan de kook."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur laag, dek af en laat het 1 uur sudderen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de provençaalse kruiden, laurierblaadjes, koolraap en kool toe."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Dek af en laat het nog 30-45 minuten sudderen, tot de koolraap zacht is. Haal het hammenbeen en de laurierblaadjes eruit en schep de stoofpot in kommen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serveer warm."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Aardappel-preisoep",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6-8 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/aardappel-preisoep.jpg"
+    ],
+    "totalTime": "PT50M",
+    "recipeCategory": [
+      "Soepen en stoofschotels",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "60 g boter, in tweeën gedeeld",
+      "90 g prei, in ringen",
+      "2 el sjalotten",
+      "60 ml droge witte wijn",
+      "600 g vastkokende aardappelen, geschild en in blokjes",
+      "1,9 l kippenbouillon",
+      "1 takje rozemarijn",
+      "1 el verse dragon",
+      "1 tl zout",
+      "1 tl grofgemalen zwarte peper",
+      "120 ml slagroom"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Smelt de boter in een soeppan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de prei en sjalotten toe en bak ze al roerend 4-5 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de witte wijn toe en laat die 2 minuten inkoken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de kippenbouillon, aardappelen, rozemarijn, dragon, het zout en de zwarte peper toe."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur hoger en breng het geheel tegen de kook aan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur laag, dek af en laat het 25-30 minuten sudderen, tot de aardappelen zacht zijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pureer de soep met een staafmixer en laat wat stukjes aardappel zitten voor de structuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de slagroom toe, roer goed door en laat de soep warm worden voor het serveren."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Romige waterkerssoep",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6-8 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/romige-waterkerssoep.jpg"
+    ],
+    "totalTime": "PT40M",
+    "recipeCategory": [
+      "Soepen en stoofschotels",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "2 el boter",
+      "2 el sjalotten",
+      "60 ml droge witte wijn",
+      "450 g aardappelen, geschild en in blokjes",
+      "60 g waterkers, gehakt",
+      "1,4 l kippenbouillon",
+      "120 ml crème fraîche",
+      "½ tl nootmuskaat",
+      "1 tl zout",
+      "1 tl zwarte peper"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Smelt de boter in een soeppan op middelhoog vuur en bak de sjalotten 2-3 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de droge witte wijn toe en laat die 2 minuten inkoken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de aardappelen, waterkers en kippenbouillon toe. Zet het vuur hoger en breng het aan de kook."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur laag, dek af en laat het 20 minuten sudderen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pureer de soep in een blender en doe de gepureerde soep terug in de pan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de crème fraîche toe en breng op smaak met de nootmuskaat, het zout en de zwarte peper. Roer goed door en laat de soep warm worden voor het serveren."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Cassoulet",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6-8 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/cassoulet.jpg"
+    ],
+    "totalTime": "PT4H20M",
+    "recipeCategory": [
+      "Klassieke kip en gevogelte",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "450 g kip in delen met bot",
+      "2 eendenbouten confit (zie recept)",
+      "450 g verse worst van kip of varken, in plakjes",
+      "300 g gedroogde witte bonen, 12 uur geweekt in water en afgegoten",
+      "225 g varkenszwoerd",
+      "1 hammenbeen",
+      "150 g ui, in blokjes",
+      "150 g wortel, in blokjes",
+      "150 g bleekselderij, in blokjes",
+      "8 teentjes knoflook",
+      "2 laurierblaadjes",
+      "1 el verse tijm",
+      "1 takje rozemarijn",
+      "1 takje verse salie",
+      "1 tl zout",
+      "1 tl grofgemalen zwarte peper",
+      "water"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Breng wat water in een grote pan op middelhoog vuur aan de kook."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de bonen toe en blancheer ze 3-5 minuten. Schep de bonen in een vergiet, spoel ze kort af met koud water en laat ze uitlekken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de bonen in een grote, diepe gietijzeren pan of braadpan. Roer de varkenszwoerd, het hammenbeen, de ui, wortel, bleekselderij en knoflook erdoor en voeg zoveel water toe dat alle ingrediënten ca. 2,5 cm onderstaan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng het vocht op middelhoog vuur aan de kook, zet het vuur laag, dek af en laat het 1 uur sudderen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal na 1 uur de varkenszwoerd en de knoflookteentjes eruit. Hak ze fijn en bak ze 3-5 minuten in een droge koekenpan. Maal het mengsel in een blender of keukenmachine fijn en doe het terug in de pan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg weer zoveel water toe dat de ingrediënten volledig onderstaan. Dek af en laat het nog een uur sudderen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 190°C."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg na dat extra uur de kip, de eendenbouten confit en de worst toe."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Knoop de laurierblaadjes, tijm, rozemarijn en salie samen in een stukje kaasdoek en leg het in de pan bij het vlees."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg zoveel water toe dat de ingrediënten onderstaan en zet de pan in de oven. Controleer na 1 uur en vul het verdampte water aan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Blijf elk uur controleren en water bijvullen tot het gerecht een gekaramelliseerde, geurige korst heeft gevormd en het vlees gaar is. Dit kan 3 tot 6 uur duren, afhankelijk van de grootte van de pan."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Poule au Pot (zondagse kip uit de pot)",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6-8 personen",
+    "totalTime": "PT3H20M",
+    "recipeCategory": [
+      "Klassieke kip en gevogelte",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "1 heel kuiken van 1,5-1,8 kg, schoongemaakt",
+      "1 el olijfolie",
+      "150 g pancetta, in blokjes",
+      "150 g gele ui, in blokjes",
+      "1 kippenlever, gehakt",
+      "220 g wit broodkruim",
+      "1 ei, losgeklopt",
+      "1 tl gemalen salie",
+      "1 tl zout",
+      "1 tl zwarte peper",
+      "225 g wortel, in stukken",
+      "2 preien",
+      "180 g venkelknol, in dikke plakken",
+      "6 teentjes knoflook",
+      "1,4 l kippenbouillon",
+      "1 takje rozemarijn"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verhit de olijfolie in een koekenpan op middelhoog vuur. Voeg de pancetta, ui en kippenlever toe en bak ze in ca. 5-6 minuten tot de pancetta licht krokant is. Haal het mengsel eruit en laat het iets afkoelen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Meng in een grote kom het broodkruim, het ei, de salie, het zout en de zwarte peper. Voeg het pancettamengsel toe en meng alles goed."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg een groot stuk kaasdoek klaar en doe het mengsel in het midden. Bind de kaasdoek dicht met keukentouw."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng de kippenbouillon in een braadpan die groot genoeg is voor de kip op middelhoog vuur aan de kook."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe het pakketje vulling in de buikholte van de kip en leg de kip in de pan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bind de poten van de kip met keukentouw omhoog en bind de kip stevig dicht."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de wortel, prei, venkel, knoflook en rozemarijn rondom de kip in de pan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur laag en laat de bouillon zachtjes pruttelen gedurende ca. 2½ uur, tot de kip gaar is."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 175°C."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de kip uit de pan en laat hem op een plank rusten. Haal het pakketje vulling eruit, maak het open en doe de vulling in een ovenschaal."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de schaal 15 minuten in de oven, of tot de vulling een kerntemperatuur van 70°C heeft bereikt."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de kip op een serveerschaal en serveer met de vulling en de groenten."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Kipfricassee met dragon-roomsaus",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6 personen",
+    "totalTime": "PT50M",
+    "recipeCategory": [
+      "Klassieke kip en gevogelte",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "900 g kip in delen met bot",
+      "60 g boter, in tweeën gedeeld",
+      "1 tl zout, in tweeën gedeeld",
+      "1 tl grofgemalen zwarte peper",
+      "½ tl knoflookpoeder",
+      "240 ml droge witte wijn",
+      "480 ml kippenbouillon",
+      "150 g cipollini-uien",
+      "300 g witte asperges, in stukken",
+      "140 g champignons, in dikke plakken",
+      "1 tl suiker",
+      "480 ml crème fraîche",
+      "1 el verse dragon",
+      "1 tl citroenrasp"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Doe 2 el van de boter in een grote koekenpan of braadpan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng de kip op smaak met de zwarte peper, het knoflookpoeder en de helft van het zout."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de kip in de pan en bak hem in ca. 2 minuten per kant bruin."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de droge witte wijn en de kippenbouillon toe. Breng het tegen de kook aan, zet het vuur laag, dek af en laat het 20-25 minuten sudderen, tot de kip gaar is."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de rest van de boter in een grote koekenpan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de cipollini-uien en asperges toe en bak ze 3-5 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de champignons, de suiker en de rest van het zout toe en bak ze nog 2-3 minuten, tot de champignons zacht zijn. Zet apart."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de kip als hij gaar is uit de pan en houd hem warm."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur hoger en laat de saus inkoken tot hij iets dikker is en ongeveer gehalveerd is."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de crème fraîche, dragon en citroenrasp toe. Laat de saus al roerend in ca. 5 minuten iets inkoken en indikken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Schep de gebakken groenten op een serveerschaal, leg de kip erop en schep de dragon-roomsaus erover."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Canard à la Moutarde (eend met mosterdsaus)",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "4-6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/canard-%C3%A0-la-moutarde-eend-met-mosterdsaus.jpg"
+    ],
+    "totalTime": "PT1H",
+    "recipeCategory": [
+      "Klassieke kip en gevogelte",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "1 hele eend, in stukken",
+      "1 tl zout",
+      "1 tl grofgemalen zwarte peper",
+      "150 g goede Dijon-mosterd",
+      "60 g boter, in tweeën gedeeld",
+      "2 el sjalotten, gesnipperd",
+      "120 ml droge witte wijn",
+      "1 takje rozemarijn",
+      "1 el verse tijm, gehakt",
+      "1 tl gemalen salie",
+      "120 ml crème fraîche"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Bestrooi de eend royaal met zout en zwarte peper en bestrijk elk stuk rondom met de Dijon-mosterd."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit 1 el van de boter in een grote koekenpan op middelhoog vuur. Leg de stukken eend erin en schroei ze rondom dicht. Bak ze in ca. 10-12 minuten tot de huid van de eend begint te karamelliseren en licht krokant wordt. Haal ze uit de pan en zet ze apart."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de resterende 3 el boter in de pan en laat die smelten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de sjalotten toe en bak ze 2-3 minuten, tot ze zacht zijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de witte wijn toe en roer de aanbaksels van de bodem los terwijl de wijn 1-2 minuten inkookt."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur lager en leg de eend terug in de pan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng op smaak met de rozemarijn, tijm en salie. Dek af en laat het ca. 30 minuten koken, tot de eend gaar en mals is."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de eend uit de pan en leg hem op een serveerschaal."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de crème fraîche toe aan de pan en roer tot alles is vermengd. Schep de saus over de eend en serveer direct."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Confit de canard (eendenconfit)",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6-8 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/confit-de-canard-eendenconfit.jpg"
+    ],
+    "totalTime": "PT24H15M",
+    "recipeCategory": [
+      "Klassieke kip en gevogelte",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "1,1 kg eendenbouten",
+      "2 el grof zeezout, in tweeën gedeeld",
+      "1 tl grofgemalen zwarte peper",
+      "6 teentjes knoflook",
+      "2 takjes rozemarijn",
+      "1 takje tijm",
+      "1,05 l goede olijfolie"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwijder overtollig vet van de eendenbouten en houd het apart."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bestrooi het vlees met 1 el van het zout en de zwarte peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verdeel de eendenbouten in twee porties. Vet de bodem van een afsluitbare bak (liefst van glas) in met het achtergehouden eendenvet."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de eerste portie eend met de huid naar beneden in de bak op het vet."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de knoflook, rozemarijn en tijm op de eerste laag eend."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de resterende stukken eend erop met de huid naar boven en strooi de rest van het zout erover."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Dek af en laat het 12-16 uur in de koelkast staan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 110°C."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de eend uit de bak en veeg overtollig zout eraf."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de eend in een zware ovenvaste pan, samen met de kruiden en het vet uit de koelkastfase."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de olijfolie toe aan de pan. Dek af en laat het in de oven 10-12 uur garen, tot het vlees van het bot valt."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de eend uit de pan en bewaar het vet waarin hij is gegaard."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pluk het vlees van de botten en doe het in een bak."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bedek het eendvlees met het bewaarde vet en bewaar het in de koelkast tot je het serveert of in een ander gerecht gebruikt."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Coq au Vin",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6-8 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/coq-au-vin.jpg"
+    ],
+    "totalTime": "PT1H15M",
+    "recipeCategory": [
+      "Klassieke kip en gevogelte",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "2 el olijfolie",
+      "150 g pancetta, in blokjes",
+      "900 g kip in delen met bot",
+      "1 tl zout",
+      "1 tl zwarte peper",
+      "450 g wortel, geschild en in plakjes",
+      "150 g gele ui, in ringen",
+      "150 g koolraap, in blokjes",
+      "140 g champignons, in vieren",
+      "2 el sjalotten, gesnipperd",
+      "120 ml brandy",
+      "720 ml droge rode wijn",
+      "240 ml kippenbouillon",
+      "1 el verse tijm, gehakt",
+      "1 el verse oregano, gehakt",
+      "1 takje rozemarijn",
+      "30 g roomboter, gesmolten",
+      "1 el bloem"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verhit de olijfolie in een braadpan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de pancetta toe en bak die al roerend in ca. 5 minuten bruin."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Schep de pancetta met een schuimspaan eruit en zet apart."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng de kip op smaak met zout en peper, leg hem in de braadpan en bak hem in ca. 3-5 minuten per kant bruin. Haal de kip eruit en zet apart."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de wortel, ui en koolraap toe aan de braadpan en bak ze al roerend 5-7 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de champignons en sjalotten toe en bak ze 2-3 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de kip en pancetta terug in de braadpan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de brandy, rode wijn en kippenbouillon toe. Breng op smaak met de tijm, oregano en rozemarijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur hoger tot het vocht net begint te pruttelen. Zet het vuur laag, dek af en laat het 35-40 minuten sudderen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Meng de boter met de bloem en roer het mengsel door het vocht in de braadpan. Dek af en laat het nog 10-15 minuten koken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de pan van het vuur en laat het gerecht 10 minuten rusten voor het serveren."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Eendenborst in zoete lavendelsaus",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "4-6 personen",
+    "totalTime": "PT30M",
+    "recipeCategory": [
+      "Klassieke kip en gevogelte",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "4 eendenborsten",
+      "½ tl zout",
+      "1 tl grofgemalen zwarte peper",
+      "40 g lavendelhoning",
+      "2 el sjalotten, gesnipperd",
+      "120 ml zoete witte wijn",
+      "480 ml zelfgemaakte eenden- of kippenbouillon",
+      "2 tl verse tijm",
+      "1 takje rozemarijn",
+      "1 tl gedroogde lavendelbloemen, fijngewreven",
+      "15 g roomboter"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 190°C."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bestrijk de velkant van de eendenborsten royaal met lavendelhoning en breng ze op smaak met zout en zwarte peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit een ovenvaste koekenpan op middelhoog vuur en leg de eendenborsten met de velkant naar beneden in de pan. Bak ze aan beide kanten bruin tot ze licht gekaramelliseerd zijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de pan in de oven en bak de borsten 7-10 minuten, tot ze vanbinnen mooi rosé zijn en een kerntemperatuur van 70°C hebben bereikt."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de eendenborsten uit de pan en laat ze rusten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de sjalotten toe aan de pan op middelhoog vuur. Bak ze al roerend ca. 3-5 minuten, tot ze net beginnen te karamelliseren."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de witte wijn toe en laat die al roerend 2 minuten inkoken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de eenden- of kippenbouillon, tijm, rozemarijn en lavendelbloemen toe. Laat de saus op middelhoog vuur al roerend inkoken en iets indikken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de pan van het vuur en roer de boter erdoor."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Snijd de eendenborsten in dunne plakjes en schik ze op een serveerschaal."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Druppel de saus vlak voor het serveren over de eend."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Kalfsmedaillons met morieljes",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6-8 personen",
+    "totalTime": "PT2H45M",
+    "recipeCategory": [
+      "Varkens- en kalfsvleesgerechten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "680 g kalfsrollade zonder bot",
+      "2 el boter",
+      "2 el sjalotten, gesnipperd",
+      "140 g morieljes, gehakt",
+      "120 ml crème fraîche",
+      "60 g geitenkaas",
+      "2 el verse tijm, gehakt, in tweeën gedeeld",
+      "1 tl zout",
+      "1 tl zwarte peper",
+      "225 g spek",
+      "300 g wortel, in blokjes",
+      "150 g vastkokende aardappelen, in blokjes",
+      "150 g koolraap, in blokjes",
+      "960 ml kippenbouillon",
+      "120 ml droge witte wijn",
+      "1 takje rozemarijn"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Snijd de kalfsrollade over tweederde van de dikte in en klap hem open als een vlinder. Sla het vlees met een vleeshamer iets plat."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Smelt de boter in een grote gietijzeren pan of braadpan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de sjalotten en morieljes toe en bak ze ca. 2-3 minuten tot ze net zacht zijn. Schep de morieljes en sjalotten met een schuimspaan uit de pan en zet ze apart."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Meng in een kom de crème fraîche, geitenkaas, 1 el van de tijm en de sjalotten en morieljes goed door elkaar."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng het kalfsvlees op smaak met zout en zwarte peper. Strijk het roommengsel over de bovenkant van het vlees."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Rol het vlees op en zet het vast met keukentouw. Leg het vlees met het spek in de pan en bak het rondom gelijkmatig bruin."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de wortel, aardappelen en koolraap in de pan en voeg de kippenbouillon en witte wijn toe."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur hoger en breng het vocht tegen de kook aan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur laag, breng op smaak met de rest van de tijm en de rozemarijn, dek af en laat het tot 2 uur sudderen, tot het vlees gaar is."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal het vlees en de groenten uit de pan en laat ze rusten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur hoger en laat de saus tot ongeveer de helft inkoken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwijder het touw en snijd het vlees in medaillons van ca. 2,5 cm."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg ze met de groenten op een serveerbord en druppel de saus erover voor het serveren."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Tourte Lorraine (Lotharingse taart)",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6 personen",
+    "totalTime": "PT1H35M",
+    "recipeCategory": [
+      "Varkens- en kalfsvleesgerechten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "225 g kalfsvlees, in dunne plakjes",
+      "225 g gerookte ham, in reepjes",
+      "480 ml droge witte wijn",
+      "1 takje rozemarijn",
+      "4 teentjes knoflook",
+      "2 vellen bladerdeeg",
+      "300 g vastkokende aardappelen, fijn gesneden",
+      "70 g champignons, in plakjes",
+      "2 eieren, losgeklopt",
+      "60 g geitenkaas",
+      "480 ml crème fraîche"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Doe de plakjes kalfsvlees en ham samen met de rozemarijn en knoflookteentjes in een kom. Voeg de witte wijn toe, dek af en laat het 12-24 uur marineren."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 175°C."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Steek uit de twee vellen bladerdeeg cirkels die passen in een diepe taartvorm of springvorm. Snijd in een van de vellen een gat van ca. 3 cm in het midden."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg het bladerdeeg zonder gat op de bodem van de diepe taartvorm."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe het gemarineerde vlees, de aardappelen en de champignons in de vorm."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Dek af met het bladerdeeg met het gat erin."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de taart 45 minuten in de oven."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Meng de eieren, geitenkaas en crème fraîche tot een romig mengsel."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de taart uit de oven en giet het eimengsel door het gat in het midden van het bovenste deeg."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de taart terug in de oven en bak hem nog 35 minuten, tot hij gestold is."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serveer warm."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Croque Monsieur",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/croque-monsieur.jpg"
+    ],
+    "totalTime": "PT25M",
+    "recipeCategory": [
+      "Varkens- en kalfsvleesgerechten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "2 el boter",
+      "2 el bloem",
+      "360 ml lauwwarme melk",
+      "300 g Gruyère, geraspt, in tweeën gedeeld",
+      "1 tl zout",
+      "1 tl grofgemalen zwarte peper",
+      "½ tl nootmuskaat",
+      "8 sneetjes stevig witbrood, korst verwijderd, geroosterd",
+      "1 el champagnemosterd",
+      "225 g gerookte ham, in dunne plakjes",
+      "60 g Brie, in plakjes",
+      "1 el verse bieslook, gehakt"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 205°C. Bekleed een bakplaat met bakpapier."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Smelt de boter in een steelpan op middelhoog vuur. Strooi de bloem erbij en klop tot een papje ontstaat."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg al kloppend langzaam de lauwwarme melk toe tot een romige saus ontstaat. Breng op smaak met zout, peper en nootmuskaat. Laat de saus al roerend indikken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de pan van het vuur en voeg 200 g van de Gruyère toe."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bestrijk elk sneetje brood met wat champagnemosterd en maak sandwiches met een laag ham en Brie."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de sandwiches rondom door de roomsaus. Leg ze met een spatel op de bakplaat en bestrooi ze met de helft van de rest van de Gruyère."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de sandwiches 7 minuten in de oven. Haal ze eruit en keer ze met een spatel."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bestrooi de sandwiches met de rest van de Gruyère en bak ze nog 5 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de grill hoog en laat de sandwiches eronder goudbruin en krokant worden, in ca. 1-2 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal ze uit de oven en serveer direct, gegarneerd met verse bieslook."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Taart met pancetta en sjalotten",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6 personen",
+    "totalTime": "PT1H5M",
+    "recipeCategory": [
+      "Varkens- en kalfsvleesgerechten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "¼ tl droge gist",
+      "630 g bloem",
+      "1 el zout",
+      "240 ml water",
+      "300 g pancetta, in blokjes",
+      "3 el sjalotten, gesnipperd",
+      "420 g hüttenkäse of kwark",
+      "120 ml crème fraîche",
+      "1 tl nootmuskaat",
+      "1 tl zwarte peper"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Meng de gist met 2 el lauwwarm water. Laat het 30 minuten staan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zeef 625 g van de bloem met het zout tot een berg op het werkblad. Maak in het midden een kuiltje."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe het gistmengsel in het kuiltje. Werk het deeg vanaf de buitenkant naar binnen en voeg gaandeweg water toe zodat het deeg goed kneedbaar blijft."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Kneed het deeg 10 minuten, vorm er een bal van, dek af en laat het 30 minuten staan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 205°C."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de pancetta in een koekenpan op middelhoog vuur en bak hem in ca. 5-7 minuten bruin. Voeg de sjalotten toe en bak ze in ca. 3-5 minuten zacht."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Rol het deeg uit: één stuk om een diepe taartvorm mee te bekleden en nog een stuk om hem mee af te dekken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Meng de hüttenkäse, crème fraîche, de resterende el bloem, de nootmuskaat en de zwarte peper tot een romig mengsel."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg het onderste deeg in de taartvorm en strijk het kaasmengsel erover. Verdeel het pancettamengsel als een laag over de kaas."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Dek af met het resterende stuk deeg en snijd de randen bij."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de taart in de oven en bak hem in ca. 35-40 minuten goudbruin."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serveer warm."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Ham Porte Maillot",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "8-10 personen",
+    "totalTime": "PT4H15M",
+    "recipeCategory": [
+      "Varkens- en kalfsvleesgerechten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "2,25 kg ham met bot",
+      "300 g uien, in ringen",
+      "300 g wortel, in blokjes",
+      "6 teentjes knoflook",
+      "1 el verse tijm, gehakt",
+      "1 tl kruidnagel",
+      "2 laurierblaadjes",
+      "½ tl kaneel",
+      "½ tl nootmuskaat",
+      "water",
+      "1 el boter",
+      "3 el sjalotten, gesnipperd",
+      "360 ml droge witte wijn",
+      "480 ml runderbouillon",
+      "15 g verse peterselie, gehakt"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Snijd een ruitpatroon in het oppervlak van de ham en wikkel hem stevig in een groot stuk kaasdoek."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de ham met de uien, wortel en knoflook in een braadpan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg zoveel water toe dat de ham net onderstaat en breng op smaak met de tijm, kruidnagel, laurierblaadjes, kaneel en nootmuskaat."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng het vocht tegen de kook aan. Zet het vuur middellaag, dek af en laat het 3½ tot 4 uur sudderen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de ham en de groenten uit de pan en gooi het vocht weg."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de kaasdoek voorzichtig van de ham en verwijder het vlees van het bot. Doe het vlees en de groenten terug in de pan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Smelt de boter in een grote koekenpan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de sjalotten toe en bak ze ca. 3 minuten tot ze net zacht zijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de witte wijn toe en laat die 2 minuten inkoken voordat je de runderbouillon en de peterselie toevoegt."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Laat het geheel op middelhoog vuur iets inkoken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Schep de saus over de ham, dek af en laat het 30 minuten sudderen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serveer warm."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Taart met ham, kaas en appel",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/taart-met-ham%2C-kaas-en-appel.jpg"
+    ],
+    "totalTime": "PT1H",
+    "recipeCategory": [
+      "Varkens- en kalfsvleesgerechten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "250 g bloem",
+      "1 tl zout",
+      "225 g koude boter, in blokjes",
+      "1 eidooier",
+      "60 ml water",
+      "3 eieren, losgeklopt",
+      "60 ml crème fraîche",
+      "60 g geitenkaas",
+      "100 g Goudse kaas, geraspt",
+      "300 g gerookte ham, in blokjes",
+      "300 g appels, in blokjes",
+      "1 el sjalotten, gesnipperd",
+      "½ tl nootmuskaat",
+      "1 tl grofgemalen zwarte peper"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Zeef de bloem met het zout tot een berg op het werkblad."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Maak een kuiltje in het midden en voeg de boter en de eidooier toe. Kneed het deeg met je handen en voeg geleidelijk het water toe tot een stevig deeg ontstaat."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Vorm er een bal van, dek af en laat het deeg 2 uur in de koelkast rusten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 205°C."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Vet een springvorm of taartvorm in en bestuif hem met bloem."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Rol het deeg dun uit en bekleed de bodem van de vorm ermee."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Meng in een kom de eieren met de crème fraîche tot een romig mengsel. Voeg de geitenkaas en de Goudse kaas toe en meng alles goed."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Roer de ham, appels en sjalotten erdoor. Breng op smaak met de nootmuskaat en de zwarte peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Giet het mengsel over de deegbodem in de vorm."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de taart 5 minuten in de oven."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de oven op 175°C en bak de taart nog 35-40 minuten, tot hij goudbruin en gestold is."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serveer warm."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Provençaals rundvlees",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/proven%C3%A7aals-rundvlees.jpg"
+    ],
+    "totalTime": "PT1H",
+    "recipeCategory": [
+      "Rundvleesklassiekers",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "900 g runderrollade, in blokjes",
+      "60 ml olijfolie, in tweeën gedeeld",
+      "960 ml droge rode wijn",
+      "1 takje rozemarijn",
+      "150 g pancetta, in blokjes",
+      "300 g wortel, geschild en in blokjes",
+      "300 g zoete gele ui, in ringen",
+      "140 g champignons, in vieren",
+      "150 g bleekselderij, in blokjes",
+      "300 g tomaten, in blokjes",
+      "135 g zwarte olijven, gehalveerd",
+      "480 ml runderbouillon",
+      "1 el verse tijm, gehakt",
+      "1 el verse oregano, gehakt",
+      "½ tl gemalen salie",
+      "1 tl zout",
+      "1 tl zwarte peper",
+      "1 el sinaasappelrasp"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Meng 3 el van de olijfolie, de rode wijn en de rozemarijn in een grote kom. Voeg de blokjes rundvlees toe, dek af en laat het 12-24 uur marineren."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 190°C."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit de rest van de olijfolie in een grote, diepe ovenvaste pan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal het vlees uit de marinade en leg het met de pancetta in de pan. Bak het in ca. 5-7 minuten lichtbruin."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de wortel, ui, champignons, bleekselderij, tomaten en zwarte olijven toe."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de runderbouillon en 480 ml van de gebruikte marinade toe aan de pan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng op smaak met de tijm, oregano, salie, het zout, de zwarte peper en de sinaasappelrasp."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Dek af en zet de pan in de oven. Bak het gerecht ca. 45 minuten, tot het vlees gaar en mals is."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Boeuf Bourguignon",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6-8 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/boeuf-bourguignon.jpg"
+    ],
+    "totalTime": "PT1H40M",
+    "recipeCategory": [
+      "Rundvleesklassiekers",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "900 g runderrollade, in blokjes",
+      "225 g pancetta, in blokjes",
+      "1 tl zout",
+      "1 tl grofgemalen zwarte peper",
+      "½ tl uienpoeder",
+      "½ tl paprikapoeder",
+      "2 el bloem",
+      "1 el olijfolie",
+      "300 g zilveruitjes",
+      "450 g wortel, geschild en in plakjes",
+      "210 g champignons, in plakjes",
+      "4 teentjes knoflook, geplet en fijngehakt",
+      "960 ml droge rode wijn",
+      "480 ml zelfgemaakte runderbouillon",
+      "1 el tomatenpuree",
+      "1 takje rozemarijn",
+      "1 takje tijm",
+      "1 laurierblaadje"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 165°C."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de pancetta in een braadpan of grote ovenvaste pan op middelhoog vuur. Bak de pancetta in ca. 5 minuten mooi bruin."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng het rundvlees op smaak met het zout, de zwarte peper, het uienpoeder en het paprikapoeder en bestrooi het licht met de bloem."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg het vlees toe aan de pan en bak het in ca. 5 minuten rondom bruin."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal het vlees en de pancetta uit de pan en voeg de olijfolie toe."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de zilveruitjes en wortel toe en bak ze al roerend 5 minuten. Voeg de champignons en knoflook toe en bak ze al roerend 2 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe het vlees en de pancetta terug in de pan, samen met de rode wijn en de runderbouillon. Roer de tomatenpuree erdoor."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bind de rozemarijn, tijm en het laurierblaadje samen met keukentouw en leg het bosje in de pan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng het vocht aan de kook, haal de pan van het vuur, dek af en zet hem in de oven."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bak het gerecht 1 uur, tot het vlees gaar en mals is."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Laat het gerecht 10 minuten rusten voor het serveren."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Gevulde steak met rodewijnsaus",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "4 personen",
+    "totalTime": "PT55M",
+    "recipeCategory": [
+      "Rundvleesklassiekers",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "4 biefstukken van ca. 115-170 g",
+      "1 tl zout",
+      "1 tl zwarte peper",
+      "60 g boter, in tweeën gedeeld",
+      "150 g wortel, geschild en in blokjes",
+      "75 g bleekselderij, in blokjes",
+      "1 el sjalotten, gesnipperd",
+      "60 g verse spinazie, gescheurd",
+      "50 g Gruyère, geraspt",
+      "1 takje rozemarijn",
+      "1 el zwarte peperkorrels",
+      "480 ml droge rode wijn"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 190°C."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng de biefstuk op smaak met zout en zwarte peper. Snijd in een zijkant van elke biefstuk een inkeping over ca. driekwart van de dikte, zodat een zakje ontstaat."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe 1 el van de boter in een ovenvaste koekenpan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de wortel, bleekselderij en sjalotten toe en bak ze al roerend 5 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de spinazie toe en bak die nog 2 minuten. Haal het groentemengsel uit de pan, roer de Gruyère erdoor en laat het iets afkoelen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Vul de inkeping van elke biefstuk met een gelijk deel van het mengsel."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de biefstukken in de pan, voeg zo nodig wat boter toe, en bak ze in ca. 3 minuten per kant bruin."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de pan in de oven en bak de biefstukken ca. 30-35 minuten, tot het vlees de gewenste gaarheid heeft."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de biefstukken uit de pan en laat ze rusten. Dek ze af met aluminiumfolie om ze warm te houden."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de rest van de boter, de rozemarijn en de peperkorrels toe aan de pan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de rode wijn toe en laat die al roerend 3 minuten inkoken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur laag en laat de saus 15 minuten sudderen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de biefstukken op borden en druppel de rodewijnsaus erover."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Rundvlees met poulettesaus",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6 personen",
+    "totalTime": "PT30M",
+    "recipeCategory": [
+      "Rundvleesklassiekers",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "900 g rundermedaillons",
+      "1 tl zout",
+      "1 el zwarte peperkorrels",
+      "1 el boter",
+      "120 ml droge rode wijn",
+      "1 el eendenvet",
+      "1 el bloem",
+      "2,9 l runderbouillon",
+      "120 ml crème fraîche",
+      "2 eidooiers, losgeklopt",
+      "1 el citroensap",
+      "1 tl citroenrasp",
+      "½ tl nootmuskaat",
+      "15 g verse peterselie"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Bestrooi de rundermedaillons met zout."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit de boter met de peperkorrels in een grote koekenpan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de medaillons toe en bak ze bruin, maar vanbinnen nog licht rosé."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de rode wijn toe en laat die 3 minuten inkoken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de medaillons op een bord, dek af en houd ze warm."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe het eendenvet in de pan en laat het smelten. Klop de bloem er langzaam door tot een papje ontstaat. Laat het al roerend ca. 3-5 minuten garen zonder te laten aanbranden."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg al kloppend langzaam de runderbouillon toe tot alles goed is opgenomen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Meng in een kom de crème fraîche, eidooiers, het citroensap, de citroenrasp en de nootmuskaat goed door elkaar."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg een beetje van de bouillon aan het mengsel toe en klop het snel door zodat de eieren kunnen wennen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg het hele eimengsel al stevig kloppend toe aan de pan met de bouillon en haal de pan van het vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Klop tot de saus is ingedikt en leg de rundermedaillons terug in de saus."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serveer direct, gegarneerd met verse peterselie."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Mosselen met roomsaus",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/mosselen-met-roomsaus.jpg"
+    ],
+    "totalTime": "PT25M",
+    "recipeCategory": [
+      "Vis en zeevruchten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "900 g mosselen, gewassen",
+      "45 g boter",
+      "90 g prei, in ringen",
+      "1 el sjalotten, gesnipperd",
+      "15 g verse peterselie, gehakt",
+      "360 ml droge witte wijn",
+      "240 ml groentebouillon",
+      "60 ml crème fraîche",
+      "1 tl citroenrasp",
+      "2 tl verse dragon",
+      "½ tl zout",
+      "½ tl zwarte peper"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Doe de boter in een grote pan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de prei en sjalotten toe en bak ze 3 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de mosselen, peterselie en witte wijn toe. Laat het 1 minuut koken en voeg dan de groentebouillon toe. Breng het tegen de kook aan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Kook de mosselen tot de schelpen open zijn. Haal de mosselen uit de pan en gooi de exemplaren die niet open zijn gegaan weg."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de pan van het vuur en voeg de crème fraîche, citroenrasp, dragon, het zout en de zwarte peper toe. Klop het geheel snel door elkaar."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Schep de roomsaus in kommen, leg de mosselen erop en serveer direct."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Huitres Chaudes (gebakken oesters)",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "4 personen",
+    "totalTime": "PT20M",
+    "recipeCategory": [
+      "Vis en zeevruchten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "20 oesters in de schelp",
+      "2 el boter",
+      "2 el sjalotten, gesnipperd",
+      "60 ml droge witte wijn",
+      "240 ml visbouillon",
+      "1 el citroensap",
+      "½ tl zout",
+      "1 tl zwarte peper",
+      "120 ml crème fraîche"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Open de oesters en verwijder de bovenste schelp."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de boter in een steelpan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de sjalotten toe en bak ze 2 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de witte wijn toe en laat die 1 minuut inkoken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de visbouillon, het citroensap, het zout en de zwarte peper toe. Laat de saus al roerend tot ongeveer de helft inkoken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de crème fraîche toe en zet het vuur middelhoog. Laat de saus nog iets verder inkoken. Haal de pan van het vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de oesters met de open kant naar boven op een grillrooster. Zet ze 1-2 minuten onder de grill, tot ze net bruin zijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Schep de saus in kommen en leg de oesterschelpen er voorzichtig op."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serveer direct."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Zalm met botersaus",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/zalm-met-botersaus.jpg"
+    ],
+    "totalTime": "PT35M",
+    "recipeCategory": [
+      "Vis en zeevruchten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "4 zalmfilets van ca. 115-170 g",
+      "2 tl olijfolie",
+      "1 tl zout",
+      "1 tl zwarte peper",
+      "115 g boter, in blokjes, in tweeën gedeeld",
+      "2 el sjalotten, gesnipperd",
+      "60 ml champagne-azijn",
+      "60 ml halfzoete witte wijn",
+      "1 el kappertjes, afgespoeld",
+      "1 el verse rozemarijn, gehakt (of 1 tl gedroogde rozemarijn)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 175°C en bekleed een bakplaat met bakpapier."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bestrijk de zalm aan beide kanten met olijfolie en breng hem op smaak met zout en zwarte peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de zalmfilets op de bakplaat en zet ze in de oven. Bak ze 20-25 minuten, afhankelijk van de dikte, tot ze rosé en mooi gaar zijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Smelt 1 el van de boter in een steelpan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de sjalotten toe en bak ze al roerend 2 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de champagne-azijn en de witte wijn toe. Laat het al roerend in ca. 5 minuten grotendeels inkoken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur middellaag en voeg de kappertjes, rozemarijn en de rest van de boter in kleine stukjes toe. Blijf 3-5 minuten roeren om bruin worden of aanbranden te voorkomen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de pan van het vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de zalm uit de oven en leg hem op borden. Druppel de botersaus voor het serveren over en rondom de zalm."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Snoek met sjalotten",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "4 personen",
+    "totalTime": "PT40M",
+    "recipeCategory": [
+      "Vis en zeevruchten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "450 g snoek, in 4 stukken",
+      "1 tl zout",
+      "1 tl zwarte peper",
+      "2 el boter",
+      "3 el sjalotten, in ringen",
+      "1 el verse tijm",
+      "60 ml halfzoete witte wijn",
+      "60 ml visbouillon",
+      "gekookte polenta, om te serveren"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Breng de snoek op smaak met zout en zwarte peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 205°C."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de boter in een ovenvaste koekenpan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de sjalotten en tijm toe en bak ze 3-4 minuten, tot de sjalotten zacht beginnen te worden."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de snoek toe en bak hem op middelhoog vuur 3-5 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de pan in de oven en bak de vis 15 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de witte wijn en de visbouillon toe en laat het nog 10-15 minuten garen, tot de vis gaar is."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de pan uit de oven en serveer de vis op een bedje van romige polenta."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Sole Meunière",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/sole-meuni%C3%A8re.jpg"
+    ],
+    "totalTime": "PT25M",
+    "recipeCategory": [
+      "Vis en zeevruchten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "4 tongfilets van ca. 115 g",
+      "60 g bloem",
+      "3 el olijfolie",
+      "45 g boter",
+      "½ tl zout",
+      "versgemalen peper",
+      "partjes citroen, om te serveren",
+      "Voor de saus",
+      "115 g ongezouten boter",
+      "2 el vers citroensap",
+      "½ tl citroenrasp",
+      "15 g verse peterselie, gehakt"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Spoel de visfilets af en dep ze droog met keukenpapier."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de bloem, het zout en de peper in een ondiep bord en meng het door elkaar. Haal elke filet aan beide kanten door de gekruide bloem. Schud overtollige bloem eraf en leg de filets apart."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit de olijfolie en de boter in een grote, zware koekenpan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de tongfilets in de pan en bak ze 3 minuten. Keer ze om en bak ze nog 1-2 minuten, tot de vis gaar en goudbruin is. Haal de vis uit de pan en dek hem losjes af met folie om hem warm te houden. Giet overtollig vet uit de pan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de ongezouten boter in de pan en laat die smelten. Roer af en toe om de aanbaksels van de bodem los te maken. Laat de boter 1-2 minuten bruisen en goudgeel worden. Voeg het citroensap, de citroenrasp en de peterselie toe. Roer een paar keer goed door en haal de pan van het vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de filets op borden en verdeel de saus gelijkmatig over elke tong. Serveer met partjes citroen."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Ratatouille",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "4-6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/ratatouille.jpg"
+    ],
+    "totalTime": "PT1H30M",
+    "recipeCategory": [
+      "Groenten en bijgerechten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "60 ml olijfolie",
+      "150 g zoete gele ui, in dikke ringen",
+      "600 g aubergine, in grote blokjes",
+      "4 teentjes knoflook, geplet en fijngehakt",
+      "600 g courgette, in blokjes",
+      "150 g gele paprika, in blokjes",
+      "75 g bleekselderij, in blokjes",
+      "600 g rijpe tomaten, geblancheerd, gepeld en in vieren",
+      "1 tl zout",
+      "1 tl zwarte peper",
+      "1 el verse tijm",
+      "1 el verse dragon",
+      "15 g verse peterselie, gehakt",
+      "1 takje rozemarijn"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Snijd alle groenten in gelijke stukken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 175°C."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de olijfolie in een grote, diepe ovenvaste pan en verhit die op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de uien toe en bak ze ca. 3 minuten tot ze net zacht zijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de aubergine toe en bak die 5 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg dan de knoflook, courgette, paprika en bleekselderij toe en bak ze al af en toe roerend 5 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de tomaten met hun sap samen met het zout, de zwarte peper, de verse tijm, dragon, peterselie en rozemarijn toe en schep alles voorzichtig door elkaar."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Dek af en zet de pan 45 minuten in de oven, tot de groenten zacht en geurig zijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serveer warm of koud."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Quiche Lorraine",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/quiche-lorraine.jpg"
+    ],
+    "totalTime": "PT55M",
+    "recipeCategory": [
+      "Groenten en bijgerechten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "190 g bloem",
+      "½ tl zout",
+      "75 g koude boter, in blokjes",
+      "1 el olijfolie",
+      "4 eieren, in tweeën gedeeld",
+      "225 g gekookte ham, in blokjes",
+      "1 sjalot, gesnipperd",
+      "100 g Gruyère, geraspt",
+      "120 ml crème fraîche",
+      "¼ tl nootmuskaat",
+      "½ tl zeezout",
+      "½ tl grofgemalen zwarte peper"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Zeef de bloem met het zout tot een berg op het werkblad en maak in het midden een kuiltje."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breek één ei in het kuiltje en voeg de boter toe. Meng met je vingers de bloem vanaf de randen door het midden tot een stevig deeg ontstaat. Voeg als het deeg wat droog is druppelsgewijs water toe tot de juiste consistentie is bereikt."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Kneed het deeg en vorm er een bal van. Dek af en laat het 2 uur in de koelkast rusten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 220°C en vet een ronde vorm of diepe taartvorm licht in."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Rol het deeg uit tot een cirkel die groot genoeg is voor de vorm en ook de zijkanten bedekt. Het deeg moet dun zijn."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg het deeg in de vorm en snijd het deeg dat over de rand hangt bij."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit de olijfolie in een koekenpan op middelhoog vuur. Voeg de sjalot toe en bak hem 2-3 minuten tot hij zacht en geurig is. Voeg de ham toe en bak nog 1-2 minuten. Schep de ham en sjalot met een schuimspaan eruit en verdeel ze over de bodem van het deeg."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Meng in een kom de eieren met de crème fraîche en klop het met een garde tot een romig mengsel."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Spatel de Gruyère erdoor en breng op smaak met de nootmuskaat, het zout en de peper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Giet het eimengsel over de ham en sjalot."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de quiche in de oven en bak hem 30-35 minuten, tot hij in het midden gestold is."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de quiche uit de oven en laat hem iets afkoelen voor het serveren."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Kaassoufflés",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/kaassouffl%C3%A9s.jpg"
+    ],
+    "totalTime": "PT30M",
+    "recipeCategory": [
+      "Groenten en bijgerechten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "2 el boter",
+      "2 el bloem",
+      "120 ml lauwwarme melk",
+      "100 g Gruyère, geraspt",
+      "3 eieren, gesplitst",
+      "½ tl zout",
+      "1 tl zwarte peper",
+      "1 tl nootmuskaat"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 175°C en vet 4 soufflévormpjes licht in."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Smelt de boter in een steelpan op middelhoog vuur. Voeg de bloem langzaam toe en klop tot een papje ontstaat."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg al kloppend langzaam de melk toe."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur laag en houd de saus warm; blijf roeren om aanbranden of vastkoeken te voorkomen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de eiwitten in een kom en klop ze stijf. Zet ze apart."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Klop de eidooiers los en voeg ze met de kaas toe aan de roomsaus. Roer voorzichtig tot de kaas gesmolten is. Breng op smaak met het zout, de zwarte peper en de nootmuskaat."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Spatel de eiwitten er voorzichtig door en schep het mengsel in de soufflévormpjes."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet ze in de oven en bak ze ca. 15 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de vormpjes voorzichtig uit de oven en serveer direct."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Artisjoksoufflé",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/artisjoksouffl%C3%A9.jpg"
+    ],
+    "totalTime": "PT45M",
+    "recipeCategory": [
+      "Groenten en bijgerechten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "150 g artisjokharten, in vieren",
+      "1 tl citroensap",
+      "1 teentje knoflook, geplet en fijngehakt",
+      "60 g boter",
+      "1½ el bloem",
+      "240 ml lauwwarme melk",
+      "4 eieren, gesplitst",
+      "25 g Gruyère, geraspt",
+      "½ tl zout",
+      "1 tl witte peper",
+      "½ tl nootmuskaat",
+      "1 el verse bieslook, gehakt"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 205°C en vet een grote soufflévorm licht in."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de artisjokken, het citroensap en de knoflook in een blender of keukenmachine en maal ze 15-20 seconden."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Smelt de boter in een steelpan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Strooi de bloem in de pan en klop tot een papje ontstaat."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de melk toe en klop tot een gladde, romige saus ontstaat. Zet het vuur laag en houd de saus warm; blijf roeren om aanbranden en vastkoeken te voorkomen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de eiwitten in een kom en klop ze stijf."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de eidooiers in een andere kom en klop ze los."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de pan van het vuur en voeg het artisjokmengsel en de eidooiers toe; klop snel door zodat de eieren niet gaan stollen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de kaas, het zout, de witte peper, de nootmuskaat en de bieslook toe. Roer voorzichtig tot de kaas gesmolten is."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Spatel de eiwitten er voorzichtig door en schep het mengsel in de soufflévorm."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de vorm in de oven en bak de soufflé 25 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de soufflé voorzichtig uit de oven en serveer direct."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Gekaramelliseerde koolraapjes",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "2-4 personen",
+    "totalTime": "PT40M",
+    "recipeCategory": [
+      "Groenten en bijgerechten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "450 g koolraapjes, of grotere koolrapen in blokjes",
+      "2 el boter",
+      "1 tl suiker",
+      "½ tl zout",
+      "1 tl grofgemalen zwarte peper",
+      "240 ml groentebouillon",
+      "1 takje rozemarijn"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Vul een grote pan voor de helft met water en breng het aan de kook."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de koolraapjes in het kokende water en blancheer ze 5-7 minuten. Haal ze eruit en laat ze uitlekken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Smelt de boter in een grote koekenpan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de koolraapjes toe en breng ze op smaak met de suiker, het zout en de zwarte peper. Bak ze al roerend 3 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de groentebouillon en de rozemarijn toe."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur laag, dek af en laat het 15-20 minuten garen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Neem het deksel eraf en laat het geheel doorgaren tot de saus is ingekookt."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serveer de koolraapjes warm met de saus uit de pan erover."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Tomates Confites (geconfijte tomaten)",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "4 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/tomates-confites-geconfijte-tomaten.jpg"
+    ],
+    "totalTime": "PT1H",
+    "recipeCategory": [
+      "Groenten en bijgerechten",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "10 grote, rijpe tomaten, gehalveerd",
+      "60 ml olijfolie",
+      "1 el rodewijnazijn",
+      "3 teentjes knoflook, geplet en fijngehakt",
+      "1 tl zout",
+      "1 tl grofgemalen zwarte peper",
+      "1 takje rozemarijn",
+      "1 el verse tijm",
+      "15 g verse peterselie"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 205°C en vet een ovenschaal van 20x20 cm royaal in met 1 el olijfolie."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de tomaten met de snijkant naar beneden in de ovenschaal."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Druppel de rest van de olijfolie en de rodewijnazijn over de tomaten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Breng op smaak met de knoflook, het zout, de zwarte peper, rozemarijn, tijm en peterselie."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de schaal in de oven en bak de tomaten 20 minuten. Keer ze met een tang of spatel om."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de oven op 165°C en bak de tomaten nog 30 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de schaal uit de oven en serveer warm."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Mousse au Chocolat (klassieke chocolademousse)",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "4-6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/mousse-au-chocolat-klassieke-chocolademousse.jpg"
+    ],
+    "totalTime": "PT25M",
+    "recipeCategory": [
+      "Zoete desserts",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "170 g pure chocolade, gehakt",
+      "8 eieren, gesplitst (alleen 4 eidooiers nodig)",
+      "135 g suiker",
+      "60 ml slagroom",
+      "2 tl brandy",
+      "1 vanillestokje, merg eruit geschraapt",
+      "½ tl fijn geraspte sinaasappelrasp"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Smelt de chocolade au bain-marie op laag vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de eiwitten met alle suiker op 1 el na in een kom en klop ze stijf. Zet apart."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Meng in een andere kom de 4 eidooiers met de rest van de suiker, de brandy, de vanille en de sinaasappelrasp tot een licht schuimig, romig mengsel."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de slagroom toe aan de chocolade en roer tot een glad mengsel."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Roer de eidooiers langzaam door de chocolade en blijf kloppen zodat de eieren niet stollen. Roer tot een romig geheel."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal het mengsel van het vuur en spatel de stijfgeklopte eiwitten er voorzichtig door."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Schep het mengsel voorzichtig in schaaltjes en laat het minstens 2-4 uur in de koelkast opstijven."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serveer goed gekoeld."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Perencrêpetaart",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/perencr%C3%AApetaart.jpg"
+    ],
+    "totalTime": "PT40M",
+    "recipeCategory": [
+      "Zoete desserts",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "125 g amandelmeel",
+      "125 g bloem",
+      "480 ml melk",
+      "4 eieren, losgeklopt",
+      "115 g boter, gesmolten, in tweeën gedeeld",
+      "6 peren, in plakjes van ca. 6 mm",
+      "100 g suiker",
+      "1 el cognac",
+      "85 g lavendelhoning"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Meng in een kom het amandelmeel met de bloem."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Meng in een andere kom de melk, eieren en de helft van de gesmolten boter goed door elkaar."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de droge ingrediënten toe aan het natte mengsel en roer net tot alles is vermengd."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit een crêpepan of kleine koekenpan op middelhoog vuur en giet een dun laagje beslag in de pan."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bak het beslag tot kleine belletjes ontstaan en de randen licht goudgeel worden. Keer de crêpe voorzichtig en bak de andere kant bruin."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de crêpe uit de pan en herhaal tot al het beslag op is. Houd de crêpes warm."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de rest van de boter in een koekenpan op middelhoog vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de peren en de suiker toe en bak ze 1-2 minuten voordat je de cognac toevoegt."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Laat de cognac inkoken en bak de peren verder tot ze zacht en gekaramelliseerd zijn, in ca. 5-7 minuten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg een crêpe op een serveerschaal en wissel lagen crêpes en gekaramelliseerde peren af; eindig met een crêpe bovenop."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Snijd de taart in punten en druppel er lavendelhoning over voor het serveren."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Tarte Tatin (omgekeerde appeltaart)",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "8-10 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/tarte-tatin-omgekeerde-appeltaart.jpg"
+    ],
+    "totalTime": "PT4H10M",
+    "recipeCategory": [
+      "Zoete desserts",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "Voor het deeg",
+      "125 g bloem",
+      "2 el suiker",
+      "95 g plantaardig witvet",
+      "60 ml koud water",
+      "vanille-ijs, om te serveren",
+      "Voor de appelvulling",
+      "90 g ongezouten boter",
+      "300 g suiker, in tweeën gedeeld",
+      "1 citroen",
+      "6 grote appels, bijvoorbeeld Golden Delicious"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Doe de bloem, suiker en het witvet in de kom van een keukenmachine en pulseer een paar keer. Voeg het water toe en pulseer verder tot een deeg ontstaat. Voeg zo nodig telkens een klein beetje koud water toe. Het deeg mag niet te veel bewerkt worden. Haal het deeg uit de machine, leg het op een schoon, met bloem bestoven werkblad en kneed het een paar keer. Wikkel het in plasticfolie en laat het minstens 2 en maximaal 48 uur in de koelkast rusten."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Rasp en pers intussen de citroen en zet het sap en de rasp apart. Verwijder het klokhuis, schil de appels en snijd ze in tweeën; snijd elke helft in 4 parten. Doe ze in een grote kom. Voeg 100 g van de suiker, het citroensap en de citroenrasp toe. Laat ze 30 minuten op kamertemperatuur marineren. Laat de appels uitlekken."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Smelt de boter in een grote, diepe ovenvaste pan, bijvoorbeeld een gietijzeren pan van 24 of 26 cm, op middelhoog vuur. Voeg de suiker toe en roer tot die volledig is opgelost. Laat het mengsel verder karamelliseren tot het goudbruin is. Haal de pan van het vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de appels in een cirkelvormig patroon plat in de pan. Zet de pan terug op het vuur op middelhoog en laat het geheel afgedekt 25-30 minuten garen tot de appels zacht zijn. Druk de appels met de bolle kant van een lepel voorzichtig aan zodat het appelsap vrijkomt. Schep de appels elke 4-5 minuten met het kookvocht uit de pan over. Na 25-30 minuten moet de saus van het appel-suikermengsel ingedikt zijn; laat het anders afgedekt nog een paar minuten doorgaren. Haal de pan van het vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 205°C en zet een rooster in het midden van de oven."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Rol het deeg op een met bloem bestoven werkblad uit tot iets minder dan 6 mm dik, groot genoeg om de hele pan te bedekken met ca. 2,5 cm extra voor de randen. Leg het deeg over de appels en druk het voorzichtig aan zodat er weinig luchtbellen overblijven. Snijd met een scherp mes een paar stoomgaatjes in het deeg."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet de pan in de oven en bak de taart 20-25 minuten, tot het deeg goudbruin is. Stort de taart op een serveerbord zodat de appels bovenop liggen en het deeg onderaan. Serveer warm, eventueel met vanille-ijs."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Vijgen in rozemarijn-karamelsaus",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/vijgen-in-rozemarijn-karamelsaus.jpg"
+    ],
+    "totalTime": "PT30M",
+    "recipeCategory": [
+      "Zoete desserts",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "6 verse vijgen",
+      "1 tl olijfolie",
+      "200 g suiker, in tweeën gedeeld",
+      "20 g lavendelhoning",
+      "2 el water",
+      "1 tl verse rozemarijn, fijngehakt",
+      "1 tl gedroogde lavendelbloemen, fijngemalen",
+      "120 g walnoten, grof gehakt"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 205°C."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Snijd de vijgen in vieren en bestrijk ze heel licht met olijfolie. Bestrooi ze licht met 1 tl van de suiker."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Schik de vijgen in een ovenschaal en zet ze in de oven. Rooster ze 15 minuten. Zet de oven op 95°C en houd de vijgen warm terwijl je de saus maakt."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verhit de rest van de suiker, de lavendelhoning en het water in een steelpan. Laat het op middellaag vuur al roerend karamelliseren tot de suiker een lichte karamelkleur heeft."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Voeg de rozemarijn, de gedroogde lavendelbloemen en de walnoten toe en meng alles goed."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de vijgen uit de oven en schik ze op borden. Druppel er royaal de rozemarijn-karamelsaus over."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serveer warm."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Mille-Feuilles",
+    "author": {
+      "@type": "Person",
+      "name": "Sarah Spencer"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "French Bistro Cooking"
+    },
+    "datePublished": "2016-02",
+    "recipeYield": "6-8 personen",
+    "image": [
+      "https://raw.githubusercontent.com/huisman-peter/recipe-import-scripts/main/images-french-bistro/mille-feuilles.jpg"
+    ],
+    "totalTime": "PT35M",
+    "recipeCategory": [
+      "Zoete desserts",
+      "French Bistro Cooking"
+    ],
+    "recipeIngredient": [
+      "170 g bladerdeeg (uit de koeling)",
+      "960 ml volle melk",
+      "2 vanillestokjes, merg eruit geschraapt",
+      "265 g suiker",
+      "85 g bloem",
+      "4 eieren, losgeklopt",
+      "120 g poedersuiker",
+      "½ tl citroensap",
+      "2 tl water",
+      "40 g pure chocolade, gehakt"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm de oven voor op 205°C en bekleed een bakplaat met bakpapier."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Rol het bladerdeeg uit tot een rechthoek van ca. 20x40 cm. Snijd het in drie gelijke delen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg de stukken bladerdeeg op de bakplaat en prik met een vork gaatjes in het hele oppervlak. Zet het deeg in de oven en bak het 10-15 minuten, tot het goudbruin is. Haal het eruit en laat het afkoelen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Meng de suiker, bloem en eieren in een steelpan en klop alles goed door elkaar."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verwarm in een aparte kleine pan de melk met de vanille op laag vuur tot het stoomt. Neem 60 ml van de hete melk en giet die al snel kloppend bij het suiker-eimengsel om de eieren te laten wennen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur laag en voeg al kloppend langzaam de rest van de hete melk toe."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het vuur middelhoog en laat het geheel al roerend indikken tot de saus net tegen de kook aan komt."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal de vla van het vuur en doe hem in een kom. Dek de vla af met plasticfolie die direct op het oppervlak ligt, zodat er geen vel op kan vormen. Zet hem 4 uur in de koelkast."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Meng als de vla koud is de poedersuiker, het citroensap en het water in een kom tot een romig, maar vrij dun glazuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Doe de chocolade in een klein kommetje en smelt hem 10 seconden in de magnetron, of au bain-marie op laag vuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Leg een derde van het bladerdeeg op een serveerschaal. Verdeel de helft van de vla erover en leg het tweede stuk deeg erop."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Verdeel de rest van de vla over het tweede stuk deeg en leg het derde en laatste stuk deeg erop."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Strijk het glazuur over de bovenkant van het gebak en laat er eventueel wat langs de zijkanten naar beneden lopen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Roer de gesmolten chocolade met een mes of dunne spatel en trek dunne, evenwijdige lijnen over het glazuur."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Haal met een schoon, scherp mes of puntig voorwerp loodrecht strepen door de chocoladelijnen, zodat een puntig chocoladepatroon over het glazuur ontstaat."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Zet het gebak eventueel koud weg, of snijd het in vierkantjes en serveer direct."
+      }
+    ]
+  }
+]
